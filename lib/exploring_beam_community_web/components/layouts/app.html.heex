@@ -1,0 +1,20 @@
+<.navbar
+  navigation_pages = {[
+      %{route: ~p"/", name: "Home"},
+      %{route: ~p"/survey", name: "Survey"},
+      %{route: ~p"/about-us", name: "About Us"}]}
+  logo = {~p"/images/logo_simple.svg"}
+  dark_logo = {~p"/images/logo_simple_dark.svg"}
+/>
+<main class="p-4 md:py-20 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-2xl">
+    <.flash_group flash={@flash} />
+    <%= @inner_content %>
+  </div>
+</main>
+<.footer
+  text = "© 2024 BEAM Developer Community. All rights reserved."
+  navigation_pages = {[
+      %{route: ~p"/survey", name: "Survey"},
+      %{route: ~p"/about-us", name: "About Us"}]}
+/>

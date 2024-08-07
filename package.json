@@ -1,0 +1,16 @@
+{
+  "name": "exploring_beam_community",
+  "version": "1.0.0",
+  "description": "A Phoenix webpage dedicated to showcasing the survey results analyzing European BEAM developers, companies, and academia.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
