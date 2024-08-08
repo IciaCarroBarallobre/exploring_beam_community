@@ -11,7 +11,7 @@ import Config
 config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [
-    formats: [html: ExploringBeamCommunityWeb.ErrorHTML, json: ExploringBeamCommunityWeb.ErrorJSON],
+    formats: [html: ExploringBeamCommunityWeb.ErrorHTML],
     layout: false
   ],
   pubsub_server: ExploringBeamCommunity.PubSub,
