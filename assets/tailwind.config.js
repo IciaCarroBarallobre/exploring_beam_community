@@ -14,7 +14,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#FD4F00",
+          // Define your custom colors here
+          main: {
+            100: '#BFCEFF',  // Light shade
+            200: '#A3AFD9',
+            300: '#8296D2',
+            400: '#7182B6',
+            500: '#5F6D98',  // Base color
+            600: '#4E577B',
+            700: '#3C435F',
+            800: '#2A2F43',
+            900: '#292f42',  // Dark shade
+          },
       }
     },
   },

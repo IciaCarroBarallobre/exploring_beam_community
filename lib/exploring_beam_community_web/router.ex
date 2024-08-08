@@ -13,9 +13,10 @@ defmodule ExploringBeamCommunityWeb.Router do
   scope "/", ExploringBeamCommunityWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
-    get "/about-us", PageController, :about_us
-    get "/survey", PageController, :survey
+    get "/", HomeController, :index
+    get "/survey", SurveyController, :index
+    get "/about-us", AboutUsController, :index
+
   end
 
 end
