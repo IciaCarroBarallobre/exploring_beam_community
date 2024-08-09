@@ -14,8 +14,9 @@ defmodule ExploringBeamCommunityWeb.Router do
     pipe_through :browser
 
     get "/", HomeController, :index
-    get "/survey", SurveyController, :index
     get "/about-us", AboutUsController, :index
+
+    live "/survey", SurveyLiveView
 
   end
 

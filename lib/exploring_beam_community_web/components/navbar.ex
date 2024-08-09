@@ -18,10 +18,12 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         "border-b border-main-900 dark:border-white " <>
         "py-3 text-sm"}
       >
-        <div class="flex items-center gap-4">
-          <img src={@logo} class="block dark:hidden" width="50" />
-          <img src={@dark_logo} class="hidden dark:block" width="50" />
-          <p class="font-bold"> Exploring Beam Community </p>
+        <div>
+          <a href="/" class ="flex items-center gap-4">
+            <img src={@logo} class="block dark:hidden" width="50" />
+            <img src={@dark_logo} class="hidden dark:block" width="50" />
+            <p class="font-bold"> Exploring Beam Community </p>
+          </a>
         </div>
         <div class="md:hidden">
           <button phx-click={show_hamburger()}>
