@@ -6,8 +6,7 @@
 *.exe
 *.pdf
 *.dot
-*.png
-*.svg
+
 
 # Erlang
 erl_crash.dump
@@ -40,7 +39,7 @@ data/*.plist
 
 # Phoenix specific
 /assets/node_modules/
-priv/static/
+/assets/vendor/
 .tmp/
 
 # MacOS
