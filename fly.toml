@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for exploring-beam-community on 2024-08-10T01:52:51+02:00
+# fly.toml app configuration file generated for exploring-beam-community on 2024-08-19T13:09:26+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -8,6 +8,9 @@ primary_region = 'mad'
 kill_signal = 'SIGTERM'
 
 [build]
+
+[deploy]
+  release_command = '/app/bin/migrate'
 
 [env]
   PHX_HOST = 'exploring-beam-community.fly.dev'

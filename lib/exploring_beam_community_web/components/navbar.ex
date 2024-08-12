@@ -2,27 +2,28 @@ defmodule ExploringBeamCommunityWeb.Navbar do
   import ExploringBeamCommunityWeb.CoreComponents, only: [icon: 1]
 
   use Phoenix.Component
-  use Phoenix.VerifiedRoutes, endpoint: ExploringBeamCommunityWeb.Endpoint, router: ExploringBeamCommunityWeb.Router
+
+  use Phoenix.VerifiedRoutes,
+    endpoint: ExploringBeamCommunityWeb.Endpoint,
+    router: ExploringBeamCommunityWeb.Router
+
   alias Phoenix.LiveView.JS
 
   attr(:navigation_pages, :list, required: true)
   attr(:logo, :string, default: "")
   attr(:dark_logo, :string, default: "")
-  slot(:inner_hamburger)
+  slot(:banner, required: false)
 
   def navbar(assigns) do
     ~H"""
-    <header class="px-4 md:px-6 lg:px-8">
+    <header class="sticky top-0 px-4 md:px-6 lg:px-8 bg-white dark:bg-main-900 shadow">
       <div class={
-        "flex items-center justify-between " <>
-        "border-b border-main-900 dark:border-white " <>
-        "py-3 text-sm"}
-      >
+        "flex items-center justify-between py-3"}>
         <div>
-          <a href="/" class ="flex items-center gap-4">
+          <a href="/" class="flex items-center gap-4">
             <img src={@logo} class="block dark:hidden" width="50" />
             <img src={@dark_logo} class="hidden dark:block" width="50" />
-            <p class="font-bold"> Exploring Beam Community </p>
+            <p class="font-bold">Exploring Beam Community</p>
           </a>
         </div>
         <div class="md:hidden">
@@ -39,8 +40,13 @@ defmodule ExploringBeamCommunityWeb.Navbar do
           <% end %>
         </div>
       </div>
+
       <div id="hamburger-container" class="hidden relative z-50">
-        <div id="hamburger-backdrop" class="fixed inset-0 bg-zinc-50/90 dark:bg-main-700/90  transition-opacity"></div>
+        <div
+          id="hamburger-backdrop"
+          class="fixed inset-0 bg-zinc-50/90 dark:bg-main-700/90  transition-opacity"
+        >
+        </div>
         <nav
           id="hamburger-content"
           class={
@@ -52,8 +58,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         >
           <div>
             <div class="flex items-center mb-4 place-content-between mx-4 border-b-zinc-200">
-              <div class="flex items-center gap-4">
-              </div>
+              <div class="flex items-center gap-4"></div>
               <button class="navbar-close" phx-click={hide_hamburger()}>
                 <.icon name="hero-x-mark-mini" />
               </button>
@@ -69,6 +74,9 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </nav>
       </div>
     </header>
+    <p class="text-center font-semibold bg-zinc-200 dark:bg-main-500">
+      <%= render_slot(@banner) %>
+    </p>
     """
   end
 
@@ -81,7 +89,10 @@ defmodule ExploringBeamCommunityWeb.Navbar do
   defp hamburger_nav_link(assigns) do
     ~H"""
     <li
-      class={["block px-4 py-2 text-sm font-semibold hover:bg-slate-300 hover:dark:bg-main-600", @active && "bg-slate-200"]}
+      class={[
+        "block px-4 py-2 font-semibold hover:bg-slate-300 hover:dark:bg-main-600",
+        @active && "bg-slate-200"
+      ]}
       phx-click={JS.navigate(@href)}
     >
       <span :if={@icon != nil} class={[@icon, @icon_class, "-mt-1"]} />

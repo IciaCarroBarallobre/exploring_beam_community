@@ -8,14 +8,13 @@ defmodule ExploringBeamCommunity.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      # Start the Ecto repository
+      ExploringBeamCommunity.Repo,
+      {Oban, Application.fetch_env!(:exploring_beam_community, Oban)},
       # Start the PubSub system
       {Phoenix.PubSub, name: ExploringBeamCommunity.PubSub},
-      # Start Finch
-      {Finch, name: ExploringBeamCommunity.Finch},
       # Start the Endpoint (http/https)
       ExploringBeamCommunityWeb.Endpoint
-      # Start a worker by calling: ExploringBeamCommunity.Worker.start_link(arg)
-      # {ExploringBeamCommunity.Worker, arg}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
