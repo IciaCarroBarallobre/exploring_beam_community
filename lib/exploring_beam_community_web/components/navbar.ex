@@ -8,14 +8,13 @@ defmodule ExploringBeamCommunityWeb.Navbar do
   attr(:navigation_pages, :list, required: true)
   attr(:logo, :string, default: "")
   attr(:dark_logo, :string, default: "")
-  slot(:inner_hamburger)
+  slot(:banner, required: false)
 
   def navbar(assigns) do
     ~H"""
-    <header class="px-4 md:px-6 lg:px-8">
+    <header class="sticky top-0 px-4 md:px-6 lg:px-8 bg-white dark:bg-main-900 shadow">
       <div class={
         "flex items-center justify-between " <>
-        "border-b border-main-900 dark:border-white " <>
         "py-3 text-sm"}
       >
         <div>
@@ -39,6 +38,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
           <% end %>
         </div>
       </div>
+
       <div id="hamburger-container" class="hidden relative z-50">
         <div id="hamburger-backdrop" class="fixed inset-0 bg-zinc-50/90 dark:bg-main-700/90  transition-opacity"></div>
         <nav
@@ -69,6 +69,9 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </nav>
       </div>
     </header>
+    <p class="text-center font-semibold bg-zinc-200 dark:bg-main-500">
+        <%= render_slot(@banner) %>
+    </p>
     """
   end
 
