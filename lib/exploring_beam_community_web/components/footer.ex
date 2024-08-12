@@ -3,6 +3,7 @@ defmodule ExploringBeamCommunityWeb.Footer do
 
   attr(:navigation_pages, :list, required: true)
   attr(:text, :string, required: false, default: "")
+
   def footer(assigns) do
     ~H"""
     <footer class={

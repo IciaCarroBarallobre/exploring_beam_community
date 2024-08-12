@@ -44,7 +44,6 @@ defmodule ExploringBeamCommunityWeb do
 
       import Plug.Conn
 
-
       unquote(verified_routes())
     end
   end

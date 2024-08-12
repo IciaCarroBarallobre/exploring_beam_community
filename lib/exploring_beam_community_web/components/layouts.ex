@@ -4,6 +4,5 @@ defmodule ExploringBeamCommunityWeb.Layouts do
   import ExploringBeamCommunityWeb.Navbar, only: [navbar: 1]
   import ExploringBeamCommunityWeb.Footer, only: [footer: 1]
 
-  embed_templates "layouts/*"
-
+  embed_templates("layouts/*")
 end

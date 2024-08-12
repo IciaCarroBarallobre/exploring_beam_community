@@ -17,7 +17,6 @@ config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
   pubsub_server: ExploringBeamCommunity.PubSub,
   live_view: [signing_salt: "jn7qsxxO"]
 
-
 # Configure esbuild (the version is required)
 config :esbuild,
   version: "0.17.11",

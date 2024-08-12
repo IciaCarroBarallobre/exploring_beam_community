@@ -787,6 +787,19 @@ select {
   height: 1.25rem;
 }
 
+.hero-share-solid {
+  --hero-share-solid: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">  <path fill-rule="evenodd" d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z" clip-rule="evenodd"/></svg>');
+  -webkit-mask: var(--hero-share-solid);
+  mask: var(--hero-share-solid);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  background-color: currentColor;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .hero-x-mark-mini {
   --hero-x-mark-mini: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">  <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"/></svg>');
   -webkit-mask: var(--hero-x-mark-mini);
@@ -804,19 +817,6 @@ select {
   --hero-x-mark-solid: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">  <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd"/></svg>');
   -webkit-mask: var(--hero-x-mark-solid);
   mask: var(--hero-x-mark-solid);
-  -webkit-mask-repeat: no-repeat;
-          mask-repeat: no-repeat;
-  background-color: currentColor;
-  vertical-align: middle;
-  display: inline-block;
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.hero-share-solid {
-  --hero-share-solid: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">  <path fill-rule="evenodd" d="M15.75 4.5a3 3 0 11.825 2.066l-8.421 4.679a3.002 3.002 0 010 1.51l8.421 4.679a3 3 0 11-.729 1.31l-8.421-4.678a3 3 0 110-4.132l8.421-4.679a3 3 0 01-.096-.755z" clip-rule="evenodd"/></svg>');
-  -webkit-mask: var(--hero-share-solid);
-  mask: var(--hero-share-solid);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   background-color: currentColor;
@@ -1333,6 +1333,11 @@ select {
   background-color: rgb(236 253 245 / var(--tw-bg-opacity));
 }
 
+.bg-main-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 47 67 / var(--tw-bg-opacity));
+}
+
 .bg-main-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(41 47 66 / var(--tw-bg-opacity));
@@ -1370,11 +1375,6 @@ select {
 .bg-zinc-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-
-.bg-main-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(42 47 67 / var(--tw-bg-opacity));
 }
 
 .fill-cyan-900 {
@@ -1731,6 +1731,11 @@ select {
   cursor: pointer;
 }
 
+.hover\:bg-main-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 150 210 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-main-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(113 130 182 / var(--tw-bg-opacity));
@@ -1749,16 +1754,6 @@ select {
 .hover\:bg-zinc-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 70 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-main-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 206 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-main-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(130 150 210 / var(--tw-bg-opacity));
 }
 
 .hover\:text-main-100:hover {

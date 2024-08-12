@@ -6,12 +6,14 @@ defmodule ExploringBeamCommunityWeb.SurveyLiveView do
       %{
         id: "form1",
         name: "Companies",
-        src: "https://tally.so/embed/w7Z8BP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        src:
+          "https://tally.so/embed/w7Z8BP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       },
       %{
         id: "form2",
         name: "Developers GI",
-        src: "https://tally.so/embed/nrVaKl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        src:
+          "https://tally.so/embed/nrVaKl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       },
       %{
         id: "form3",
@@ -21,7 +23,8 @@ defmodule ExploringBeamCommunityWeb.SurveyLiveView do
       %{
         id: "form4",
         name: "Academia",
-        src: "https://tally.so/embed/n0LB8j?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        src:
+          "https://tally.so/embed/n0LB8j?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       }
     ]
 

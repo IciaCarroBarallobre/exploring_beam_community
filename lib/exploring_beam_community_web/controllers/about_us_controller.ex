@@ -4,5 +4,4 @@ defmodule ExploringBeamCommunityWeb.AboutUsController do
   def index(conn, _params) do
     render(conn, :index)
   end
-
 end

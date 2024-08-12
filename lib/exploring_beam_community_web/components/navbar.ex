@@ -2,7 +2,11 @@ defmodule ExploringBeamCommunityWeb.Navbar do
   import ExploringBeamCommunityWeb.CoreComponents, only: [icon: 1]
 
   use Phoenix.Component
-  use Phoenix.VerifiedRoutes, endpoint: ExploringBeamCommunityWeb.Endpoint, router: ExploringBeamCommunityWeb.Router
+
+  use Phoenix.VerifiedRoutes,
+    endpoint: ExploringBeamCommunityWeb.Endpoint,
+    router: ExploringBeamCommunityWeb.Router
+
   alias Phoenix.LiveView.JS
 
   attr(:navigation_pages, :list, required: true)
