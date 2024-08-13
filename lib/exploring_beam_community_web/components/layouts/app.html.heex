@@ -1,21 +1,24 @@
 <.navbar
-  navigation_pages = {[
-      %{route: ~p"/", name: "Home"},
-      %{route: ~p"/survey", name: "Survey"},
-      %{route: ~p"/about-us", name: "About Us"}]}
-  logo = {~p"/images/logo_simple.svg"}
-  dark_logo = {~p"/images/logo_simple_dark.svg"}
+  navigation_pages={[
+    %{route: ~p"/", name: "Home"},
+    %{route: ~p"/survey", name: "Survey"},
+    %{route: ~p"/about-us", name: "About Us"}
+  ]}
+  logo={~p"/images/logo_simple.svg"}
+  dark_logo={~p"/images/logo_simple_dark.svg"}
 >
   <:banner>
-      We will be sharing the results of our 2024 
-      research at 
-      <a href="https://codebeameurope.com/talks/exploring-beam-european-community/" 
-        target="_blank"
-        class="underline">
-        CodeBeam Europe
-      </a>
-    </:banner>
-  </.navbar>
+    We will be sharing the results of our 2024
+    research at
+    <a
+      href="https://codebeameurope.com/talks/exploring-beam-european-community/"
+      target="_blank"
+      class="underline"
+    >
+      CodeBeam Europe
+    </a>
+  </:banner>
+</.navbar>
 
 <main class="p-4 ">
   <div class="mx-auto max-w-3xl">
@@ -24,9 +27,10 @@
   </div>
 </main>
 
-<.footer 
-  text = "© 2024 BEAM Developer Community. All rights reserved."
-  navigation_pages = {[
-      %{route: ~p"/survey", name: "Survey"},
-      %{route: ~p"/about-us", name: "About Us"}]}
+<.footer
+  text="© 2024 BEAM Developer Community. All rights reserved."
+  navigation_pages={[
+    %{route: ~p"/survey", name: "Survey"},
+    %{route: ~p"/about-us", name: "About Us"}
+  ]}
 />

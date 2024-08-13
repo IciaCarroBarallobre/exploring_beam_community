@@ -7,15 +7,36 @@
 # General application configuration
 import Config
 
+config :exploring_beam_community,
+  ecto_repos: [ExploringBeamCommunity.Repo]
+
 # Configures the endpoint
 config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [
-    formats: [html: ExploringBeamCommunityWeb.ErrorHTML],
+    formats: [
+      html: ExploringBeamCommunityWeb.ErrorHTML,
+      json: ExploringBeamCommunityWeb.ErrorJSON
+    ],
     layout: false
   ],
   pubsub_server: ExploringBeamCommunity.PubSub,
-  live_view: [signing_salt: "jn7qsxxO"]
+  live_view: [signing_salt: "KEeqDH6/"]
+
+############ CONFIG NEWSLETTER
+# Oban
+config :exploring_beam_community, Oban,
+  repo: ExploringBeamCommunity.Repo,
+  plugins: [Oban.Plugins.Pruner],
+  queues: [default: 10, scheduled: 5]
+
+# Mail
+config :exploring_beam_community, ExploringBeamCommunity.Mailer,
+  adapter: Swoosh.Adapters.Mailgun,
+  api_key: System.get_env("MAILGUN_API_KEY"),
+  domain: System.get_env("MAILGUN_DOMAIN")
+
+config :swoosh, :api_client, Swoosh.ApiClient.Hackney
 
 # Configure esbuild (the version is required)
 config :esbuild,

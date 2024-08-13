@@ -1,4 +1,11 @@
 import Config
+import Dotenvy
+
+# Load env variables
+source!([".env", System.get_env()])
+
+# Logger level
+config :logger, level: :debug
 
 # config/runtime.exs is executed for all environments, including
 # during releases. It is executed after compilation and before the
@@ -20,7 +27,23 @@ if System.get_env("PHX_SERVER") do
   config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint, server: true
 end
 
+# DB PROD CONFIGURATION
 if config_env() == :prod do
+  database_url =
+    System.get_env("DATABASE_URL") ||
+      raise """
+      environment variable DATABASE_URL is missing.
+      For example: ecto://USER:PASS@HOST/DATABASE
+      """
+
+  maybe_ipv6 = if System.get_env("ECTO_IPV6") in ~w(true 1), do: [:inet6], else: []
+
+  config :exploring_beam_community, ExploringBeamCommunity.Repo,
+    # ssl: true,
+    url: database_url,
+    pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
+    socket_options: maybe_ipv6
+
   # The secret key base is used to sign/encrypt cookies and other secrets.
   # A default value is used in config/dev.exs and config/test.exs but you
   # want to use a different value for prod and you most likely don't want

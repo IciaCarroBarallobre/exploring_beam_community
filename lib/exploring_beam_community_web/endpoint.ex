@@ -6,8 +6,8 @@ defmodule ExploringBeamCommunityWeb.Endpoint do
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
-    key: "_exploring_beam_community_key",
-    signing_salt: "w+LTWR6a",
+    key: "_hello_key",
+    signing_salt: "kbE/kALJ",
     same_site: "Lax"
   ]
 
@@ -16,7 +16,7 @@ defmodule ExploringBeamCommunityWeb.Endpoint do
   # Serve at "/" the static files from "priv/static" directory.
   #
   # You should set gzip to true if you are running phx.digest
-  # when deploying your static files in production.
+  # when deploying your static files in subscriptionion.
   plug(Plug.Static,
     at: "/",
     from: :exploring_beam_community,
@@ -30,6 +30,7 @@ defmodule ExploringBeamCommunityWeb.Endpoint do
     socket("/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket)
     plug(Phoenix.LiveReloader)
     plug(Phoenix.CodeReloader)
+    plug(Phoenix.Ecto.CheckRepoStatus, otp_app: :exploring_beam_community)
   end
 
   plug(Phoenix.LiveDashboard.RequestLogger,

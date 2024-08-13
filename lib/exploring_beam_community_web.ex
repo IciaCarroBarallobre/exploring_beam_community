@@ -39,10 +39,11 @@ defmodule ExploringBeamCommunityWeb do
   def controller do
     quote do
       use Phoenix.Controller,
-        formats: [:html],
+        formats: [:html, :json],
         layouts: [html: ExploringBeamCommunityWeb.Layouts]
 
       import Plug.Conn
+      import ExploringBeamCommunityWeb.Gettext
 
       unquote(verified_routes())
     end
@@ -84,6 +85,7 @@ defmodule ExploringBeamCommunityWeb do
       import Phoenix.HTML
       # Core UI components and translation
       import ExploringBeamCommunityWeb.CoreComponents
+      import ExploringBeamCommunityWeb.Gettext
 
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS

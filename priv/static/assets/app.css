@@ -1333,11 +1333,6 @@ select {
   background-color: rgb(236 253 245 / var(--tw-bg-opacity));
 }
 
-.bg-main-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(42 47 67 / var(--tw-bg-opacity));
-}
-
 .bg-main-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(41 47 66 / var(--tw-bg-opacity));
@@ -1370,11 +1365,6 @@ select {
 
 .bg-zinc-50\/90 {
   background-color: rgb(250 250 250 / 0.9);
-}
-
-.bg-zinc-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 .fill-cyan-900 {
@@ -1731,11 +1721,6 @@ select {
   cursor: pointer;
 }
 
-.hover\:bg-main-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(130 150 210 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-main-400:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(113 130 182 / var(--tw-bg-opacity));
@@ -1749,11 +1734,6 @@ select {
 .hover\:bg-zinc-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
 }
 
 .hover\:text-main-100:hover {
@@ -1789,10 +1769,6 @@ select {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
-
-.active\:text-white\/80:active {
-  color: rgb(255 255 255 / 0.8);
 }
 
 .group:hover .group-hover\:bg-zinc-50 {
@@ -1900,6 +1876,11 @@ select {
   .dark\:text-main-100 {
     --tw-text-opacity: 1;
     color: rgb(191 206 255 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-rose-300 {
+    --tw-text-opacity: 1;
+    color: rgb(253 164 175 / var(--tw-text-opacity));
   }
 
   .dark\:text-white {

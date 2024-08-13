@@ -1,6 +1,16 @@
 defmodule ExploringBeamCommunityWeb.HomeHTML do
   use ExploringBeamCommunityWeb, :html
 
+  embed_templates("subscription_html/*")
+
+  @doc """
+  Renders a subscription form.
+  """
+  attr(:changeset, Ecto.Changeset, required: true)
+  attr(:action, :string, required: true)
+
+  def subscription_form(assigns)
+
   def index(assigns) do
     ~H"""
     <section class="py-8 px-4 md:px-8">
@@ -27,13 +37,16 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
         </div>
       </div>
       <div class="flex justify-center pt-8">
-        <a href="/survey" class="inline-block bg-main-900 dark:bg-main-500 text-white text-xl px-6 py-4 rounded hover:bg-main-400">
-          Contribute to the survey
-        </a>
+        <form action={~p"/survey"} method="get">
+          <.button type="submit">Complete the surveys</.button>
+        </form>
       </div>
     </section>
 
-
+    <section class="py-8 px-4 md:px-8 w-2/3 mx-auto w-2/3 md:w-4/5">
+      <h1 class="text-3xl font-semibold text-center">Subcribe to our newsletter!</h1>
+      <.subscription_form changeset={@changeset} action={~p"/subscriptions"} />
+    </section>
 
     <section class="py-8 px-4 md:px-8">
       <div class="container mx-auto px-6">
@@ -49,16 +62,20 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
         </p>
         <ul class="text-lg list-disc pl-5 space-y-2 text-gray-800 dark:text-gray-200">
           <li>
-            <a class="font-semibold">Identify</a> the demographic and professional profiles of BEAM developers in Europe.
+            <a class="font-semibold">Identify</a>
+            the demographic and professional profiles of BEAM developers in Europe.
           </li>
           <li>
-            <a class="font-semibold">Evaluate</a> the diversity and inclusivity within the BEAM developer community, considering gender, cultural background, socio-economic status, and community engagement.
+            <a class="font-semibold">Evaluate</a>
+            the diversity and inclusivity within the BEAM developer community, considering gender, cultural background, socio-economic status, and community engagement.
           </li>
           <li>
-            <a class="font-semibold">Analyze</a> the motivations and challenges of companies and academia in adopting BEAM languages.
+            <a class="font-semibold">Analyze</a>
+            the motivations and challenges of companies and academia in adopting BEAM languages.
           </li>
           <li>
-            <a class="font-semibold">Assess</a> the impact of adopting BEAM languages on organizations' productivity, software quality, and scalability.
+            <a class="font-semibold">Assess</a>
+            the impact of adopting BEAM languages on organizations' productivity, software quality, and scalability.
           </li>
         </ul>
       </div>
