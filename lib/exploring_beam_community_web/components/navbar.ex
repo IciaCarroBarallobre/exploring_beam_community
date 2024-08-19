@@ -18,8 +18,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
     ~H"""
     <header class="sticky top-0 px-4 md:px-6 lg:px-8 bg-white dark:bg-main-900 shadow">
       <div class={
-        "flex items-center justify-between " <>
-        "py-3 text-sm"}>
+        "flex items-center justify-between py-3"}>
         <div>
           <a href="/" class="flex items-center gap-4">
             <img src={@logo} class="block dark:hidden" width="50" />
@@ -91,7 +90,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
     ~H"""
     <li
       class={[
-        "block px-4 py-2 text-sm font-semibold hover:bg-slate-300 hover:dark:bg-main-600",
+        "block px-4 py-2 font-semibold hover:bg-slate-300 hover:dark:bg-main-600",
         @active && "bg-slate-200"
       ]}
       phx-click={JS.navigate(@href)}

@@ -7,13 +7,13 @@ defmodule ExploringBeamCommunityWeb.SurveyView do
         id: "form1",
         name: "Companies",
         src:
-          "https://tally.so/embed/w7Z8BP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          "https://tally.so/embed/wLX6yy?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       },
       %{
         id: "form2",
         name: "Developers GI",
         src:
-          "https://tally.so/embed/nrVaKl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          "https://tally.so/embed/31Mp5g?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       },
       %{
         id: "form3",
@@ -24,7 +24,7 @@ defmodule ExploringBeamCommunityWeb.SurveyView do
         id: "form4",
         name: "Academia",
         src:
-          "https://tally.so/embed/n0LB8j?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          "https://tally.so/embed/mBZ25e?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
       }
     ]
 
@@ -54,7 +54,7 @@ defmodule ExploringBeamCommunityWeb.SurveyView do
     </div>
     <div class="container mx-auto py-6 px-6">
       <p class="text-lg text-center pb-3">Choose the surveys that apply to you.</p>
-      <div class="flex justify-center mb-6 space-x-4">
+      <div class="flex flex-col sm:flex-row justify-center mb-6 space-y-4 sm:space-y-0 sm:space-x-4">
         <%= for form <- @forms do %>
           <button
             phx-click="show_form"
@@ -76,7 +76,7 @@ defmodule ExploringBeamCommunityWeb.SurveyView do
           <div
             phx-update="ignore"
             id={form.id}
-            class={"form-iframe " <> if form.id != @active_form_id, do: "hidden", else: ""}
+            class={"form-iframe text-main-9000 dark:text-white " <> if form.id != @active_form_id, do: "hidden", else: ""}
           >
             <iframe
               data-tally-src={form.src}

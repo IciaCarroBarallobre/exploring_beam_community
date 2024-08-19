@@ -23,7 +23,7 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
             We invite you to explore and participate in our surveys to help us understand the adoption, diversity, and challenges of BEAM languages across Europe.
           </h2>
         </div>
-        <div class="flex-1 flex justify-center">
+        <div class="flex-1 flex justify-center ">
           <img
             src="/images/logo_complex.svg"
             class="w-2/3 md:w-4/5 block dark:hidden"
@@ -43,7 +43,7 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
       </div>
     </section>
 
-    <section class="py-8 px-4 md:px-8 w-2/3 mx-auto w-2/3 md:w-4/5">
+    <section class="py-8 px-4 md:px-8 mx-auto w-4/5 md:w-2/3">
       <h1 class="text-3xl font-semibold text-center">Subcribe to our newsletter!</h1>
       <.subscription_form changeset={@changeset} action={~p"/subscriptions"} />
     </section>
