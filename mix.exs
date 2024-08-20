@@ -49,6 +49,7 @@ defmodule ExploringBeamCommunity.MixProject do
       {:oban, "~> 2.14"},
       {:swoosh, "~> 1.16"},
       {:hackney, "~> 1.20"},
+      {:gen_smtp, "~> 1.1"},
       {:timex, "~> 3.7"},
       {:dotenvy, "~> 0.8.0"}
     ]

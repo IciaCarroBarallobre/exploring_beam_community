@@ -56,8 +56,8 @@ if config_env() == :prod do
       You can generate one by calling: mix phx.gen.secret
       """
 
-  host = System.get_env("PHX_HOST") || "example.com"
-  port = String.to_integer(System.get_env("PORT") || "4000")
+  host = System.get_env("PHX_HOST") || "exploring-beam-community.fly.dev"
+  port = String.to_integer(System.get_env("PORT") || "8080")
 
   config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
     url: [host: host, port: 443, scheme: "https"],
@@ -103,3 +103,17 @@ if config_env() == :prod do
   #
   # Check `Plug.SSL` for all available options in `force_ssl`.
 end
+
+# Mail
+config :swoosh, :api_client, Swoosh.ApiClient.Hackney
+
+config :exploring_beam_community, ExploringBeamCommunity.Mailer,
+  adapter: Swoosh.Adapters.SMTP,
+  relay: System.get_env("MAIL_HOST"),
+  username: System.get_env("MAIL_USERNAME"),
+  password: System.get_env("MAIL_PASSWORD"),
+  ssl: false,
+  tls: :always,
+  auth: :always,
+  port: String.to_integer(System.get_env("MAIL_PORT") || "587"),
+  from: {System.get_env("MAIL_FROM_NAME"), System.get_env("MAIL_FROM_ADDRESS")}

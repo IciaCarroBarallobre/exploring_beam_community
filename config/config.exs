@@ -30,14 +30,6 @@ config :exploring_beam_community, Oban,
   plugins: [Oban.Plugins.Pruner],
   queues: [default: 10, scheduled: 5]
 
-# Mail
-config :exploring_beam_community, ExploringBeamCommunity.Mailer,
-  adapter: Swoosh.Adapters.Mailgun,
-  api_key: System.get_env("MAILGUN_API_KEY"),
-  domain: System.get_env("MAILGUN_DOMAIN")
-
-config :swoosh, :api_client, Swoosh.ApiClient.Hackney
-
 # Configure esbuild (the version is required)
 config :esbuild,
   version: "0.17.11",
@@ -71,3 +63,5 @@ config :phoenix, :json_library, Jason
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{config_env()}.exs"
+
+# TODO https://fly.io/docs/apps/build-secrets/ MAIL CONFIGS

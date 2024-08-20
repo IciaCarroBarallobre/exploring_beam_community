@@ -28,3 +28,5 @@ config :logger, level: :warning
 
 # Initialize plugs at runtime for faster test compilation
 config :phoenix, :plug_init_mode, :runtime
+
+config :my_app, MyApp.Mailer, adapter: Swoosh.Adapters.Test
