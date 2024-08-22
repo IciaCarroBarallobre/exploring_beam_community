@@ -34,7 +34,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
 
         <div class="hidden md:flex md:items-center md:gap-4 font-semibold leading-6 text-main-900 dark:text-white">
           <%= for  %{route: route, name: name} <- @navigation_pages do %>
-            <a href={route} class="hover:text-main-100">
+            <a href={route} class="hover:text-main-400">
               <%= name %>
             </a>
           <% end %>
@@ -74,7 +74,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </nav>
       </div>
     </header>
-    <p class="text-center font-semibold bg-zinc-200 dark:bg-main-500">
+    <p class="text-center font-semibold bg-main-200 dark:bg-main-500 py-2">
       <%= render_slot(@banner) %>
     </p>
     """
