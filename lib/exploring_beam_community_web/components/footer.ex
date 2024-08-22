@@ -14,7 +14,7 @@ defmodule ExploringBeamCommunityWeb.Footer do
       <div><%= @text %></div>
       <div class="flex items-center space-x-4">
         <%= for %{route: route, name: name} <- @navigation_pages do %>
-          <a href={route} class="hover:text-main-700 dark:hover:text-main-100">
+          <a href={route} class="hover:text-main-700 dark:hover:text-main-400">
             <%= name %>
           </a>
         <% end %>

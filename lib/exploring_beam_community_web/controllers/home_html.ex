@@ -18,7 +18,7 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
     <section class="py-8 px-4 md:px-8">
       <div class="flex flex-col md:flex-row items-center mx-auto py-3 px-3 space-y-4 md:space-y-0 md:space-x-4 max-w-4xl">
         <div class="flex-1">
-          <h1 class="text-3xl dark:text-main-100 font-bold my-6">
+          <h1 class="text-3xl dark:text-main-400 font-bold my-6">
             Welcome to our 2024 research on the European BEAM Community!
           </h1>
           <h2 class="text-lg mb-4">

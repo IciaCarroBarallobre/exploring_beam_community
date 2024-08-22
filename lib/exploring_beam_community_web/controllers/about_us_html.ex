@@ -4,11 +4,11 @@ defmodule ExploringBeamCommunityWeb.AboutUsHTML do
 
   def index(assigns) do
     ~H"""
-    <h1 class="mx-auto text-center text-3xl dark:text-main-100 font-bold my-6">
+    <h1 class="mx-auto text-center text-3xl dark:text-main-400 font-bold my-6">
       About us!
     </h1>
 
-    <div class="flex flex-col md:flex-row items-center mx-auto py-3 px-3 space-y-4 md:space-y-0 md:space-x-8 max-w-6xl w-full">
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-4 max-w-6xl w-full">
       <.profile_card
         name="Icia Carro Barallobre"
         role="Software Engenieer"

@@ -14,8 +14,8 @@ defmodule ExploringBeamCommunityWeb.ProfileCard do
         <img class="w-32 h-32 object-cover rounded-full mx-4 my-4" src={@image} alt="Profile Image" />
         <div class="p-6">
           <h2 class="text-xl font-bold"><%= @name %></h2>
-          <p class="text-gray-600 dark:text-gray-300"><%= @role %></p>
-          <p class="text-gray-600 dark:text-gray-300">@ <%= @company %></p>
+          <p class="text-gray-600 dark:text-gray-300 text-xs"><%= @role %></p>
+          <p class="text-gray-600 dark:text-gray-300 text-xs">@ <%= @company %></p>
         </div>
       </div>
       <div class="px-6 pb-4">
