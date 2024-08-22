@@ -7,7 +7,7 @@ defmodule ExploringBeamCommunityWeb.Footer do
   def footer(assigns) do
     ~H"""
     <footer class={
-      "text-sm bottom-0 left-0 w-full md:px-10 " <>
+      "text-xs md:text-sm bottom-0 left-0 w-full md:px-10 " <>
       "border-t border-main-900/30 dark:border-white/30  p-2 " <>
       "flex justify-between items-center"
     }>
