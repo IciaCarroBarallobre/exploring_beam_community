@@ -3,6 +3,7 @@ defmodule ExploringBeamCommunityWeb.Footer do
 
   attr(:navigation_pages, :list, required: true)
   attr(:text, :string, required: false, default: "")
+  attr(:emails, :list, required: false, default: [])
 
   def footer(assigns) do
     ~H"""
@@ -11,11 +12,19 @@ defmodule ExploringBeamCommunityWeb.Footer do
       "border-t border-main-900/30 dark:border-white/30  p-2 " <>
       "flex justify-between items-center"
     }>
-      <div><%= @text %></div>
-      <div class="flex items-center space-x-4">
+      <div class="max-w-[30%] mr-5"><%= @text %></div>
+      <div class="flex flex-row items-center space-x-4">
         <%= for %{route: route, name: name} <- @navigation_pages do %>
           <a href={route} class="hover:text-main-700 dark:hover:text-main-400">
             <%= name %>
+          </a>
+        <% end %>
+
+        <%= if @emails != [] do %>
+          <a class="hover:text-main-700 dark:hover:text-main-400"
+             href={"mailto:" <> Enum.join(@emails, ",") <>
+                   "?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you"}>
+             Contact us!
           </a>
         <% end %>
       </div>
