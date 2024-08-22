@@ -36,7 +36,7 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
       </div>
     </section>
 
-    <section class="py-8 px-4 md:px-8">
+    <section class="py-8 px-4 md:px-8 hidden">
       <div class="container mx-auto px-6">
         <h1 class="text-3xl font-semibold mb-6 text-center">Subscribe to our newsletter!</h1>
         <p class="text-lg mb-4">
