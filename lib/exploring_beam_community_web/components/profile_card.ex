@@ -1,11 +1,17 @@
 defmodule ExploringBeamCommunityWeb.ProfileCard do
   use Phoenix.Component
+  import ExploringBeamCommunityWeb.CoreComponents, only: [icon: 1]
 
   attr(:name, :string, required: true)
   attr(:role, :string, required: false, default: "")
   attr(:company, :string, required: false)
   attr(:image, :string, required: false, default: "")
   attr(:description, :string, required: false, default: "")
+
+  attr(:twitter, :string, required: false, default: "")
+  attr(:gmail, :string, required: false, default: "")
+  attr(:linkedin, :string, required: false, default: "")
+  attr(:github, :string, required: false, default: "")
 
   def profile_card(assigns) do
     ~H"""
@@ -23,6 +29,35 @@ defmodule ExploringBeamCommunityWeb.ProfileCard do
         <p class="text-gray-700 dark:text-gray-400">
           <%= @description %>
         </p>
+      </div>
+      <div class="p-4 flex space-x-6 md:space-x-4 mx-auto justify-center text-center">
+        <!-- Email -->
+        <%= if @gmail != "" do %>
+          <a href={"mailto:" <> @gmail} class="[&>svg]:h-6 [&>svg]:w-6 hover:text-red-600" target="_blank">
+            <.icon name={"gmail"}/>
+          </a>
+        <% end %>
+
+        <!-- LinkedIn -->
+        <%= if @linkedin != "" do %>
+          <a href={"https://www.linkedin.com/in/" <> @linkedin} class="[&>svg]:h-6 [&>svg]:w-6 hover:text-blue-600" target="_blank">
+            <.icon name={"linkedin"}/>
+          </a>
+        <% end %>
+
+        <!-- Github -->
+        <%= if @github != "" do %>
+          <a href={"https://www.github.com/" <> @github} class="[&>svg]:h-6 [&>svg]:w-6 hover:text-zinc-500" target="_blank">
+            <.icon name={"github"}/>
+          </a>
+        <% end %>
+
+        <!-- Twitter -->
+        <%= if @twitter != "" do %>
+          <a href={"https://twitter.com/" <> @twitter} class="[&>svg]:h-6 [&>svg]:w-6 hover:text-blue-400" target="_blank">
+            <.icon name={"twitter"}/>
+          </a>
+        <% end %>
       </div>
     </div>
     """

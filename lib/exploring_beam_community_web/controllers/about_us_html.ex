@@ -7,6 +7,9 @@ defmodule ExploringBeamCommunityWeb.AboutUsHTML do
     <h1 class="mx-auto text-center text-3xl dark:text-main-400 font-bold my-6">
       About us!
     </h1>
+    <p class="mx-auto text-center my-4 font-semibold text-lg my-6">
+      Feel free to contact us with any feedback ✉️, issues 🛠️, or questions.
+    </p>
 
     <div class="grid md:grid-cols-2 grid-cols-1 gap-4 max-w-6xl w-full">
       <.profile_card
@@ -23,6 +26,10 @@ defmodule ExploringBeamCommunityWeb.AboutUsHTML do
          university studies and the Stack Overflow survey, where Elixir and Phoenix
          were highlighted as beloved frameworks. Now, I work at Peer Stritzinger GmbH,
          focusing on Erlang solutions for embedded systems."
+        github="IciaCarroBarallobre"
+        gmail="iciacarrobarallobre@gmail.com"
+        linkedin="icia-carro-barallobre"
+        twitter="IciaCB"
       />
       <.profile_card
         name="Maria Jose Gavilan"
@@ -30,16 +37,20 @@ defmodule ExploringBeamCommunityWeb.AboutUsHTML do
         company="Peer Stritzinger"
         image="images/profiles/mariajo.jpg"
         description="Passionate about people, their organizational methods,
-      creative processes, and the need for communication and community.
-      I run a private practice in San José, providing therapy and developing
-      treatment plans. My journey into psychology began with a Licentiate
-      from UCACIS and a diploma in Art Therapy from UAM, sparking my interest
-      in connecting psychoanalysis with art. In 2015, I co-founded Kunsthilft
-      in Berlin, offering therapeutic art workshops for refugee children. I
-      combine my expertise in psychology with project management, bringing
-      a unique perspective to my work."
+        creative processes, and the need for communication and community.
+        I run a private practice in San José, providing therapy and developing
+        treatment plans. My journey into psychology began with a Licentiate
+        from UCACIS and a diploma in Art Therapy from UAM, sparking my interest
+        in connecting psychoanalysis with art. In 2015, I co-founded Kunsthilft
+        in Berlin, offering therapeutic art workshops for refugee children. I
+        combine my expertise in psychology with project management, bringing
+        a unique perspective to my work."
+        gmail="mariajose.gavilan@gmail.com"
+        linkedin="mariajosegavilan"
+        twitter="galateadunkel"
       />
     </div>
+
     """
   end
 end
