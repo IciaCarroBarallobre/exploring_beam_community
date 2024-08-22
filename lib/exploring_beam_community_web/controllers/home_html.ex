@@ -36,14 +36,11 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
       </div>
     </section>
 
-    <section class="py-8 px-4 md:px-8 hidden">
+    <section class="py-8 px-4 md:px-8 ">
       <div class="container mx-auto px-6">
-        <h1 class="text-3xl font-semibold mb-6 text-center">Subscribe to our newsletter!</h1>
+        <h1 class="text-3xl font-semibold mb-6 text-center">Would you like us to send you the results?</h1>
         <p class="text-lg mb-4">
-        <b> Stay in the loop! </b> Subscribe to our newsletter for project updates
-          delivered on September 1st, September 20th, October 1st, and October 20th.
-          These newsletters will cover all key developments leading up to the
-          presentation of our results.
+        <b> Stay in the loop! </b> If you’d like us to notify you when it’s ready and send the study to your email, just leave us your email.
         </p>
         <div class="mx-auto w-4/5 md:w-2/3">
           <.subscription_form changeset={@changeset} action={~p"/subscriptions"} />

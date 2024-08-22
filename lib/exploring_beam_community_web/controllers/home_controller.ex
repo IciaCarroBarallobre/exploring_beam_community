@@ -3,10 +3,11 @@ defmodule ExploringBeamCommunityWeb.HomeController do
 
   alias ExploringBeamCommunity.Subscriptions
   alias ExploringBeamCommunity.Subscriptions.Subscription
-  alias ExploringBeamCommunity.Workers.BiWeeklyNewsletter
-  alias ExploringBeamCommunity.Mailer
-  alias ExploringBeamCommunity.PredefEmail
-  alias ExploringBeamCommunity.JobManager
+  # Mail (Deactived - TODO)
+  #alias ExploringBeamCommunity.Workers.BiWeeklyNewsletter
+  #alias ExploringBeamCommunity.Mailer
+  #alias ExploringBeamCommunity.PredefEmail
+  #alias ExploringBeamCommunity.JobManager
 
   def index(conn, _params) do
     changeset = Subscriptions.change_subscription(%Subscription{})
@@ -15,31 +16,31 @@ defmodule ExploringBeamCommunityWeb.HomeController do
 
   def create(conn, %{"subscription" => subscription_params}) do
     case Subscriptions.create_subscription(subscription_params) do
-      {:ok, subscription} ->
+      {:ok, _subscription} ->
         # Send the welcome email
-        PredefEmail.welcome_email(
-          subscription.email,
-          subscription.activation_token,
-          subscription.unsubscribe_token
-        )
-        |> Mailer.deliver()
+        # Mail (Deactived - TODO)
+        # PredefEmail.welcome_email(
+        #   subscription.email,
+        #   subscription.activation_token,
+        #   subscription.unsubscribe_token)
+        # |> Mailer.deliver()
 
         conn
-        |> put_flash(:info, "Subscribed successfully! Check your email for validation.")
+        |> put_flash(:info, "Email saved successfully! ")
         |> redirect(to: ~p"/")
 
       {:error, %Ecto.Changeset{} = changeset} ->
-        render(conn, :index, changeset: changeset, page_title: "Subscription fails")
+        render(conn, :index, changeset: changeset, page_title: "Failed to save email")
     end
   end
 
   def validate_subs(conn, %{"token" => token}) do
     case Subscriptions.activate_by_token(token) do
-      {:ok, subscription} ->
-        BiWeeklyNewsletter.schedule_biweekly_newsletter(
-          subscription.email,
-          subscription.unsubscribe_token
-        )
+      {:ok, _subscription} ->
+        # Mail (Deactived - TODO)
+        # BiWeeklyNewsletter.schedule_biweekly_newsletter(
+        #  subscription.email,
+        #  subscription.unsubscribe_token)
 
         conn
         |> put_flash(:info, "Confirmation of the subscription successfully! ")
@@ -55,7 +56,8 @@ defmodule ExploringBeamCommunityWeb.HomeController do
   def unsubscribe(conn, %{"token" => token}) do
     case Subscriptions.unsubscribe_by_token(token) do
       {:ok, _subscription} ->
-        JobManager.cancel_jobs_by_token(token)
+        # Mail (Deactived - TODO)
+        #  JobManager.cancel_jobs_by_token(token)
 
         conn
         |> put_flash(:info, "You have successfully unsubscribed.")
