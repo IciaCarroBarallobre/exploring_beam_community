@@ -25,8 +25,33 @@ module.exports = {
             700: '#3C435F',
             800: '#2A2F43',
             900: '#292f42',  // Dark shade
-          },
+          }
       }
+    },
+    keyframes: {
+      'message-move-1': {
+        '0%': { transform: 'translateX(-2%) translateY(0%)'},
+        '50%': { transform: 'translateX(1%) translateY(0%)' },
+        '100%': { transform: 'translateX(-2%) translateY(0%)' },
+
+      },
+      'message-move-2': {
+        '0%': { transform: 'translateX(1%) translateY(0%)' },
+        '50%': { transform: 'translateX(-2%) translateY(1%)' },
+        '100%': { transform: 'translateX(1%) translateY(0%)' },
+      },
+      'message-move-3': {
+        '0%': { transform: 'translateX(0%) translateY(2%)' },
+        '50%': { transform: 'translateX(0%) translateY(-1%)' },
+        '100%': { transform: 'translateX(0%) translateY(2%)' },
+      },
+    },
+    
+    animation: {
+      'message-move-1': 'message-move-1 3s ease-in-out 1 forwards',
+      'message-move-2': 'message-move-2 3s ease-in-out 1 forwards',
+      'message-move-3': 'message-move-3 3s ease-in-out 1 forwards',
+
     },
   },
   plugins: [

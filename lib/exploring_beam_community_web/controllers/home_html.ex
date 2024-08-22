@@ -1,6 +1,8 @@
 defmodule ExploringBeamCommunityWeb.HomeHTML do
   use ExploringBeamCommunityWeb, :html
 
+  import ExploringBeamCommunityWeb.ComplexLogo, only: [complex_logo: 1]
+
   embed_templates("subscription_html/*")
 
   @doc """
@@ -23,18 +25,9 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
             We invite you to explore and participate in our surveys to help us understand the adoption, diversity, and challenges of BEAM languages across Europe.
           </h2>
         </div>
-        <div class="flex-1 flex justify-center ">
-          <img
-            src="/images/logo_complex.svg"
-            class="w-2/3 md:w-4/5 block dark:hidden"
-            alt="Logo Light Mode"
-          />
-          <img
-            src="/images/logo_complex_dark.svg"
-            class="w-2/3 md:w-4/5 hidden dark:block"
-            alt="Logo Dark Mode"
-          />
-        </div>
+        <div class="flex-1 flex justify-center w-2/3 md:w-1/3">
+      <.complex_logo width={260} height={260}/>
+      </div>
       </div>
       <div class="flex justify-center pt-8">
         <form action={~p"/survey"} method="get">
