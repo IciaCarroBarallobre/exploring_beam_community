@@ -16,9 +16,8 @@ defmodule ExploringBeamCommunityWeb.Navbar do
 
   def navbar(assigns) do
     ~H"""
-    <header class="sticky top-0 px-4 md:px-6 lg:px-8 bg-white dark:bg-main-900 shadow">
-      <div class={
-        "flex items-center justify-between py-3"}>
+    <header class="sticky top-0 px-4 md:px-6 lg:px-8 bg-white dark:bg-main-900 shadow z-50">
+      <div class="flex items-center justify-between py-3">
         <div>
           <a href="/" class="flex items-center gap-4">
             <img src={@logo} class="block dark:hidden" width="50" />
@@ -33,7 +32,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </div>
 
         <div class="hidden md:flex md:items-center md:gap-4 font-semibold leading-6 text-main-900 dark:text-white">
-          <%= for  %{route: route, name: name} <- @navigation_pages do %>
+          <%= for %{route: route, name: name} <- @navigation_pages do %>
             <a href={route} class="hover:text-main-400">
               <%= name %>
             </a>
@@ -44,13 +43,12 @@ defmodule ExploringBeamCommunityWeb.Navbar do
       <div id="hamburger-container" class="hidden relative z-50">
         <div
           id="hamburger-backdrop"
-          class="fixed inset-0 bg-zinc-50/90 dark:bg-main-700/90  transition-opacity"
-        >
-        </div>
+          class="fixed inset-0 bg-zinc-50/90 dark:bg-main-700/90 transition-opacity"
+        ></div>
         <nav
           id="hamburger-content"
           class={
-            "fixed top-0 left-0 bottom-0 "<>
+            "fixed top-0 left-0 bottom-0 " <>
             "flex flex-col grow justify-between " <>
             "w-3/4 max-w-sm py-6 " <>
             "bg-white dark:bg-main-900 overflow-y-auto"
@@ -66,7 +64,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
           </div>
           <div>
             <ul>
-              <%= for  %{route: route, name: name} <- @navigation_pages do %>
+              <%= for %{route: route, name: name} <- @navigation_pages do %>
                 <.hamburger_nav_link href={route} label={name} />
               <% end %>
             </ul>

@@ -7,9 +7,6 @@
 # General application configuration
 import Config
 
-config :exploring_beam_community,
-  ecto_repos: [ExploringBeamCommunity.Repo]
-
 # Configures the endpoint
 config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
   url: [host: "localhost"],
@@ -24,11 +21,6 @@ config :exploring_beam_community, ExploringBeamCommunityWeb.Endpoint,
   live_view: [signing_salt: "KEeqDH6/"]
 
 ############ CONFIG NEWSLETTER
-# Oban
-config :exploring_beam_community, Oban,
-  repo: ExploringBeamCommunity.Repo,
-  plugins: [Oban.Plugins.Pruner],
-  queues: [default: 10, scheduled: 5]
 
 # Configure esbuild (the version is required)
 config :esbuild,

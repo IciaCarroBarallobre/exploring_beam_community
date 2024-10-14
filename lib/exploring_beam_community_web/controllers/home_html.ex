@@ -3,15 +3,9 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
 
   import ExploringBeamCommunityWeb.ComplexLogo, only: [complex_logo: 1]
 
-  embed_templates("subscription_html/*")
-
   @doc """
   Renders a subscription form.
   """
-  attr(:changeset, Ecto.Changeset, required: true)
-  attr(:action, :string, required: true)
-
-  def subscription_form(assigns)
 
   def index(assigns) do
     ~H"""
@@ -30,20 +24,20 @@ defmodule ExploringBeamCommunityWeb.HomeHTML do
       </div>
       </div>
       <div class="flex justify-center pt-8">
-        <form action={~p"/survey"} method="get">
-          <.button type="submit">Complete the surveys</.button>
+        <form action={~p"/results"} method="get">
+          <.button type="submit">Take a look to the results!</.button>
         </form>
       </div>
     </section>
 
     <section class="py-8 px-4 md:px-8 ">
       <div class="container mx-auto px-6">
-        <h1 class="text-3xl font-semibold mb-6 text-center">Would you like us to send you the results?</h1>
-        <p class="text-lg mb-4">
-        <b> Stay in the loop! </b> If you’d like us to notify you when it’s ready and send the study to your email, just leave us your email.
-        </p>
-        <div class="mx-auto w-4/5 md:w-2/3">
-          <.subscription_form changeset={@changeset} action={~p"/subscriptions"} />
+        <div style="position: relative; width: 100%; padding-bottom: 85%; height: 0; overflow: hidden;">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfAAThFH-sgoIv7BZhsZTIghqDOac_ysUODKzqaNP47-Kep8w/viewform?embedded=true"
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+                  frameborder="0" marginheight="0" marginwidth="0">
+            Loading...
+          </iframe>
         </div>
       </div>
     </section>
