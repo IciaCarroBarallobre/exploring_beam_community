@@ -72,9 +72,11 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </nav>
       </div>
     </header>
-    <p class="text-center font-semibold bg-main-200 dark:bg-main-500 py-2">
-      <%= render_slot(@banner) %>
-    </p>
+    <% if @banner != nil do%>
+      <p class="text-center font-semibold bg-main-200 dark:bg-main-500 py-2">
+        <%= render_slot(@banner) %>
+      </p>
+    <%end%>
     """
   end
 

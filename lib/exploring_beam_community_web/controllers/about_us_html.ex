@@ -17,15 +17,17 @@ defmodule ExploringBeamCommunityWeb.AboutUsHTML do
         role="Software Engenieer"
         company="Peer Stritzinger"
         image="images/profiles/icia.png"
-        description="I am a Software Engineer and a psychology student. Inspired by the
-         kindness and collaboration spirit of the Elixir community, I’m dedicated
-         to cultivating that same culture of kindness and cooperation into every thing I do.
-         I began my career in backend development with Kotlin and Spring Boot
-         at a pet health insurance startup, and then, I transitioned into data
-         analysis. During this journey, I discovered Elixir and the BEAM languages through
-         university studies and the Stack Overflow survey, where Elixir and Phoenix
-         were highlighted as beloved frameworks. Now, I work at Peer Stritzinger GmbH,
-         focusing on Erlang solutions for embedded systems."
+        description="I am a Software Engineer and a Psychology student.
+         I began my career in backend development at 2021 and then, I
+         transitioned into data analysis. During this journey, I discovered
+         Elixir and the BEAM languages through university studies and the Stack
+         Overflow survey, where Elixir and Phoenix were highlighted as beloved
+         language / framework. Currently, I work at Peer Stritzinger GmbH, a
+         company deeply committed to the BEAM ecosystem. It specialize in
+         developing embedded systems (GRiSP), cloud-to-edge distributed
+         platforms (GRiSP.io), European projects like RESCALE, and also
+         provides consultancy services.
+         "
         github="IciaCarroBarallobre"
         gmail="iciacarrobarallobre@gmail.com"
         linkedin="icia-carro-barallobre"
