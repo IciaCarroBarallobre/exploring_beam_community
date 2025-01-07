@@ -1,10 +1,12 @@
-defmodule ExploringBeamCommunityWeb.ResultsView do
+defmodule ExploringBeamCommunityWeb.ResultsLive do
   use ExploringBeamCommunityWeb, :live_view
   alias ExploringBeamCommunityWeb.Components.{Question}
 
   def mount(_params, _session, socket) do
-    results =
-      case File.read("priv/static/results/dev_gi.json") do
+    priv_dir = Application.app_dir(:exploring_beam_community, "priv/static")
+    file_path = Path.join(priv_dir, "results/dev_gi.json")
+
+    results = case File.read(file_path) do
         {:ok, file_content} ->
           case Jason.decode(file_content) do
             {:ok, data} -> data

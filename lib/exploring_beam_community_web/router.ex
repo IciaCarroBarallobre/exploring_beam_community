@@ -8,14 +8,12 @@ defmodule ExploringBeamCommunityWeb.Router do
     plug(:put_root_layout, html: {ExploringBeamCommunityWeb.Layouts, :root})
     plug(:protect_from_forgery)
     plug(:put_secure_browser_headers)
-    plug(ExploringBeamCommunityWeb.Plugs.Locale, "en")
   end
 
   scope "/", ExploringBeamCommunityWeb do
     pipe_through(:browser)
-
     get("/", HomeController, :index)
-    live("/results", ResultsView)
+    live("/results", ResultsLive)
     get("/about-us", AboutUsController, :index)
   end
 

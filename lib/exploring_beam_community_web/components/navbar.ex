@@ -32,11 +32,11 @@ defmodule ExploringBeamCommunityWeb.Components.Navbar do
         </div>
 
         <div class="hidden md:flex md:items-center md:gap-4 font-semibold leading-6 text-main-900 dark:text-white">
-          <%= for %{route: route, name: name} <- @navigation_pages do %>
-            <a href={route} class="hover:text-main-400">
-              <%= name %>
-            </a>
-          <% end %>
+        <%= for %{route: route, name: name}  <- @navigation_pages do %>
+          <a href={route} class="hover:text-main-400" phx-link="patch">
+            <%= name %>
+          </a>
+        <% end %>
         </div>
       </div>
 

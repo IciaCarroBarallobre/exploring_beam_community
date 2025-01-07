@@ -17,7 +17,6 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
   use Phoenix.Component
 
   alias Phoenix.LiveView.JS
-  import ExploringBeamCommunityWeb.Gettext
 
   @doc """
   Renders a modal.
@@ -73,7 +72,7 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
                   phx-click={JS.exec("data-cancel", to: "##{@id}")}
                   type="button"
                   class="-m-3 flex-none p-3 opacity-20 hover:opacity-40"
-                  aria-label={gettext("close")}
+                  aria-label={"close"}
                 >
                   <.icon name="hero-x-mark-solid" class="h-5 w-5" />
                 </button>
@@ -125,7 +124,7 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
         <%= @title %>
       </p>
       <p class="mt-2 text-sm leading-5"><%= msg %></p>
-      <button type="button" class="group absolute top-1 right-1 p-2" aria-label={gettext("close")}>
+      <button type="button" class="group absolute top-1 right-1 p-2" aria-label={"close"}>
         <.icon name="hero-x-mark-solid" class="h-5 w-5 opacity-40 group-hover:opacity-70" />
       </button>
     </div>
@@ -476,7 +475,7 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
         <thead class="text-sm text-left leading-6 text-zinc-500">
           <tr>
             <th :for={col <- @col} class="p-0 pr-6 pb-4 font-normal"><%= col[:label] %></th>
-            <th class="relative p-0 pb-4"><span class="sr-only"><%= gettext("Actions") %></span></th>
+            <th class="relative p-0 pb-4"><span class="sr-only"><%= "Actions" %></span></th>
           </tr>
         </thead>
         <tbody
@@ -672,31 +671,21 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
     |> JS.pop_focus()
   end
 
-  @doc """
-  Translates an error message using gettext.
-  """
-  def translate_error({msg, opts}) do
-    # When using gettext, we typically pass the strings we want
-    # to translate as a static argument:
-    #
-    #     # Translate the number of files with plural rules
-    #     dngettext("errors", "1 file", "%{count} files", count)
-    #
-    # However the error messages in our forms and APIs are generated
-    # dynamically, so we need to translate them by calling Gettext
-    # with our gettext backend as first argument. Translations are
-    # available in the errors.po file (as we use the "errors" domain).
-    if count = opts[:count] do
-      Gettext.dngettext(ExploringBeamCommunityWeb.Gettext, "errors", msg, msg, count, opts)
-    else
-      Gettext.dgettext(ExploringBeamCommunityWeb.Gettext, "errors", msg, opts)
+    @doc """
+    Translates an error message. This can be modified to return a custom error message.
+    """
+    def translate_error({msg, opts}) do
+      # You can replace this with a custom translation logic,
+      # or directly return the message if no translation is needed
+      "#{msg} #{opts}"
     end
-  end
 
-  @doc """
-  Translates the errors for a field from a keyword list of errors.
-  """
-  def translate_errors(errors, field) when is_list(errors) do
-    for {^field, {msg, opts}} <- errors, do: translate_error({msg, opts})
-  end
+    @doc """
+    Translates errors for a specific field from a list of errors.
+    """
+    def translate_errors(errors, field) when is_list(errors) do
+      errors
+      |> Enum.filter(fn {key, _} -> key == field end)  # Filter out errors for the specific field
+      |> Enum.map(fn {_, {msg, opts}} -> translate_error({msg, opts}) end)  # Translate each error
+    end
 end

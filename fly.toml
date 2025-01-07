@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for exploring-beam-community on 2024-08-19T13:09:26+02:00
+# fly.toml app configuration file generated for exploring-beam-community on 2025-01-07T05:54:08+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -18,7 +18,7 @@ kill_signal = 'SIGTERM'
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
-  min_machines_running = 0
+  min_machines_running = 1
   processes = ['app']
 
   [http_service.concurrency]
@@ -26,7 +26,17 @@ kill_signal = 'SIGTERM'
     hard_limit = 1000
     soft_limit = 1000
 
+[[services]]
+  protocol = ''
+  internal_port = 0
+  ports = []
+
+  [services.concurrency]
+    type = 'connections'
+    hard_limit = 300
+    soft_limit = 150
+
 [[vm]]
-  memory = '1gb'
+  memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
