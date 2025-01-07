@@ -1,4 +1,4 @@
-defmodule ExploringBeamCommunityWeb.Navbar do
+defmodule ExploringBeamCommunityWeb.Components.Navbar do
   import ExploringBeamCommunityWeb.CoreComponents, only: [icon: 1]
 
   use Phoenix.Component
@@ -12,7 +12,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
   attr(:navigation_pages, :list, required: true)
   attr(:logo, :string, default: "")
   attr(:dark_logo, :string, default: "")
-  slot(:banner, required: false)
+  slot(:banner, default: nil)
 
   def navbar(assigns) do
     ~H"""
@@ -72,7 +72,7 @@ defmodule ExploringBeamCommunityWeb.Navbar do
         </nav>
       </div>
     </header>
-    <% if @banner != nil do%>
+    <%= if @banner != nil and @banner != [] do%>
       <p class="text-center font-semibold bg-main-200 dark:bg-main-500 py-2">
         <%= render_slot(@banner) %>
       </p>

@@ -1,4 +1,4 @@
-defmodule ExploringBeamCommunityWeb.Footer do
+defmodule ExploringBeamCommunityWeb.Components.Footer do
   use Phoenix.Component
 
   attr(:navigation_pages, :list, required: true)

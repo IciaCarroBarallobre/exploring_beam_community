@@ -1,0 +1,1063 @@
+{
+    "Name": "Developer",
+    "Region": "Global",
+    "TotalResponses": 153,
+    "Year": "2024",
+    "LastUpdate": "2025-01-05T14:51",
+    "Sections": [
+      {"Name": "💼 Professional Information",
+       "Questions": [
+          {
+            "QuestionText": "Do you consider yourself part of the European BEAM Community?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 113,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 56, "Percentage": "49.12%"},
+              { "Label": "No", "Responses": 58, "Percentage": "50.88%"}
+            ],
+            "Observation": 
+                "Some people answer ‘No’ even if they actively participate in the community, or even if they are Europeans. In total, the number of people from Europe or who feel part of the community is 100."
+          },
+          { 
+            "QuestionText": "What is your country?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 133,
+            "Sortable": true,
+            "Observation": "The survey shows strong participation from Europe, with Germany, France, and Spain leading the responses. America follows with the United States making up the majority, while Argentina, Brazil, and Canada also provide notable responses. Asia has limited representation, primarily from China and Russia. Oceania contributes the least with only 2.26% of responses, mainly from Australia and New Zealand. This indicates broad European and American participation, with smaller involvement from other regions.",
+            "Options": [
+                {"Label": "America",
+                 "Responses" : 40,
+                 "Percentage": "30.08%",
+                 "Options":[
+                  { "Label": "Argentina", "Responses": 2, "Percentage": "5.0%" },
+                  { "Label": "Brazil", "Responses": 7, "Percentage": "17.5%" },
+                  { "Label": "Canada", "Responses": 7, "Percentage": "17.5%" },
+                  { "Label": "Chile", "Responses": 1, "Percentage": "2.5%" },
+                  { "Label": "Colombia", "Responses": 1, "Percentage": "2.5%" },
+                  { "Label": "Costa Rica", "Responses": 1, "Percentage": "2.5%" },
+                  { "Label": "United States", "Responses": 21, "Percentage": "52.50%"}
+                 ]
+                },
+                {"Label": "Asia",
+                "Responses" : 7,
+                "Percentage": "5.26%",
+                "Options":[
+                  { "Label": "China", "Responses": 1, "Percentage": "14.29%" },
+                  { "Label": "Georgia", "Responses": 1, "Percentage": "14.29%" },
+                  { "Label": "Iran", "Responses": 1, "Percentage": "14.29%" },
+                  { "Label": "Pakistan", "Responses": 1, "Percentage": "14.29%" },
+                  { "Label": "Russia", "Responses": 2, "Percentage": "28.57%" },
+                  { "Label": "Russian Federation", "Responses": 1, "Percentage": "14.29%"}
+                ]
+               },
+               {"Label": "Europa",
+               "Responses" : 90,
+               "Percentage": "67.67%",
+               "Options": [
+                { "Label": "Austria", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Belarus", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Belgium", "Responses": 4, "Percentage": "4.44%" },
+                { "Label": "Bulgaria", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Cyprus", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Czech Republic", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "France", "Responses": 5, "Percentage": "5.56%" },
+                { "Label": "Germany", "Responses": 14, "Percentage": "15.56%" },
+                { "Label": "Hungary", "Responses": 6, "Percentage": "6.67%" },
+                { "Label": "Italy", "Responses": 5, "Percentage": "5.56%" },
+                { "Label": "Lithuania", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Netherlands", "Responses": 7, "Percentage": "7.78%" },
+                { "Label": "Norway", "Responses": 2, "Percentage": "2.22%" },
+                { "Label": "Poland", "Responses": 7, "Percentage": "7.78%" },
+                { "Label": "Portugal", "Responses": 4, "Percentage": "4.44%" },
+                { "Label": "Romania", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Serbia", "Responses": 1, "Percentage": "1.11%" },
+                { "Label": "Spain", "Responses": 10, "Percentage": "11.11%" },
+                { "Label": "Sweden", "Responses": 3, "Percentage": "3.33%" },
+                { "Label": "Switzerland", "Responses": 3, "Percentage": "3.33%" },
+                { "Label": "United Kingdom", "Responses": 5, "Percentage": "5.56%" }]
+              },
+              {"Label": "Oceania",
+               "Responses" : 3,
+               "Percentage": "2.26%",
+               "Options": [
+                { "Label": "Australia", "Responses": 1, "Percentage": "33.33%" },
+                { "Label": "New Zealand", "Responses": 2, "Percentage": "66.67%" }
+              ]}
+            ]
+          },
+          {
+            "QuestionText": "What is your current employment status?",
+            "QuestionType": "Single-choice",
+            "Sortable": true,
+            "TotalAnswers": 153,
+            "Options": [
+                { "Label": "Freelancer/Contractor", "Responses": 20, "Percentage": "13.07%" },
+                { "Label": "Full-time employed", "Responses": 114, "Percentage": "74.51%" },
+                { "Label": "Part-time employed", "Responses": 8, "Percentage": "5.23%" },
+                { "Label": "Unemployed", "Responses": 11, "Percentage": "7.19%" }
+            ]
+          },
+          {
+            "QuestionText": "What is your current development role?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 151,
+            "Sortable": true,
+            "Observation": "BEAM is primarily used by technical developers, especially in backend and full-stack roles, with increasing adoption in mobile and research areas, particularly in Europe.",
+            "Options": [
+              { "Label": "Backend Developer", 
+                "Percentage": "93.38%",
+                "Responses": 141,
+                "Filter by": [
+                    {"Continent": [
+                        { "Label": "America", "Responses": 34, "Percentage": "24.11%" },
+                        { "Label": "Asia", "Responses": 3, "Percentage": "2.13%" },
+                        { "Label": "Europe", "Responses": 77, "Percentage": "54.61%" },
+                        { "Label": "Oceania", "Responses": 2, "Percentage": "1.42%" },
+                        { "Label": "Unknown", "Responses": 25, "Percentage": "17.73%" }]
+                  }]
+              },
+              { "Label": "Data Scientist",
+                "Percentage": "2.65%",
+                "Responses": 4,
+                "Filter by": [
+                    {"Continent": [
+                        { "Label": "America", "Responses": 1, "Percentage": "25%" },
+                        { "Label": "Asia", "Responses": 0, "Percentage": "0%" },
+                        { "Label": "Europe", "Responses": 3, "Percentage": "75%" },
+                        { "Label": "Oceania", "Responses": 0, "Percentage": "0%" },
+                        { "Label": "Unknown", "Responses": 0, "Percentage": "0%" }]
+                    }]
+              },
+              { "Label": "Educator", 
+                "Responses": 9,
+                "Percentage": "5.96%",
+                "Filter by": [
+                    {"Continent": [
+                        { "Label": "America", "Responses": 4, "Percentage": "44.44%" },
+                        { "Label": "Asia", "Responses": 0, "Percentage": "0%" },
+                        { "Label": "Europe", "Responses": 4, "Percentage": "44.44%" },
+                        { "Label": "Oceania", "Responses": 0, "Percentage": "0%" },
+                        { "Label": "Unknown", "Responses": 1, "Percentage": "11.11%" }]
+                    }]
+              },
+              { "Label": "Frontend Developer", 
+                "Responses": 64,
+                "Percentage": "42.38%",
+                "Filter by": [
+                    {"Continent": [
+                        { "Label": "America", "Responses": 18, "Percentage": "28.13%" },
+                        { "Label": "Asia", "Responses": 0, "Percentage": "0%" },
+                        { "Label": "Europe", "Responses": 29, "Percentage": "45.31%" },
+                        { "Label": "Oceania", "Responses": 1, "Percentage": "1.56%" },
+                        { "Label": "Unknown", "Responses": 16, "Percentage": "25%" }]
+                    }]
+              },
+              {
+                "Label": "Game Developer",
+                "Responses": 3,
+                "Percentage": "1.99%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 2, "Percentage": "66.67%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 1, "Percentage": "33.33%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Hardware Developer",
+                "Responses": 7,
+                "Percentage": "4.64%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 2, "Percentage": "28.57%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 4, "Percentage": "57.14%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 1, "Percentage": "14.29%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Manager",
+                "Responses": 2,
+                "Percentage": "1.32%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 2, "Percentage": "100.00%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 0, "Percentage": "0.00%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Mobile Developer",
+                "Responses": 12,
+                "Percentage": "7.95%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 5, "Percentage": "41.67%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 4, "Percentage": "33.33%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 3, "Percentage": "25.00%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Other",
+                "Responses": 21,
+                "Percentage": "13.91%"
+              },
+              {
+                "Label": "QA",
+                "Responses": 1,
+                "Percentage": "0.66%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 1, "Percentage": "100.00%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 0, "Percentage": "0.00%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Researcher",
+                "Responses": 14,
+                "Percentage": "9.27%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 3, "Percentage": "21.43%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 8, "Percentage": "57.14%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unknown", "Responses": 3, "Percentage": "21.43%" }
+                    ]
+                  }
+                ]
+              }]
+          },
+          {
+            "QuestionText": "What is your annual salary range?",
+            "QuestionType": "Range",
+            "TotalAnswers": 152,
+            "Sortable": false,
+            "Observation": "The salary distribution of respondents shows that a significant portion of participants earn €100,000 or more (28.29%). Among the continents, America leads with 46.51%, while Europe follows with 27.91%. €80,000 - €99,999 and €60,000 - €79,999 range salaries both show a strong European presence, representing 72.00% and 69.23%, respectively. In contrast, America has a smaller share in these ranges. €40,000 - €59,999 reflects a similar trend, with Europe contributing 68.00%, and America at 20.00%. The lowest salary category, Less Than €40,000, shows 52.63% of respondents from Europe.",
+            "Options": [
+              {
+                "Label": "€100,000 Or More",
+                "Responses": 43,
+                "Percentage": "28.29%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 20, "Percentage": "46.51%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 12, "Percentage": "27.91%" },
+                      { "Label": "Oceania", "Responses": 1, "Percentage": "2.33%" },
+                      { "Label": "Unkown", "Responses": 10, "Percentage": "23.26%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "€80,000 - €99,999",
+                "Responses": 25,
+                "Percentage": "16.45%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 2, "Percentage": "8.00%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 18, "Percentage": "72.00%" },
+                      { "Label": "Oceania", "Responses": 1, "Percentage": "4.00%" },
+                      { "Label": "Unkown", "Responses": 4, "Percentage": "16.00%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "€60,000 - €79,999",
+                "Responses": 26,
+                "Percentage": "17.11%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 2, "Percentage": "7.69%" },
+                      { "Label": "Asia", "Responses": 1, "Percentage": "3.85%" },
+                      { "Label": "Europe", "Responses": 18, "Percentage": "69.23%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unkown", "Responses": 5, "Percentage": "19.23%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "€40,000 - €59,999",
+                "Responses": 25,
+                "Percentage": "16.45%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 5, "Percentage": "20.00%" },
+                      { "Label": "Asia", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Europe", "Responses": 17, "Percentage": "68.00%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unkown", "Responses": 3, "Percentage": "12.00%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Less Than €40,000",
+                "Responses": 19,
+                "Percentage": "12.50%",
+                "Filter by": [
+                  {
+                    "Continent": [
+                      { "Label": "America", "Responses": 3, "Percentage": "15.79%" },
+                      { "Label": "Asia", "Responses": 2, "Percentage": "10.53%" },
+                      { "Label": "Europe", "Responses": 10, "Percentage": "52.63%" },
+                      { "Label": "Oceania", "Responses": 0, "Percentage": "0.00%" },
+                      { "Label": "Unkown", "Responses": 4, "Percentage": "21.05%" }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Label": "Prefer Not To Say",
+                "Responses": 14,
+                "Percentage": "9.21%"
+              }
+            ]
+          },
+          {
+            "QuestionText": "What type of work environment do you work in?",
+            "QuestionType": "Single-choice",
+            "Observation": "The majority of respondents (57.89%) work in Remote environments, with Hybrid work environments following closely at 32.24%. A smaller portion of respondents (5.26%) work in an Office setting. This indicates a strong preference for remote or hybrid work models, reflecting the modern trends in workplace flexibility.",
+            "TotalAnswers": 152,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Remote", "Responses": 88, "Percentage": "57.89%" },
+              { "Label": "Hybrid", "Responses": 49, "Percentage": "32.24%" },
+              { "Label": "Office", "Responses": 8, "Percentage": "5.26%" },
+              { "Label": "Does not apply", "Responses": 7, "Percentage": "4.61%" }
+            ]
+          },
+          {
+            "QuestionText": "What is your highest level of education?",
+            "QuestionType": "Range",
+            "TotalAnswers": 153,
+            "Sortable": false,
+            "Observation": "This suggests that most of the participants have at least a Bachelor’s degree, with a notable presence of Master’s degree holders as well.",
+            "Options": [
+              { "Label": "PhD", "Responses": 3, "Percentage": "1.96%" },
+              { "Label": "Master’s Degree", "Responses": 46, "Percentage": "30.07%" },
+              { "Label": "Bachelor’s Degree", "Responses": 71, "Percentage": "46.41%" },
+              { "Label": "High School Diploma", "Responses": 32, "Percentage": "20.92%" },
+              { "Label": "Other", "Responses": 1, "Percentage": "0.65%" }
+            ]
+          },
+          {
+            "QuestionText": "How many years of experience do you have in software development?",
+            "QuestionType": "Range",
+            "TotalAnswers": 153,
+            "Sortable": false,
+            "Observation":"The survey reveals that a large portion of respondents have substantial experience, with 42.48% having 16+ years, and 25.49% having 6-10 years. Only 12.41% of respondents have 0-5 years of experience, indicating a small presence of newer or junior developers in the survey.",
+            "Options": [
+              { "Label": "0-2 years", "Responses": 4, "Percentage": "2.61%" },
+              { "Label": "3-5 years", "Responses": 15, "Percentage": "9.80%" },
+              { "Label": "6-10 years", "Responses": 39, "Percentage": "25.49%" },
+              { "Label": "11-15 years", "Responses": 30, "Percentage": "19.61%" },
+              { "Label": "16+ years", "Responses": 65, "Percentage": "42.48%" }
+            ]
+          },
+          {
+            "QuestionText": "In which area do you work?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 150,
+            "Observation": "The data shows that a significant portion of respondents work in the technology/IT sector (62%), followed by business/corporate (35.33%) and startups (34%). Consulting, finance/banking, and healthcare also have notable representation. However, sectors like academia, non-profit, and government/public sector have a much smaller share, with responses ranging from 1.33% to 3.33%.",
+            "Options": [
+              { "Label": "Academia", "Responses": 5, "Percentage": "3.33%" },
+              { "Label": "Ad-tech", "Responses": 2, "Percentage": "1.33%" },
+              { "Label": "Business/Corporate", "Responses": 53, "Percentage": "35.33%" },
+              { "Label": "Consulting", "Responses": 33, "Percentage": "22.00%" },
+              { "Label": "Education", "Responses": 14, "Percentage": "9.33%" },
+              { "Label": "Finance/Banking", "Responses": 21, "Percentage": "14.00%" },
+              { "Label": "Government/Public sector", "Responses": 14, "Percentage": "9.33%" },
+              { "Label": "Healthcare", "Responses": 14, "Percentage": "9.33%" },
+              { "Label": "Media/Entertainment", "Responses": 13, "Percentage": "8.67%" },
+              { "Label": "Non-profit/NGO", "Responses": 4, "Percentage": "2.67%" },
+              { "Label": "Other", "Responses": 5, "Percentage": "3.33%" },
+              { "Label": "Startups", "Responses": 51, "Percentage": "34.00%" },
+              { "Label": "Technology/IT", "Responses": 93, "Percentage": "62.00%" }
+            ]
+          }]
+       },
+      {"Name": "📚 Development and Learning",
+       "Questions": [
+          {
+            "QuestionText": "What languages do you mostly use when working?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Elixir", "Responses": 89, "Percentage": "58.55%" },
+              { "Label": "Erlang", "Responses": 46, "Percentage": "30.26%" },
+              { "Label": "Gleam", "Responses": 8, "Percentage": "5.26%" },
+              { "Label": "Other BEAM language", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Other non-BEAM language", "Responses": 71, "Percentage": "46.71%" }
+            ],
+            "Observation": "Most developers use more than just BEAM languages for work, indicating a diverse tech stack in their development environment."
+          },
+          { "QuestionText": "Elixir - What non-BEAM language do you use when working?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "Percentage": "59.33%",
+            "TotalAnswers": 89,
+            "Observation": "The data indicates that many Elixir developers also work with non-BEAM languages. Python and JavaScript are the most common choices, each representing 12% and 10% of responses, respectively. Other frequently mentioned languages include Ruby (10%) and Rust (4.67%).",
+            "Options": [
+                  { "Label": "Bash", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "C or C++", "Responses": 9, "Percentage": "6.00%" },
+                  { "Label": "C#", "Responses": 3, "Percentage": "2.00%" },
+                  { "Label": "Clojure", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "Elm", "Responses": 3, "Percentage": "2.00%" },
+                  { "Label": "Forth", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "Go", "Responses": 6, "Percentage": "4.00%" },
+                  { "Label": "Java", "Responses": 5, "Percentage": "3.33%" },
+                  { "Label": "JavaScript", "Responses": 15, "Percentage": "10.00%" },
+                  { "Label": "Kotlin", "Responses": 3, "Percentage": "2.00%" },
+                  { "Label": "Lisp", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "Lua", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "PHP", "Responses": 3, "Percentage": "2.00%" },
+                  { "Label": "Perl", "Responses": 2, "Percentage": "1.33%" },
+                  { "Label": "Python", "Responses": 18, "Percentage": "12.00%" },
+                  { "Label": "Ruby", "Responses": 15, "Percentage": "10.00%" },
+                  { "Label": "Rust", "Responses": 7, "Percentage": "4.67%" },
+                  { "Label": "Scala", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "Swift", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "TCL", "Responses": 1, "Percentage": "0.67%" },
+                  { "Label": "TypeScript", "Responses": 7, "Percentage": "4.67%" },
+                  { "Label": "Does not apply", "Responses": 46, "Percentage": "30.67%" }
+                ] 
+          },
+          { "QuestionText": "Erlang - What non-BEAM language do you use when working?",
+              "QuestionType": "Multiple-choice",
+              "Sortable": true,
+              "Percentage": "30.67%",
+              "TotalAnswers": 46,
+              "Observation": "The majority of developers primarily work with BEAM languages, but a significant portion also uses non-BEAM languages, with Python and JavaScript being the most common. While some languages like Rust and TypeScript are also used, they represent smaller segments of the community. A notable number of respondents (52.17%) don’t use any non-BEAM languages, suggesting that BEAM remains the primary focus for many, but there is still diversity in the tools developers choose based on their specific needs.",
+              "Options": [
+                    { "Label": "Assembly", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "C or C++", "Responses": 11, "Percentage": "23.91%" },
+                    { "Label": "C#", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Dart", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Elm", "Responses": 4, "Percentage": "8.70%" },
+                    { "Label": "Forth", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Go", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Haskell", "Responses": 2, "Percentage": "4.35%" },
+                    { "Label": "Java", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "JavaScript", "Responses": 9, "Percentage": "19.57%" },
+                    { "Label": "Kotlin", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "PHP", "Responses": 4, "Percentage": "8.70%" },
+                    { "Label": "Perl", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Prolog", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Python", "Responses": 10, "Percentage": "21.74%" },
+                    { "Label": "Ruby", "Responses": 1, "Percentage": "2.17%" },
+                    { "Label": "Rust", "Responses": 3, "Percentage": "6.52%" },
+                    { "Label": "TypeScript", "Responses": 2, "Percentage": "4.35%" },
+                    { "Label": "Does not apply", "Responses": 24, "Percentage": "52.17%" }
+              ] 
+          },
+          { "QuestionText": "Gleam - What non-BEAM language do you use when working?",
+            "QuestionType": "Multiple-choice",
+                "Percentage": "5.33%",
+                "Sortable": true,
+                "TotalAnswers": 8,
+                "Options": [
+                    { "Label": "JavaScript", "Responses": 1, "Percentage": "12.50%" },
+                    { "Label": "Rust", "Responses": 2, "Percentage": "25.00%" },
+                    { "Label": "TypeScript", "Responses": 2, "Percentage": "25.00%" },
+                    { "Label": "Does not apply", "Responses": 4, "Percentage": "50.00%" }
+                ],
+                "Observation": "The majority of respondents (50%) indicated that they do not use a non-BEAM language when working. Among those who do use a non-BEAM language, TypeScript and Rust were the most popular choices, each with 25% of responses, while JavaScript was mentioned by 12.5%. This suggests that many Gleam users stick primarily to BEAM languages, with a smaller subset using popular languages like Rust and TypeScript alongside their BEAM work."
+          },
+          {
+            "QuestionText": "How did you learn to code?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 152,
+            "Options": [
+                { "Label": "Books", "Responses": 19, "Percentage": "12.50%" },
+                { "Label": "Colleagues, friends or familiars", "Responses": 42, "Percentage": "27.63%" },
+                { "Label": "Community events", "Responses": 14, "Percentage": "9.21%" },
+                { "Label": "Docs", "Responses": 1, "Percentage": "0.66%" },
+                { "Label": "Example code/projects", "Responses": 2, "Percentage": "1.32%" },
+                { "Label": "Hackathons", "Responses": 5, "Percentage": "3.29%" },
+                { "Label": "Online courses (like exercismn)", "Responses": 61, "Percentage": "40.13%" },
+                { "Label": "Other online resources", "Responses": 84, "Percentage": "55.26%" },
+                { "Label": "Presencial courses", "Responses": 1, "Percentage": "0.66%" },
+                { "Label": "Real-world problems", "Responses": 1, "Percentage": "0.66%" },
+                { "Label": "School", "Responses": 95, "Percentage": "62.50%" },
+                { "Label": "Self-taught", "Responses": 14, "Percentage": "9.21%" }
+            ],
+            "Observation": "Most developers acquired coding skills through formal education or online resources, with self-teaching and books also being significant contributors. Some people are really interested in having a Gleam book ;)"
+          },
+          {
+            "QuestionText": "What challenges did you face while learning BEAM languages?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 119,
+            "Options":  [
+                { "Label": "Lack of practical examples and real-world projects", "Responses": 50, "Percentage": "42.02%" },
+                { "Label": "Difficulty finding relevant tutorials, documentation, or best practices", "Responses": 41, "Percentage": "34.45%" },
+                { "Label": "Limited availability of structured learning resources", "Responses": 37, "Percentage": "31.09%" },
+                { "Label": "Limited support from peers, mentors, or community", "Responses": 34, "Percentage": "28.57%" },
+                { "Label": "Understanding concurrency, fault tolerance, and BEAM-specific concepts", "Responses": 25, "Percentage": "21.01%" },
+                { "Label": "Difficulty finding comprehensive courses or training programs", "Responses": 23, "Percentage": "19.33%" },
+                { "Label": "Mindset shift from object-oriented to functional programming", "Responses": 9, "Percentage": "7.56%" },
+                { "Label": "External challenges (e.g., time constraints, job market concerns)", "Responses": 8, "Percentage": "6.72%" }
+              ],
+              "Observation": "Most developers struggle with a lack of practical examples and comprehensive resources."
+          },
+          {
+            "QuestionText": "What types of resources do you use most frequently?",
+            "Sortable": true,
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 151,
+            "Options": [
+              { "Label": "AI tools (e.g., ChatGPT)", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "Blogs", "Responses": 98, "Percentage": "64.90%" },
+              { "Label": "Books", "Responses": 10, "Percentage": "6.62%" },
+              { "Label": "Coding sessions / Targeted practice (like Exercism)", "Responses": 13, "Percentage": "8.61%" },
+              { "Label": "Community support (Discord, Reddit, Slack, etc.)", "Responses": 5, "Percentage": "3.31%" },
+              { "Label": "Courses (including platforms like Pragmatic Studio)", "Responses": 30, "Percentage": "19.87%" },
+              { "Label": "Other", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "Repository examples (GitHub, code snippets, etc.)", "Responses": 3, "Percentage": "1.99%" },
+              { "Label": "Technical documentation / Written tutorials", "Responses": 143, "Percentage": "94.70%" },
+              { "Label": "Videos", "Responses": 48, "Percentage": "31.79%" }
+            ],
+            "Observation": "Most developers rely heavily on technical documentation, blogs, and videos for learning."
+          },
+          {
+            "QuestionText": "Do you like working in BEAM languages or a BEAM environment?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Yes", "Responses": 149, "Percentage": "98.03%" },
+              { "Label": "No", "Responses": 3, "Percentage": "1.97%" }
+            ],
+            "Observation": "An overwhelming majority of developers enjoy working in BEAM environments, indicating strong satisfaction with the BEAM ecosystem."
+          },
+          {
+            "QuestionText": "Why do you like or not like working in BEAM languages or a BEAM environment?",
+            "QuestionType": "Single-choice",
+            "Sortable": true,
+            "TotalAnswers": 83,
+            "Options": [
+              { "Label": "Fault Tolerance and Concurrency", "Responses": 18, "Percentage": "21.69%" },
+              { "Label": "Expressiveness and Ease of Use", "Responses": 12, "Percentage": "14.46%" },
+              { "Label": "Productivity and Developer Experience", "Responses": 15, "Percentage": "18.07%" },
+              { "Label": "Community and Collaboration", "Responses": 6, "Percentage": "7.23%" },
+              { "Label": "Type Safety and Static Typing Needs", "Responses": 4, "Percentage": "4.82%" },
+              { "Label": "Hard learning Curve and Mindset Shift", "Responses": 8, "Percentage": "9.64%" },
+              { "Label": "BEAM Ecosystem Strengths (lightweight proccesses, msg passing, etc)", "Responses": 10, "Percentage": "12.05%" },
+              { "Label": "Criticism and Room for Improvement (more polished tooling in X areas)", "Responses": 5, "Percentage": "6.02%" },
+              { "Label": "Others", "Responses": 5}
+            ],
+            "Observation": "The responses reflect a strong appreciation for the BEAM environment's fault tolerance, productivity, and ease of use. However, there is room for improvement in type safety, ecosystem tooling, and addressing the learning curve for newcomers."
+          }]
+      },
+      {"Name": "💻 Technical Preferences and Usage",
+       "Questions": [
+          {
+            "QuestionText": "What are your favorite databases to use?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 148,
+            "Options": [
+              { "Label": "Amazon DynamoDB", "Responses": 11, "Percentage": "7.43%" },
+              { "Label": "CockroachDB", "Responses": 8, "Percentage": "5.41%" },
+              { "Label": "Couchbase", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "Elasticsearch", "Responses": 15, "Percentage": "10.14%" },
+              { "Label": "ETS/DETS", "Responses": 46, "Percentage": "31.08%" },
+              { "Label": "Firebase Realtime Database", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "MariaDB", "Responses": 11, "Percentage": "7.43%" },
+              { "Label": "MongoDB", "Responses": 9, "Percentage": "6.08%" },
+              { "Label": "Mnesia", "Responses": 23, "Percentage": "15.54%" },
+              { "Label": "MySQL", "Responses": 18, "Percentage": "12.16%" },
+              { "Label": "Neo4j", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "PostgreSQL", "Responses": 124, "Percentage": "83.78%" },
+              { "Label": "Redis", "Responses": 42, "Percentage": "28.38%" },
+              { "Label": "Riak", "Responses": 10, "Percentage": "6.76%" },
+              { "Label": "SQLite", "Responses": 51, "Percentage": "34.46%" }
+            ],
+            "Observation": "PostgreSQL remains the dominant choice, followed by SQLite and ETS/DETS. Relational and in-memory databases are highly favored by developers."
+          },
+          {
+            "QuestionText": "Which cloud platforms do you prefer?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 122,
+            "Options": [
+              { "Label": "AWS", "Responses": 62, "Percentage": "50.82%" },
+              { "Label": "Azure", "Responses": 8, "Percentage": "6.56%" },
+              { "Label": "Digital Ocean", "Responses": 25, "Percentage": "20.49%" },
+              { "Label": "Fly.io", "Responses": 54, "Percentage": "44.26%" },
+              { "Label": "Gigalixir", "Responses": 10, "Percentage": "8.20%" },
+              { "Label": "Google Cloud", "Responses": 33, "Percentage": "27.05%" },
+              { "Label": "Heroku", "Responses": 7, "Percentage": "5.74%" },
+              { "Label": "Hetzner", "Responses": 5, "Percentage": "4.10%" },
+              { "Label": "Linode", "Responses": 5, "Percentage": "4.10%" },
+              { "Label": "Netlify", "Responses": 6, "Percentage": "4.92%" },
+              { "Label": "Self-hosted (bare metal or dedicated servers)", "Responses": 7, "Percentage": "5.74%" }
+            ],
+            "Observation": "AWS and Fly.io are the most preferred cloud hosting providers, followed by Google Cloud and Digital Ocean. Self-hosted options, including bare metal and dedicated servers, also show demand, indicating that some developers prefer full control over their infrastructure."
+          },
+          {
+            "QuestionText": "Which web frameworks and technologies do you frequently use in the BEAM environment?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 148,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Absinthe", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "Ash", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Asdf", "Responses": 76, "Percentage": "51.35%" },
+              { "Label": "Bandit", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "Broadway", "Responses": 20, "Percentage": "13.51%" },
+              { "Label": "Cowboy", "Responses": 61, "Percentage": "41.22%" },
+              { "Label": "Distillery", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Ecto", "Responses": 86, "Percentage": "58.11%" },
+              { "Label": "GRiSP", "Responses": 9, "Percentage": "6.08%" },
+              { "Label": "Hackney", "Responses": 26, "Percentage": "17.57%" },
+              { "Label": "Lager", "Responses": 6, "Percentage": "4.05%" },
+              { "Label": "LiveSvelte", "Responses": 1, "Percentage": "0.68%" },
+              { "Label": "LiveView", "Responses": 75, "Percentage": "50.68%" },
+              { "Label": "Livebook", "Responses": 42, "Percentage": "28.38%" },
+              { "Label": "Mise", "Responses": 5, "Percentage": "3.38%" },
+              { "Label": "Mist", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Mix", "Responses": 91, "Percentage": "61.49%" },
+              { "Label": "Nerves", "Responses": 14, "Percentage": "9.46%" },
+              { "Label": "Oban", "Responses": 3, "Percentage": "2.03%" },
+              { "Label": "Phoenix Framework", "Responses": 96, "Percentage": "64.86%" },
+              { "Label": "Plug", "Responses": 71, "Percentage": "48.65%" },
+              { "Label": "Rebar", "Responses": 51, "Percentage": "34.46%" },
+              { "Label": "Spawn", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Zotonic", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Others", "Responses": 41, "Percentage": "27.70%" }
+            ],
+            "Observation": "The Phoenix Framework—which relies on ecosystem tools such as Plug, Cowboy, Ecto, Channels, and PubSub—dominates usage, highlighting its prominence as a popular web development stack. Tools like Livebook, Nerves, and GRiSP showcase the community’s focus on live coding and IoT innovation. Smaller frameworks and tools have been grouped under “Others” to reflect the diversity of niche preferences within the BEAM ecosystem."
+          },
+          {
+            "QuestionText": "Which code editors do you primarily use?",
+            "QuestionType": "Single-choice",
+            "Sortable": true,
+            "TotalAnswers": 151,
+            "Options": [
+              { "Label": "Emacs", "Responses": 16, "Percentage": "10.60%" },
+              { "Label": "Helix", "Responses": 8, "Percentage": "5.30%" },
+              { "Label": "IntelliJ IDEA", "Responses": 6, "Percentage": "3.97%" },
+              { "Label": "Neovim", "Responses": 26, "Percentage": "17.22%" },
+              { "Label": "Others", "Responses": 14, "Percentage": "9.27%" },
+              { "Label": "Sublime Text", "Responses": 6, "Percentage": "3.97%" },
+              { "Label": "Vile", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Visual Studio Code", "Responses": 61, "Percentage": "40.40%" },
+              { "Label": "Vim", "Responses": 13, "Percentage": "8.61%" },
+              { "Label": "Zed", "Responses": 9, "Percentage": "5.96%" }
+            ],
+            "Observation": "Visual Studio Code leads as the most popular editor, followed by Neovim and Vim. Emacs shows a strong presence, reflecting its dedicated user base, while newer editors like Zed and Helix also see adoption."
+          },
+          {
+            "QuestionText": "What tools do you use for asynchronous communication?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 151,
+            "Options": [
+              { "Label": "Asana", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Confluence", "Responses": 32, "Percentage": "21.19%" },
+              { "Label": "Discord", "Responses": 54, "Percentage": "35.76%" },
+              { "Label": "GitHub", "Responses": 102, "Percentage": "67.55%" },
+              { "Label": "GitLab", "Responses": 40, "Percentage": "26.49%" },
+              { "Label": "Linear", "Responses": 4, "Percentage": "2.65%" },
+              { "Label": "Matrix / Element", "Responses": 4, "Percentage": "2.65%" },
+              { "Label": "Mattermost", "Responses": 3, "Percentage": "1.99%" },
+              { "Label": "Microsoft Teams", "Responses": 30, "Percentage": "19.87%" },
+              { "Label": "Miro", "Responses": 11, "Percentage": "7.28%" },
+              { "Label": "Notion", "Responses": 21, "Percentage": "13.91%" },
+              { "Label": "Slack", "Responses": 118, "Percentage": "78.15%" },
+              { "Label": "Telegram", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Texts/WhatsApp", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Trello", "Responses": 17, "Percentage": "11.26%" },
+              { "Label": "Zulip", "Responses": 3, "Percentage": "1.99%" },
+              { "Label": "Other", "Responses": 16, "Percentage": "10.60%" }
+            ],
+            "Observation": "The most common asynchronous communication tools are Slack and GitHub, reflecting their prevalence in development workflows."
+          },
+          {
+            "QuestionText": "What tools do you use for synchronous communication?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 148,
+            "Options": [
+              { "Label": "BlueJeans", "Responses": 3, "Percentage": "2.03%" },
+              { "Label": "Discord", "Responses": 53, "Percentage": "35.81%" },
+              { "Label": "Google Meet", "Responses": 76, "Percentage": "51.35%" },
+              { "Label": "Jitsi Meet", "Responses": 4, "Percentage": "2.70%" },
+              { "Label": "Matrix / Element (for calls)", "Responses": 3, "Percentage": "2.03%" },
+              { "Label": "Microsoft Teams", "Responses": 35, "Percentage": "23.65%" },
+              { "Label": "Signal", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Skype", "Responses": 2, "Percentage": "1.35%" },
+              { "Label": "Slack (for calls)", "Responses": 56, "Percentage": "37.84%" },
+              { "Label": "Telegram", "Responses": 3, "Percentage": "2.03%" },
+              { "Label": "Zoom", "Responses": 64, "Percentage": "43.24%" },
+              { "Label": "Others", "Responses": 14, "Percentage": "9.46%" }
+            ],
+            "Observation": "The most popular synchronous communication tools are Google Meet, Zoom, and Slack calls. However, there is still a preference for more secure or community-driven platforms such as Jitsi and Matrix. Less commonly used tools are grouped under 'Others' to highlight niche choices."
+          },
+          {
+            "QuestionText": "What are your preferred tools for creating and managing technical documentation?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 141,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Asciidoctor", "Responses": 8, "Percentage": "5.67%" },
+              { "Label": "Confluence", "Responses": 28, "Percentage": "19.86%" },
+              { "Label": "Docosaurus", "Responses": 4, "Percentage": "2.84%" },
+              { "Label": "ExDoc", "Responses": 42, "Percentage": "29.79%" },
+              { "Label": "GitHub Wiki", "Responses": 49, "Percentage": "34.75%" },
+              { "Label": "GitLab Wiki", "Responses": 16, "Percentage": "11.35%" },
+              { "Label": "Google Docs", "Responses": 24, "Percentage": "17.02%" },
+              { "Label": "HexDocs", "Responses": 34, "Percentage": "24.11%" },
+              { "Label": "LaTeX", "Responses": 10, "Percentage": "7.09%" },
+              { "Label": "Markdown", "Responses": 11, "Percentage": "7.80%" },
+              { "Label": "MkDocs", "Responses": 8, "Percentage": "5.67%" },
+              { "Label": "Notion", "Responses": 27, "Percentage": "19.15%" },
+              { "Label": "Obsidian", "Responses": 15, "Percentage": "10.64%" },
+              { "Label": "Read the Docs", "Responses": 5, "Percentage": "3.55%" },
+              { "Label": "Sphinx", "Responses": 2, "Percentage": "1.42%" },
+              { "Label": "Slab", "Responses": 2, "Percentage": "1.42%" },
+              { "Label": "Starlight", "Responses": 2, "Percentage": "1.42%" },
+              { "Label": "Others", "Responses": 29, "Percentage": "20.57%" }
+            ],
+            "Observation": "The most popular documentation tools are GitHub Wiki, ExDoc, and HexDocs, showing a preference for integrated and language-specific solutions. Markdown-based tools like GitLab Wiki and MkDocs are also commonly used. The 'Others' category includes less common choices such as Livebook, PlantUML, and README.md."
+          },
+          {
+            "QuestionText": "What is your preferred operating system?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Arch Linux", "Responses": 11, "Percentage": "7.24%" },
+              { "Label": "BSD", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "Debian", "Responses": 6, "Percentage": "3.95%" },
+              { "Label": "Fedora", "Responses": 6, "Percentage": "3.95%" },
+              { "Label": "FreeBSD", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "Gentoo", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "Linux Mint", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "macOS", "Responses": 68, "Percentage": "44.74%" },
+              { "Label": "Manjaro Linux", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "OpenBSD", "Responses": 2, "Percentage": "1.32%" },
+              { "Label": "OpenSUSE", "Responses": 3, "Percentage": "1.97%" },
+              { "Label": "Other Linux Distribution", "Responses": 9, "Percentage": "5.92%" },
+              { "Label": "Ubuntu", "Responses": 31, "Percentage": "20.39%" },
+              { "Label": "Windows", "Responses": 5, "Percentage": "3.29%" },
+              { "Label": "Others", "Responses": 13, "Percentage": "8.55%" }
+            ],
+            "Observation": "macOS dominates as the preferred OS among respondents, followed by Ubuntu and Arch Linux. Other Linux distributions such as Fedora, Debian, and niche options like OpenSUSE and OpenBSD indicate diverse usage. 'Others' include Alpine Linux, PopOS, and unique setups (e.g., dual use of macOS and Linux)."
+          },
+          {
+            "QuestionText": "To what extent do you use AI in your development work?",
+            "QuestionType": "Range",
+            "Sortable": false,
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Never", "Responses": 54, "Percentage": "35.53%" },
+              { "Label": "Rarely", "Responses": 28, "Percentage": "18.42%" },
+              { "Label": "Occasionally", "Responses": 33, "Percentage": "21.71%" },
+              { "Label": "Frequently", "Responses": 29, "Percentage": "19.08%" },
+              { "Label": "Very frequently", "Responses": 8, "Percentage": "5.26%" }
+            ],
+            "Observation": "The majority of respondents either never or rarely use AI in their development work (54%). However, 19% report frequent usage, indicating that AI tools have gained significant traction among a subset of developers."
+          },
+          {
+            "QuestionText": "What AI tools do you use in your development work?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 117,
+            "Sortable": true,
+            "Options": [
+              { "Label": "ChatGPT", "Responses": 61, "Percentage": "52.14%" },
+              { "Label": "Claude", "Responses": 6, "Percentage": "5.13%" },
+              { "Label": "claude.ai", "Responses": 2, "Percentage": "1.71%" },
+              { "Label": "Codeium", "Responses": 2, "Percentage": "1.71%" },
+              { "Label": "Cursor", "Responses": 2, "Percentage": "1.71%" },
+              { "Label": "Does not apply", "Responses": 28, "Percentage": "23.93%" },
+              { "Label": "GitHub Copilot", "Responses": 37, "Percentage": "31.62%" },
+              { "Label": "Google Gemini", "Responses": 2, "Percentage": "1.71%" },
+              { "Label": "Hugging Face Transformers", "Responses": 4, "Percentage": "3.42%" },
+              { "Label": "OpenAI API", "Responses": 10, "Percentage": "8.55%" },
+              { "Label": "Other AI tools", "Responses": 26, "Percentage": "22.22%" }
+            ],
+            "Observation": "Even if not so many BEAM developers use AI, ChatGPT and GitHub Copilot are the most commonly used AI tools in development."
+          },
+          {
+            "QuestionText": "Can you provide some use case examples of how you use AI in your development work?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 58,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Code generation (e.g., boilerplate, unit tests, sample scripts)", "Responses": 10, "Percentage": "17.24%" },
+              { "Label": "Debugging and problem-solving (e.g., debugging errors, spike prototypes)", "Responses": 9, "Percentage": "15.52%" },
+              { "Label": "Documentation and learning (e.g., improve documentation, generate test suites)", "Responses": 8, "Percentage": "13.79%" },
+              { "Label": "General advice and brainstorming (e.g., naming conventions, high-level guidance)", "Responses": 6, "Percentage": "10.34%" },
+              { "Label": "Shell commands and DevOps (e.g., cloud commands, SQL queries)", "Responses": 5, "Percentage": "8.62%" },
+              { "Label": "Automation and auto-completion (e.g., context-aware autocomplete, IDE assistance)", "Responses": 7, "Percentage": "12.07%" },
+              { "Label": "Skepticism or non-use (e.g., avoid using AI due to lack of trust)", "Responses": 4, "Percentage": "6.90%" },
+              { "Label": "Other (e.g., examples too specific or unrelated to main categories)", "Responses": 9, "Percentage": "15.52%" }
+            ],
+            "Observation": "Developers primarily use AI for code generation, debugging, and documentation. However, a subset of users remains skeptical or avoids AI tools entirely, emphasizing concerns around reliability and vendor trust."
+          }]
+      },
+      {"Name": "👩‍💻 Coding Activities",
+      "Questions": [
+          {
+            "QuestionText": "To what extent do you code as a hobby?",
+            "QuestionType": "Range",
+            "Sortable": false,
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Never", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "Rarely", "Responses": 23, "Percentage": "15.13%" },
+              { "Label": "Occasionally", "Responses": 48, "Percentage": "31.58%" },
+              { "Label": "Frequently", "Responses": 41, "Percentage": "26.97%" },
+              { "Label": "Very frequently", "Responses": 39, "Percentage": "25.66%" }
+            ],
+            "Observation": "The majority of respondents engage in coding as a hobby at least occasionally, with a significant number coding frequently or very frequently, reflecting their strong interest in programming beyond professional obligations."
+          },
+          {
+            "QuestionText": "How often do you contribute to open-source projects?",
+            "QuestionType": "Range",
+            "Sortable": false,
+            "TotalAnswers": 152,
+            "Options": [
+              { "Label": "Never", "Responses": 11, "Percentage": "7.24%" },
+              { "Label": "Rarely", "Responses": 61, "Percentage": "40.13%" },
+              { "Label": "Occasionally", "Responses": 48, "Percentage": "31.58%" },
+              { "Label": "Frequently", "Responses": 16, "Percentage": "10.53%" },
+              { "Label": "Very frequently", "Responses": 16, "Percentage": "10.53%" }
+            ],
+            "Observation": "A majority of respondents contribute to open-source projects occasionally or rarely, while a smaller but notable group frequently or very frequently engages with the open-source community."
+          }]
+      },
+      {"Name": "🌍 Community Engagement",
+       "Questions": [
+          {
+            "QuestionText": "How knowledgeable are you about the BEAM community?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 152,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Not knowledgeable at all", "Responses": 13, "Percentage": "8.55%" },
+              { "Label": "Slightly knowledgeable", "Responses": 34, "Percentage": "22.37%" },
+              { "Label": "Somewhat knowledgeable", "Responses": 49, "Percentage": "32.24%" },
+              { "Label": "Knowledgeable", "Responses": 30, "Percentage": "19.74%" },
+              { "Label": "Very knowledgeable", "Responses": 26, "Percentage": "17.11%" }
+            ],
+            "Observation": "The majority of respondents consider themselves at least somewhat knowledgeable about the BEAM community, though a smaller segment admits to being slightly or not knowledgeable at all."
+          },
+          {
+            "QuestionText": "Are you aware of any community projects related to BEAM in your region?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 150,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Yes", "Responses": 37, "Percentage": "24.67%" },
+              { "Label": "No", "Responses": 113, "Percentage": "75.33%" }
+            ],
+            "Observation": "A significant majority of respondents are not aware of any BEAM community projects in their region, suggesting room for greater community outreach or visibility."
+          },
+          {
+            "QuestionText": "In which types of community activities have you participated? (Select all that apply)",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 149,
+            "Options": [
+              { "Label": "Conferences", "Responses": 71, "Percentage": "47.65%" },
+              { "Label": "Community surveys or research", "Responses": 41, "Percentage": "27.52%" },
+              { "Label": "Documentation or content creation", "Responses": 22, "Percentage": "14.77%" },
+              { "Label": "Hackathons", "Responses": 11, "Percentage": "7.38%" },
+              { "Label": "Meetups or networking events", "Responses": 54, "Percentage": "36.24%" },
+              { "Label": "Mentorship programs", "Responses": 6, "Percentage": "4.03%" },
+              { "Label": "Online forums or discussion groups", "Responses": 50, "Percentage": "33.56%" },
+              { "Label": "Open-source contributions", "Responses": 54, "Percentage": "36.24%" },
+              { "Label": "Podcasts", "Responses": 2, "Percentage": "1.34%" },
+              { "Label": "Workshops or training sessions", "Responses": 25, "Percentage": "16.78%" },
+              { "Label": "Other", "Responses": 3, "Percentage": "2.01%" }
+            ],
+            "Observation": "Community engagement activities are led by conferences, open-source contributions, and meetups."
+          },
+          {
+            "QuestionText": "How much time do you spend daily searching for resources related to BEAM languages?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 151,
+            "Sortable": false,
+            "Options": [
+              { "Label": "0-1 hours", "Responses": 90, "Percentage": "59.60%" },
+              { "Label": "1-2 hours", "Responses": 43, "Percentage": "28.48%" },
+              { "Label": "2-3 hours", "Responses": 8, "Percentage": "5.30%" },
+              { "Label": "3+ hours", "Responses": 8, "Percentage": "5.30%" }
+            ]
+          },
+          {
+            "QuestionText": "What is your primary role or involvement in the BEAM community?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": false,
+            "TotalAnswers": 143,
+            "Options": [
+              { "Label": "Professional Developer", "Responses": 101, "Percentage": "70.63%" },
+              { "Label": "Hobby/Unpaid Developer", "Responses": 46, "Percentage": "32.17%" },
+              { "Label": "Learning", "Responses": 36, "Percentage": "25.17%" },
+              { "Label": "Community Contributor (Mentor, Event Organizer, Open-Source Maintainer, Speaker, etc)", "Responses": 5, "Percentage": "3.50%" },
+              { "Label": "Other", "Responses": 5, "Percentage": "3.50%" }
+            ],
+            "Observation": "Most respondents are professional developers, followed by hobbyists and learners. Only a small number actively contribute as mentors, event organizers, or maintainers, highlighting potential areas for growth in community leadership and participation."
+          },
+          {
+            "QuestionText": "How do you feel about the current growth of the BEAM community?",
+            "QuestionType": "Single-choice",
+            "Sortable": false,
+            "TotalAnswers": 145,
+            "Options": [
+              { "Label": "Very Positive", "Responses": 38, "Percentage": "26.21%" },
+              { "Label": "Positive", "Responses": 65, "Percentage": "44.83%" },
+              { "Label": "Neutral", "Responses": 37, "Percentage": "25.52%" },
+              { "Label": "Negative", "Responses": 10, "Percentage": "6.90%" },
+              { "Label": "Very Negative", "Responses": 0, "Percentage": "0.00%" }
+            ],
+            "Observation": "The overall sentiment towards the growth of the BEAM community is predominantly positive, indicating general optimism."
+          },
+          {
+            "QuestionText": "How can the BEAM community improve or grow?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 43,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Increase Awareness and Outreach", "Responses": 12, "Percentage": "27.91%" },
+              { "Label": "Improve Documentation and Learning Resources", "Responses": 11, "Percentage": "25.58%" },
+              { "Label": "Tooling and Libraries", "Responses": 8, "Percentage": "18.60%" },
+              { "Label": "Advocacy and Community Growth", "Responses": 7, "Percentage": "16.28%" },
+              { "Label": "Diversity and Inclusion", "Responses": 3, "Percentage": "6.98%" },
+              { "Label": "Other", "Responses": 2, "Percentage": "4.65%" }
+            ],
+            "Observation": "The responses indicate a shared desire for improved visibility, enhanced documentation, and better outreach efforts. Additionally, contributors highlighted the importance of diversity and better tooling to support community growth and collaboration."
+          }]
+      },
+      {"Name": "⚡ BEAM Languages Impact",
+       "Questions": [
+          {
+            "QuestionText": "What impact has adopting BEAM languages had on your productivity?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 145,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly increased", "Responses": 80, "Percentage": "55.17%" },
+              { "Label": "Slightly increased", "Responses": 40, "Percentage": "27.59%" },
+              { "Label": "No change", "Responses": 22, "Percentage": "15.17%" },
+              { "Label": "Slightly decreased", "Responses": 1, "Percentage": "0.69%" },
+              { "Label": "Significantly decreased", "Responses": 1, "Percentage": "0.69%" }
+            ],
+            "Observation": "A majority of respondents reported an increase in productivity after adopting BEAM languages."
+          },
+          {
+            "QuestionText": "Can you provide some examples of how adopting BEAM languages has impacted your productivity?",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 61,
+            "Options": [
+              { "Label": "Ease of concurrency and fault tolerance", "Responses": 15, "Percentage": "24.59%" },
+              { "Label": "Simplified software design and maintainability", "Responses": 12, "Percentage": "19.67%" },
+              { "Label": "Expressiveness and improved code readability", "Responses": 10, "Percentage": "16.39%" },
+              { "Label": "High-quality tooling and documentation", "Responses": 8, "Percentage": "13.11%" },
+              { "Label": "Improved debugging and introspection capabilities", "Responses": 7, "Percentage": "11.48%" },
+              { "Label": "Benefits of functional programming", "Responses": 10, "Percentage": "16.39%" },
+              { "Label": "Comparison with other languages shows BEAM's superiority", "Responses": 6, "Percentage": "9.84%" },
+              { "Label": "Personal growth and learning", "Responses": 5, "Percentage": "8.20%" },
+              { "Label": "Neutral or no significant impact", "Responses": 4, "Percentage": "6.56%" },
+              { "Label": "Other", "Responses": 4, "Percentage": "6.56%" }
+            ],
+            "Observation": "The responses underscore the significant benefits of BEAM languages in handling concurrency, fault tolerance, and functional design patterns. Some challenges remain, such as concerns around typing and initial learning curves."
+          },
+          {
+            "QuestionText": "How satisfied are you with the BEAM languages you use in your development work?",
+            "QuestionType": "Single-choice",
+            "Sortable": false,
+            "TotalAnswers": 147,
+            "Options": [
+              { "Label": "Very satisfied", "Responses": 98, "Percentage": "66.67%" },
+              { "Label": "Satisfied", "Responses": 38, "Percentage": "25.85%" },
+              { "Label": "Neutral", "Responses": 9, "Percentage": "6.12%" },
+              { "Label": "Dissatisfied", "Responses": 1, "Percentage": "0.68%" },
+              { "Label": "Very dissatisfied", "Responses": 1, "Percentage": "0.68%" }
+            ],
+            "Observation": "Most respondents expressed high satisfaction with the BEAM languages, highlighting strong community support, functional features, and the stability of the ecosystem. However, there is room for improvement to address the needs of neutral or dissatisfied users."
+          },
+          {
+            "QuestionText": "Please describe what aspects of BEAM languages have influenced your level of satisfaction.",
+            "QuestionType": "Multiple-choice",
+            "Sortable": false,
+            "TotalAnswers": 55,
+            "Options": [
+              { "Label": "Concurrency and parallelism", "Responses": 12, "Percentage": "21.82%" },
+              { "Label": "Ease of use and functional programming model", "Responses": 10, "Percentage": "18.18%" },
+              { "Label": "Community and documentation", "Responses": 9, "Percentage": "16.36%" },
+              { "Label": "Reliability and fault tolerance", "Responses": 8, "Percentage": "14.55%" },
+              { "Label": "Library ecosystem and tooling", "Responses": 7, "Percentage": "12.73%" },
+              { "Label": "Language design and architecture", "Responses": 6, "Percentage": "10.91%" },
+              { "Label": "Negative feedback on lack of static typing", "Responses": 4, "Percentage": "7.27%" },
+              { "Label": "Other comments or mixed feedback", "Responses": 4, "Percentage": "7.27%" }
+            ],
+            "Observation": "Developers appreciate the BEAM's strengths in concurrency, fault tolerance, and functional programming. Positive feedback often highlights the ease of use, strong tooling, and community support, while some express concerns about the lack of static typing and occasional documentation gaps."
+          }]
+      },
+      {"Name": "💬 Feedback",
+      "Questions": [
+          {
+            "QuestionText": "Additional feedback, suggestions, or comments about the BEAM community or your experience with BEAM languages.",
+            "QuestionType": "Multiple-choice",
+            "Sortable": true,
+            "TotalAnswers": 19,
+            "Options": [
+              { "Label": "Positive community sentiment and engagement", "Responses": 9, "Percentage": "47.37%" },
+              { "Label": "Requests for improved documentation and tutorials", "Responses": 8, "Percentage": "42.11%" },
+              { "Label": "Concerns about community platform choice (e.g., Slack) and loses info", "Responses": 6, "Percentage": "31.58%" },
+              { "Label": "Desire for better type-checking tools", "Responses": 4, "Percentage": "21.05%" },
+              { "Label": "High praise for conferences and online events", "Responses": 5, "Percentage": "26.32%" },
+              { "Label": "Suggestions for supporting core maintainers and funding", "Responses": 3, "Percentage": "15.79%" },
+              { "Label": "Feedback on accessibility and onboarding", "Responses": 2, "Percentage": "10.53%" },
+              { "Label": "Desire for multi-node deployment examples and clustering resources", "Responses": 2, "Percentage": "10.53%" },
+              { "Label": "Negative feedback on ecosystem fragmentation", "Responses": 2, "Percentage": "10.53%" }
+            ],
+            "Observation": "The feedback highlights the BEAM community's strengths in collaboration and learning, alongside requests for better documentation, tutorials, and onboarding resources. There are concerns about Slack's accessibility for newcomers and calls for stronger support for core projects and contributors. Conference affordability and detailed multi-node deployment resources are also recurrent themes."
+          }
+        ]
+      }
+  ]
+}
