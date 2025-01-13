@@ -1,0 +1,457 @@
+{
+    "Name": "Academia",
+    "Region": "Global",
+    "TotalResponses": 10,
+    "Year": "2024",
+    "LastUpdate": "2025-01-12T14:51",
+    "Sections": [
+      {"Name": "💼 Professional Information",
+       "Questions": [
+        {
+          "QuestionText": "Do you consider yourself part of the European BEAM Community?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Yes", "Responses": 8},
+            { "Label": "No", "Responses": 3}
+          ],
+          "Observation": 
+              "Some people answer ‘No’ even when they are actively involved in the community or employed by a European institution."
+        },
+        {
+          "QuestionText": "Where is the institution where you conduct your research?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Germany", "Responses": 1 },
+            { "Label": "Belgium", "Responses": 1 },
+            { "Label": "Spain", "Responses": 4 },
+            { "Label": "Malta", "Responses": 1 },
+            { "Label": "Italy", "Responses": 1 },
+            { "Label": "United Kingdom", "Responses": 2 }
+          ]
+        },
+        {
+          "QuestionText": "What is your current academic role?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Professor", "Responses": 7 },
+            { "Label": "Researcher", "Responses": 2 },
+            { "Label": "Lecturer", "Responses": 2},
+            { "Label": "Bachelor Student", "Responses": 0},
+            { "Label": "Graduate Student", "Responses": 0},
+            { "Label": "PhD Student", "Responses": 0},
+            { "Label": "Postdoctoral Fellow", "Responses": 1},
+            { "Label": "Other", "Responses": 0 }
+          ]
+        },
+        {
+          "QuestionText": "How many years of experience do you have in academia?",
+          "QuestionType": "Range",
+          "TotalAnswers": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "0-2 years", "Responses": 0 },
+            { "Label": "3-5 years", "Responses": 0 },
+            { "Label": "6-10 years", "Responses": 2 },
+            { "Label": "11+ years", "Responses": 8 },
+            { "Label": "Prefer not to say", "Responses": 0 }
+          ],
+          "Observation": "The majority of respondents (80%) have over 11 years of academic experience."
+        },
+        {
+          "QuestionText": "Which department or field do you belong to?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Computer Science", "Responses": 9 },
+            { "Label": "Artificial Intelligence", "Responses": 1 }
+          ]
+        },
+        {
+          "QuestionText": "How did you first discover BEAM languages?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Through a course", "Responses": 3 },
+            { "Label": "Independent study", "Responses": 4 },
+            { "Label": "Colleague recommendation", "Responses": 1 },
+            { "Label": "Online resources", "Responses": 0 },
+            { "Label": "Industry collaboration", "Responses": 2 },
+            { "Label": "Other", "Responses": 0 }
+          ],
+          "Observation": "The majority of respondents discovered BEAM languages through independent study (40%) or formal courses (30%), highlighting the significance of both self-directed learning and structured education in the adoption of BEAM languages."
+        },
+        {
+          "QuestionText": "In what context do you use BEAM languages in academia?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Teaching", "Responses": 6 },
+            { "Label": "Research paper", "Responses": 10 },
+            { "Label": "Research PhD thesis", "Responses": 5 },
+            { "Label": "In class (as a student)", "Responses": 0 },
+            { "Label": "In master thesis", "Responses": 1 },
+            { "Label": "Collaborative projects", "Responses": 4 },
+            { "Label": "Personal projects", "Responses": 6 },
+            { "Label": "Not currently using", "Responses": 0 },
+            { "Label": "Other", "Responses": 0 }
+          ],
+          "Observation": "All respondents utilize BEAM languages in their academic endeavors, with the highest usage in research papers (100%), followed by teaching (60%) and personal projects (60%)."
+        }
+        ]
+      },
+      {"Name": "🔬 Research",
+       "Questions": [
+        {
+          "QuestionText": "Which BEAM languages do you use in your research?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Elixir", "Responses": 8 },
+            { "Label": "Erlang", "Responses": 10 },
+            { "Label": "Gleam", "Responses": 0 },
+            { "Label": "Does not apply", "Responses": 0 },
+            { "Label": "Other", "Responses": 0 }
+          ]
+        },
+        {
+          "QuestionText": "What are the primary reasons you use BEAM languages in your research?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Concurrency capabilities", "Responses": 5 },
+            { "Label": "Fault tolerance", "Responses": 0 },
+            { "Label": "Scalability", "Responses": 1 },
+            { "Label": "Functional programming paradigm", "Responses": 3 },
+            { "Label": "Community support", "Responses": 0 },
+            { "Label": "Industry relevance", "Responses": 0 },
+            { "Label": "Dynamic typing", "Responses": 1 }
+          ],
+          "Observation": "The predominant reason for utilizing BEAM languages in research is their concurrency capabilities (50%), followed by the functional programming paradigm (30%). Notably, fault tolerance and community support were not cited as primary reasons by any respondents."
+
+        },
+        {
+          "QuestionText": "What is the primary focus of your research?",
+          "QuestionType": "Single-choice",
+          "TotalResponses": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Distributed Systems", "Responses": 5 },
+            { "Label": "Artificial Intelligence", "Responses": 1 },
+            { "Label": "Software Engineering", "Responses": 1 },
+            { "Label": "Programming Languages", "Responses": 1 },
+            { "Label": "Program Verification", "Responses": 1 }
+          ],
+          "Observation": "Half of the respondents (50%) focus their research on Distributed Systems, indicating a significant interest in this area."
+
+        },
+        {
+          "QuestionText": "Have you taken any classes or courses that specifically focused on BEAM languages for research purposes?",
+          "QuestionType": "Single-choice",
+          "TotalResponses": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Yes", "Responses": 1 },
+            { "Label": "No", "Responses": 9 }
+          ],
+          "Observation": "A course titled 'Distributed and Parallel Technologies' was recommended"
+        },
+        {
+          "QuestionText": "What are the main challenges you face when conducting research with BEAM languages?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Limited availability of specialized libraries or tools", "Responses": 3 },
+            { "Label": "Difficulty in finding relevant research papers or case studies", "Responses": 3 },
+            { "Label": "Limited support from academic or research institutions", "Responses": 5 },
+            { "Label": "Difficulty in finding collaborators or research partners", "Responses": 4 },
+            { "Label": "Challenges in integrating BEAM languages with other technologies", "Responses": 2 },
+            { "Label": "Maturity level of tools and libraries compared to mainstream languages", "Responses": 1 },
+            { "Label": "Does not apply", "Responses": 2 }
+          ],
+          "Observation": "The predominant challenges identified by respondents include limited support from academic or research institutions (50%) and difficulty in finding collaborators or research partners (40%). Additionally, 30% of participants reported limited availability of specialized libraries or tools, and difficulty in finding relevant research papers or case studies."
+        },
+        {
+          "QuestionText": "Do you have sufficient resources (documentation, libraries, tools) to conduct your research using BEAM languages?",
+          "QuestionType": "Range",
+          "TotalAnswers": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Strongly agree", "Responses": 1 },
+            { "Label": "Agree", "Responses": 9 },
+            { "Label": "Disagree", "Responses": 0 },
+            { "Label": "Strongly disagree", "Responses": 0 },
+            { "Label": "Does not apply", "Responses": 0 }
+          ],
+          "Observation": "The vast majority of respondents (90%) agree that they have sufficient resources to conduct their research using BEAM languages, with 10% strongly agreeing. There are no respondents who disagree or strongly disagree, indicating a general satisfaction with the available resources."
+        },
+        {
+          "QuestionText": "What additional resources or tools would be most beneficial for your research using BEAM languages?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 3,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Integrated Development Environments (IDEs)", "Responses": 1 },
+            { "Label": "Type Systems", "Responses": 1 },
+            { "Label": "Static Analysis Tools", "Responses": 1 },
+            { "Label": "Refactoring Tools", "Responses": 1 },
+            { "Label": "Comprehensive Documentation", "Responses": 1 },
+            { "Label": "Full Specifications for Formal Methods", "Responses": 1 },
+            { "Label": "Peer Reviewers for Research Proposals", "Responses": 1 },
+            { "Label": "Other", "Responses": 0 }
+          ],
+          "Observation": "Respondents indicated a need for enhanced Integrated Development Environments (IDEs), type systems, static analysis, and refactoring tools to support their research with BEAM languages. Additionally, there is a call for more comprehensive documentation and full specifications to aid in understanding language behavior, particularly for formal methods. The availability of peer reviewers for research proposals was also mentioned as a beneficial resource."
+        }
+        ]
+      },
+      {"Name": "👩‍🏫 Teaching",
+      "Questions": [
+        {
+          "QuestionText": "Which BEAM languages do you use to teach?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Elixir", "Responses": 4 },
+            { "Label": "Erlang", "Responses": 7 },
+            { "Label": "Gleam", "Responses": 0 },
+            { "Label": "Doesn't Apply", "Responses": 2 },
+            { "Label": "Other languages", "Responses": 1 }
+          ],
+          "Observation": "Among the respondents, Erlang is the most commonly taught BEAM language (70%), followed by Elixir (40%). Gleam is not currently used in teaching by any respondents."
+        },
+        {
+          "QuestionText": "What are the primary reasons you use BEAM languages in your teaching?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 9,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Concurrency capabilities", "Responses": 6 },
+            { "Label": "Fault tolerance", "Responses": 1 },
+            { "Label": "Scalability", "Responses": 1 },
+            { "Label": "Functional programming paradigm", "Responses": 0 },
+            { "Label": "Community support", "Responses": 0 },
+            { "Label": "Industry relevance", "Responses": 0 },
+            { "Label": "Does not apply", "Responses": 1 },
+            { "Label": "Other", "Responses": 0 }
+          ],
+          "Observation": "The majority of respondents (67%) utilize BEAM languages in their teaching primarily for their concurrency capabilities. "
+        },
+        {
+          "QuestionText": "Have you integrated BEAM languages into existing curricula or developed new courses around them?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 9,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Integrated into existing curricula", "Responses": 0 },
+            { "Label": "Developed new courses", "Responses": 6 },
+            { "Label": "Both", "Responses": 1 },
+            { "Label": "Does not apply", "Responses": 2 }
+          ],
+          "Observation": "The majority of respondents (67%) have developed new courses centered around BEAM languages."
+        },
+        {
+          "QuestionText": "Have you taken any classes or courses that specifically focused on BEAM languages for teaching purposes?",
+          "QuestionType": "Single-choice",
+          "TotalAnswers": 9,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Yes", "Responses": 2 },
+            { "Label": "No", "Responses": 7 }
+          ],
+          "Observation": "The majority of respondents (78%) have not taken courses specifically focused on BEAM languages for teaching purposes, while 22% have. They recommended a course titled 'Distributed and Parallel Technologies (University of Glasgow)', and another one called 'Programming Distributed Systems'."
+        },
+        {
+          "QuestionText": "What are the main challenges you face when teaching BEAM languages to your students?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 9,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Lack of sufficient learning resources (e.g., textbooks, tutorials)", "Responses": 2},
+            { "Label": "Students’ difficulty understanding concurrency concepts", "Responses": 2},
+            { "Label": "Limited availability of teaching tools and environments", "Responses": 0},
+            { "Label": "Difficulty in finding practical examples or projects", "Responses": 0},
+            { "Label": "Students’ prior knowledge of functional programming", "Responses": 3},
+            { "Label": "Does not apply", "Responses": 1},
+            { "Label": "Students' unawareness of language's relevance", "Responses": 1}
+          ],
+          "Observation": "Students encounter difficulties grasping new concepts like functional programming and concurrency, compounded by a lack of adequate learning resources."
+        },
+        {
+          "QuestionText": "Do you have sufficient resources (documentation, libraries, tools) to conduct teaching with BEAM languages?",
+          "QuestionType": "Range",
+          "TotalAnswers": 9,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Strongly agree", "Responses": 3},
+            { "Label": "Agree", "Responses": 4},
+            { "Label": "Disagree", "Responses": 1},
+            { "Label": "Strongly disagree", "Responses": 0},
+            { "Label": "Does not apply", "Responses": 1}
+          ],
+          "Observation": "The majority of educators (77%) feel they have sufficient resources for teaching BEAM languages, with 33% strongly agreeing and 44% agreeing. Some plan to incorporate Livebook—a web application for writing interactive and collaborative code notebooks—into their teaching. Others seek books that address fundamental functional programming concepts applied to Elixir/Erlang."
+        }
+       ]
+     },
+     {"Name": "👥 Collaboration w/Academia",
+     "Questions": [
+      {
+        "QuestionText": "Do you often find BEAMers in academia with whom to collaborate?",
+        "QuestionType": "Single-choice",
+        "TotalAnswers": 10,
+        "Sortable": true,
+        "Options": [
+          { "Label": "Yes", "Responses": 2},
+          { "Label": "No", "Responses": 8}
+        ],
+        "Observation": "The majority of respondents (80%) report difficulty finding academic collaborators experienced in BEAM languages, indicating a limited pool of potential partners."
+      },
+      {
+        "QuestionText": "Are your fellow academics reluctant to use BEAM languages in research?",
+        "QuestionType": "Single-choice",
+        "TotalAnswers": 10,
+        "Sortable": true,
+        "Options": [
+          { "Label": "Yes", "Responses": 4 },
+          { "Label": "No", "Responses": 5 },
+          { "Label": "Does not apply", "Responses": 1 }
+        ],
+        "Observation": "40% of respondents observe reluctance among fellow academics to use BEAM languages in research, citing reasons such as unfamiliarity with the language, limited student training, perceived lack of applicability, and concerns about performance compared to languages like Java or C/Rust."
+      }
+      ]
+     },
+     {"Name": "🏢 Collaboration w/Companies",
+     "Questions": [
+        {
+          "QuestionText": "Are you involved in any collaborations with the industry?",
+          "QuestionType": "Range",
+          "TotalAnswers": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Strongly agree", "Responses": 3},
+            { "Label": "Agree", "Responses": 3 },
+            { "Label": "Neutral", "Responses": 3 },
+            { "Label": "Disagree", "Responses": 0 },
+            { "Label": "Strongly disagree", "Responses": 1}
+          ],
+          "Observation": "The majority of respondents (90%) have engaged in some level of industry collaboration, only 10% have no involvement in industry collaborations. Academic collaborations involving BEAM languages include EU-funded projects, consulting or helping to adopt BEAM for start-ups, and national and international research initiatives (like EU initiatives)."
+        },
+        {
+          "QuestionText": "How can academic collaborations be improved to enhance the adoption of BEAM languages?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Developing more comprehensive educational resources (e.g., textbooks, online courses)", "Responses": 5},
+            { "Label": "Hosting workshops or conferences focused on BEAM languages", "Responses": 4 },
+            { "Label": "Incorporating BEAM languages into existing curricula and coursework", "Responses": 4, "Percentage": 40 },
+            { "Label": "Providing incentives for faculty or developers to learn and teach BEAM languages", "Responses": 8, "Percentage": 80 }
+          ],
+          "Observation": "To enhance the adoption of BEAM languages in academia, respondents suggest providing incentives for faculty or developers to learn and teach BEAM languages (80%), developing more comprehensive educational resources like textbooks and online courses (50%), and both hosting workshops or conferences focused on BEAM languages and incorporating BEAM languages into existing curricula and coursework (40% each)."
+        },
+        {
+          "QuestionText": "How do you perceive the industry's interest in BEAM languages compared to other programming languages in your field?",
+          "QuestionType": "Range",
+          "TotalResponses": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Very High", "Responses": 0},
+            { "Label": "High", "Responses": 3},
+            { "Label": "Moderate ", "Responses": 2},
+            { "Label": "Low", "Responses": 3},
+            { "Label": "Very Low", "Responses": 2}
+          ],
+          "Observation": "Industry interest in BEAM languages varies, with 30% perceiving it as high, 20% as moderate, and 50% as low or very low, indicating that while BEAM languages are recognized, they are not the predominant choice in the field. Factors influencing this perception include the suitability of BEAM languages for specific applications like internet-scale messaging systems, challenges in finding trained developers, concerns about productivity due to fewer libraries, apprehension towards functional and concurrent paradigms, and the reluctance of larger companies to deviate from established software stacks."
+        },
+        {
+          "QuestionText": "How easy or difficult is it for you to find companies willing to collaborate on projects involving BEAM languages?",
+          "QuestionType": "Range",
+          "TotalResponses": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Very easy", "Responses": 1},
+            { "Label": "Easy", "Responses": 0},
+            { "Label": "Neutral", "Responses": 4},
+            { "Label": "Difficult", "Responses": 3},
+            { "Label": "Very difficult", "Responses": 2}
+          ],
+          "Observation": "The majority of respondents (50%) find it difficult or very difficult to secure industry collaborations involving BEAM languages, while 40% remain neutral, and only 10% find it very easy, indicating challenges in establishing such partnerships."
+        },
+        {
+          "QuestionText": "How can industry collaborations be improved to enhance the adoption of BEAM languages?",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 10,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Building partnerships with industry for real-world projects and internships", "Responses": 8},
+            { "Label": "Encouraging industry sponsorship of academic research on BEAM languages", "Responses": 10},
+            { "Label": "Facilitating joint industry-academia events, like hackathons or seminars", "Responses": 4},
+            { "Label": "Offering internships or practical experiences for students in companies using BEAM languages", "Responses": 6}
+          ],
+          "Observation": "Respondents suggest that enhancing industry collaborations to promote BEAM language adoption can be achieved through industry sponsorship of academic research (100%), building partnerships for real-world projects and internships (80%), offering internships or practical experiences for students in companies using BEAM languages (60%), and facilitating joint industry-academia events like hackathons or seminars (40%)."
+        },
+        {
+          "QuestionText": "Do you believe the use of BEAM languages in academia will increase, decrease, or remain the same over the next five years?",
+          "QuestionType": "Range",
+          "TotalAnswers": 10,
+          "Sortable": false,
+          "Options": [
+            { "Label": "Strongly agree", "Responses": 0},
+            { "Label": "Agree", "Responses": 3 },
+            { "Label": "Neutral", "Responses": 4 },
+            { "Label": "Disagree ", "Responses": 3},
+            { "Label": "Strongly disagree", "Responses": 0 }
+          ],
+          "Observation": "Respondents are divided on the future use of BEAM languages in academia over the next five years, with 30% anticipating an increase, 40% expecting it to remain the same, and 30% predicting a decrease."
+        }
+
+      ]
+     },
+     {"Name": "⏳ Future",
+     "Questions": [
+
+      {
+        "QuestionText": "Do you believe the use of BEAM languages in academia will increase, decrease, or remain the same over the next five years?",
+        "QuestionType": "Range",
+        "TotalAnswers": 10,
+        "Sortable": false,
+        "Options": [
+          { "Label": "Strongly increase", "Responses": 0},
+          { "Label": "Increase", "Responses": 3 },
+          { "Label": "Neutral", "Responses": 4},
+          { "Label": "Decrease", "Responses": 3 },
+          { "Label": "Strongly decrease", "Responses": 0 }
+        ],
+        "Observation": "Respondents are divided on the future use of BEAM languages in academia over the next five years, with 30% anticipating an increase, 40% expecting it to remain the same, and 30% predicting a decrease. Some believe that as the distributed actor model underlying BEAM languages is recognized as an effective way of building reliable internet-scale systems, it will be more widely taught. Others note that while BEAM languages are interesting for concurrency, other languages may be preferred for general-purpose programming. Concerns are also raised about the potential decrease in use due to the retirement of prominent academics and the challenge of finding new faculty to adopt these languages."
+      }
+      ]},
+      {"Name": "💬 Feedback",
+      "Questions": [
+        {
+          "QuestionText": "In your opinion, what are the key benefits of using BEAM languages in an academic setting? (Select all that apply)",
+          "QuestionType": "Multiple-choice",
+          "TotalAnswers": 6,
+          "Sortable": true,
+          "Options": [
+            { "Label": "Facilitates teaching of functional programming, concurrency, and distributed systems", "Responses": 2 },
+            { "Label": "Provides a robust platform for building distributed prototypes and artifacts", "Responses": 1 },
+            { "Label": "Simplifies the demonstration of architectural patterns with real concurrency and fault tolerance", "Responses": 1 },
+            { "Label": "Engages students through practical experimentation with concurrent environments", "Responses": 1 },
+            { "Label": "Offers a simple and principled approach to concurrency and distribution; dynamic typing makes it beginner-friendly compared to languages like Haskell", "Responses": 1 }
+          ],
+          "Observation": "Respondents highlight that BEAM languages are beneficial in academia for facilitating the teaching of functional programming, concurrency, and distributed systems; providing a robust platform for building distributed prototypes; simplifying the demonstration of architectural patterns with real concurrency and fault tolerance; engaging students through practical experimentation with concurrent environments; and offering a simple and principled approach to concurrency and distribution, with dynamic typing making it beginner-friendly compared to languages like Haskell."
+        }
+       ]}
+  ]
+}

@@ -18,30 +18,13 @@ defmodule ExploringBeamCommunityWeb.Components.Question do
   end
 
   @impl true
-  def handle_event("copy_link", %{"question_id" => question_id}, socket) do
-    base_url = socket.assigns.base_url
-    shareable_link = "#{base_url}/results##{question_id}"
-
-    {:noreply, push_event(socket, "clipboard_copy", %{text: shareable_link})}
-  end
-
-  @impl true
   def render(assigns) do
     ~H"""
       <div class="py-12 border-b border-gray-500" id={"q-#{@id}"}>
         <div class="flex">
-          <button
-              type="button"
-              phx-target={@myself}
-              phx-click={JS.push("copy_link", value: %{question_id: "q-#{@id}"})}
-              class="text-gray-400 hover:text-blue-700 flex items-center gap-1"
-              title="Copy link to this question"
-            >
-              <.icon name="hero-link" class=" mb-3 w-5 h-5 text-gray-400 hover:text-blue-700 "/>
-            </button>
-            <p class="ml-2 text-xl mb-3 font-light">
-              <strong><%= @question["QuestionText"] %></strong>
-            </p>
+          <p class="ml-2 text-xl mb-3 font-light">
+            <strong><%= @question["QuestionText"] %></strong>
+          </p>
         </div>
 
 
@@ -68,7 +51,7 @@ defmodule ExploringBeamCommunityWeb.Components.Question do
               </button>
           <%end%>
 
-            <.multiple_choice_question options={@question["Options"]} shown_all={@shown_all} top={@top} />
+            <.multiple_choice_question options={@question["Options"]} total_answers={@question["TotalAnswers"]} shown_all={@shown_all} top={@top} />
           <% "Range" -> %>
             <.range_question options={@question["Options"]} />
           <% "Single-choice" -> %>

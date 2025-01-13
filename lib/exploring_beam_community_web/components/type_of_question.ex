@@ -2,6 +2,7 @@ defmodule ExploringBeamCommunityWeb.Components.TypeOfQuestion do
   use Phoenix.Component
 
   attr(:options, :list, required: true)
+  attr(:total_answers, :integer, required: true)
   attr(:top, :integer, default: 5)
   attr(:shown_all, :boolean, default: true)
 
@@ -16,11 +17,12 @@ defmodule ExploringBeamCommunityWeb.Components.TypeOfQuestion do
             <span class="text-sm font-bold mb-1"><%= option["Label"] %></span>
             <span class="text-right font-semibold my-2">
               <span class="text-xs mx-3"><%= option["Responses"] %> resp.</span>
-              <span class="text-sm"><%= parse_percentage(option["Percentage"]) || "N/A" %></span>
+              <span class="text-sm"><%= calculate_percentage_formated(option["Responses"], @total_answers) || "N/A" %></span>
             </span>
           </span>
           <div class="h-6 rounded-md bg-main-100 relative">
-            <div class="bg-main-500 h-full rounded-md" style={"width: #{String.replace(parse_percentage(option["Percentage"] || "0%"), "%", "")}%;"}></div>
+            <div class="bg-main-500 h-full rounded-md"
+                 style={"width: #{calculate_percentage(option["Responses"], @total_answers)}%;"}></div>
           </div>
         </div>
       <% end %>
@@ -55,15 +57,14 @@ defmodule ExploringBeamCommunityWeb.Components.TypeOfQuestion do
     """
   end
 
-  defp parse_percentage(nil), do: "N/A"
+  defp calculate_percentage(responses, total_answers) do
+    responses / total_answers * 100
+  end
 
-  defp parse_percentage(percentage) when is_binary(percentage) do
-    percentage
-    |> String.replace("%", "")
-    |> String.to_float()
-    |> Float.round(1)
-    |> Kernel.to_string()
-    |> Kernel.<>("%")
+  defp calculate_percentage_formated(responses, total_answers) do
+    percentage = calculate_percentage(responses, total_answers)
+    formatted = :io_lib.format("~.1f", [percentage])
+    "#{formatted}%"
   end
 
   def list_to_text(list) do

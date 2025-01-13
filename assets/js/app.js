@@ -23,17 +23,21 @@ import {LiveSocket} from "phoenix_live_view"
 import topbar from "../vendor/topbar"
 
 let Hooks = {};
-Hooks.ClipboardCopy = {
+
+Hooks.ScrollToTop = {
   mounted() {
-    this.handleEvent("clipboard_copy", ({ text }) => {
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Link copied to clipboard!");
-      }).catch(() => {
-        alert("Failed to copy the link!");
+    const scrollToTopBtn = this.el;
+
+    scrollToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
     });
   }
 };
+
+export default Hooks;
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 let liveSocket = new LiveSocket("/live", Socket, {params: {_csrf_token: csrfToken}, hooks: Hooks});

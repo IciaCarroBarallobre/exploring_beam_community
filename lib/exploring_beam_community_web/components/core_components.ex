@@ -113,7 +113,7 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
       role="alert"
       class={[
         "fixed top-2 right-2 w-80 sm:w-96 z-50 rounded-lg p-3 ring-1",
-        @kind == :info && "bg-emerald-50 text-emerald-800 ring-emerald-500 fill-cyan-900",
+        @kind == :info && "bg-main-100 text-main-900 ring-main-500 fill-main-900",
         @kind == :error && "bg-rose-50 text-rose-900 shadow-md ring-rose-500 fill-rose-900"
       ]}
       {@rest}
@@ -671,21 +671,23 @@ defmodule ExploringBeamCommunityWeb.CoreComponents do
     |> JS.pop_focus()
   end
 
-    @doc """
-    Translates an error message. This can be modified to return a custom error message.
-    """
-    def translate_error({msg, opts}) do
-      # You can replace this with a custom translation logic,
-      # or directly return the message if no translation is needed
-      "#{msg} #{opts}"
-    end
+  @doc """
+  Translates an error message. This can be modified to return a custom error message.
+  """
+  def translate_error({msg, opts}) do
+    # You can replace this with a custom translation logic,
+    # or directly return the message if no translation is needed
+    "#{msg} #{opts}"
+  end
 
-    @doc """
-    Translates errors for a specific field from a list of errors.
-    """
-    def translate_errors(errors, field) when is_list(errors) do
-      errors
-      |> Enum.filter(fn {key, _} -> key == field end)  # Filter out errors for the specific field
-      |> Enum.map(fn {_, {msg, opts}} -> translate_error({msg, opts}) end)  # Translate each error
-    end
+  @doc """
+  Translates errors for a specific field from a list of errors.
+  """
+  def translate_errors(errors, field) when is_list(errors) do
+    errors
+    # Filter out errors for the specific field
+    |> Enum.filter(fn {key, _} -> key == field end)
+    # Translate each error
+    |> Enum.map(fn {_, {msg, opts}} -> translate_error({msg, opts}) end)
+  end
 end

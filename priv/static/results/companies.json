@@ -1,0 +1,924 @@
+{
+    "Name": "Companies",
+    "Region": "Global",
+    "TotalResponses": 27,
+    "Year": "2024",
+    "LastUpdate": "2025-01-12T14:51",
+    "Sections": [
+      {
+        "Name": "🏢 Company Information",
+        "Questions": [
+          {
+            "QuestionText": "Do you consider your company as part of the European BEAM Community?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 20,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 11, "Percentage": 55 },
+              { "Label": "No", "Responses": 9, "Percentage": 45 }
+            ],
+            "Observation": "A majority of respondents (55%) consider their companies part of the European BEAM Community, while 45% do not, indicating a significant presence of BEAM language adoption among European companies."
+          },
+          {
+            "QuestionText": "Where are your company's primary operations located?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 25,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Single Country (Local Operations)", "Responses": 14, "Percentage": 56 },
+              { "Label": "Multiple Countries (Global Operations)", "Responses": 11, "Percentage": 44 }
+            ],
+            "Observation": "A majority of respondents (56%) indicate that their companies operate primarily within a single country, while 44% report operations across multiple countries, reflecting a diverse range of operational scopes among the surveyed companies."
+          },
+          {
+            "QuestionText": "In which countries does your company operate?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 16,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Australia (AU)", "Responses": 1 },
+              { "Label": "Belgium (BE)", "Responses": 1 },
+              { "Label": "Brazil (BR)", "Responses": 1 },
+              { "Label": "Canada (CA)", "Responses": 1 },
+              { "Label": "China (CN)", "Responses": 1 },
+              { "Label": "Costa Rica (CR)", "Responses": 1 },
+              { "Label": "France (FR)", "Responses": 2 },
+              { "Label": "Germany (DE)", "Responses": 3 },
+              { "Label": "Hungary (HU)", "Responses": 3 },
+              { "Label": "India (IN)", "Responses": 1 },
+              { "Label": "Italy (IT)", "Responses": 1 },
+              { "Label": "Japan (JP)", "Responses": 1 },
+              { "Label": "Netherlands (NL)", "Responses": 1 },
+              { "Label": "Poland (PL)", "Responses": 1 },
+              { "Label": "Portugal (PT)", "Responses": 1 },
+              { "Label": "Singapore (SG)", "Responses": 1 },
+              { "Label": "Spain (ES)", "Responses": 2 },
+              { "Label": "Sweden (SE)", "Responses": 2 },
+              { "Label": "Switzerland (CH)", "Responses": 1 },
+              { "Label": "Uganda (UG)", "Responses": 1 },
+              { "Label": "United Kingdom (GB)", "Responses": 3 },
+              { "Label": "United States of America (US)", "Responses": 7 },
+              { "Label": "Vietnam (VN)", "Responses": 1 }
+            ],
+            "Observation": "The majority of respondents (7 out of 25) indicate that their companies operate in the United States, followed by Germany, Hungary, and the United Kingdom (3 each), and France, Spain, Sweden (2 each). This reflects a diverse international presence among the surveyed companies."
+          },
+          {
+            "QuestionText": "What is the size of your company? (Number of employees)",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "1-10", "Responses": 12 },
+              { "Label": "11-50", "Responses": 5 },
+              { "Label": "51-200", "Responses": 3 },
+              { "Label": "201-500", "Responses": 1 },
+              { "Label": "501-1000", "Responses": 2 },
+              { "Label": "1001+", "Responses": 4 }
+            ],
+            "Observation": "The majority of respondents are from companies with 1-50 employees, while 4 respondents are from enterprises with over 1000 employees, indicating a significant representation of smaller companies."
+          },
+          {
+            "QuestionText": "What is your company's primary business model?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "B2B (Business to Business)", "Responses": 22 },
+              { "Label": "B2C (Business to Consumer)", "Responses": 4 },
+              { "Label": "B2G (Business to Government)", "Responses": 1 }
+            ],
+            "Observation": "The majority of respondents (22 out of 27) indicate that their companies operate under a B2B (Business to Business) model, with significantly fewer operating in B2C (Business to Consumer) or B2G (Business to Government) models."
+          },
+          {
+            "QuestionText": "What is your company's primary industry?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Telecommunications", "Responses": 9 },
+              { "Label": "Healthcare", "Responses": 3 },
+              { "Label": "Finance", "Responses": 5 },
+              { "Label": "Education", "Responses": 1 },
+              { "Label": "Retail", "Responses": 1 },
+              { "Label": "Manufacturing", "Responses": 1 },
+              { "Label": "Government / Public Sector", "Responses": 3 },
+              { "Label": "Gaming", "Responses": 3 },
+              { "Label": "Technology (e.g., Software Development, IT Services)", "Responses": 12 },
+              { "Label": "Travel Industry", "Responses": 1 },
+              { "Label": "Sport", "Responses": 1 },
+              { "Label": "Media", "Responses": 1 },
+              { "Label": "Marketing/Advertising", "Responses": 1 }
+            ],
+            "Observation": "The most common industries among respondents are Technology (44%) and Telecommunications (33%)."
+          },
+          {
+            "QuestionText": "What types of BEAM language projects does your company undertake?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Embedded Systems", "Responses": 4 },
+              { "Label": "Real-Time Messaging Systems", "Responses": 12 },
+              { "Label": "Distributed Systems", "Responses": 18 },
+              { "Label": "Web Development", "Responses": 20 },
+              { "Label": "Mobile Development", "Responses": 7 },
+              { "Label": "IoT (Internet of Things)", "Responses": 3 },
+              { "Label": "Unified Communication", "Responses": 1 },
+              { "Label": "Moving Data Around", "Responses": 1 }
+            ],
+            "Observation": "Web development (74%) and distributed systems (67%) are the most common types of BEAM language projects undertaken by respondents' companies. Specialized use cases like unified communication and data movement are reported by only one respondent each."
+          }
+        ]
+      },
+      {
+        "Name": "🌐 Diversity & Inclusivity Efforts",
+        "Questions": [
+          {
+            "QuestionText": "Does your company have specific initiatives or programs to promote diversity and inclusivity within your teams?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 8 },
+              { "Label": "No", "Responses": 13 },
+              { "Label": "Not sure", "Responses": 6 }
+            ],
+            "Observation": "A significant portion of respondents (48%) indicate that their companies do not have diversity and inclusivity programs, while 30% confirm the presence of such initiatives, and 22% are unsure. Among the described initiatives, companies mention actively seeking to recruit minorities, promoting remote-friendly policies."
+          },
+          {
+            "QuestionText": "To what extent do you agree with the following statement: My company's work environment is inclusive of employees from diverse backgrounds.",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Strongly agree", "Responses": 18 },
+              { "Label": "Agree", "Responses": 7 },
+              { "Label": "Neutral", "Responses": 2 },
+              { "Label": "Disagree", "Responses": 0 },
+              { "Label": "Strongly disagree", "Responses": 0 }
+            ],
+            "Observation": "Most respondents (67%) strongly agree their company's work environment is inclusive, with 26% agreeing and 7% neutral. A key challenge noted is attracting female candidates."
+          },
+          {
+            "QuestionText": "To what extent do you agree with the following statement: My company offers its employees effective diversity training or awareness programs.",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Strongly agree", "Responses": 2 },
+              { "Label": "Agree", "Responses": 6 },
+              { "Label": "Neutral", "Responses": 12 },
+              { "Label": "Disagree", "Responses": 2 },
+              { "Label": "Strongly disagree", "Responses": 5 }
+            ],
+            "Observation": "While 29% of respondents agree their company offers effective diversity training, 44% are neutral, and 27% disagree. Some companies address this by working with employees every six months to reinforce their value."
+          }
+        ]
+      },
+      {
+        "Name": "💼 Employee Benefits and Support",
+        "Questions": [
+          {
+            "QuestionText": "How many vacation days do you offer to employees annually?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Less than 10 days", "Responses": 0 },
+              { "Label": "10-15 days", "Responses": 1 },
+              { "Label": "16-20 days", "Responses": 1 },
+              { "Label": "21-25 days", "Responses": 8 },
+              { "Label": "More than 25 days", "Responses": 17 }
+            ],
+            "Observation": "The majority of respondents (62%) offer employees more than 25 vacation days annually, while 30% provide 21-25 days. Very few companies offer less than 20 vacation days."
+          },
+          {
+            "QuestionText": "Does your company offer health insurance to employees?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Comprehensive coverage", "Responses": 18 },
+              { "Label": "Basic coverage", "Responses": 1 },
+              { "Label": "No", "Responses": 4 },
+              { "Label": "Not sure", "Responses": 4 }
+            ],
+            "Observation": "The majority of respondents (66%) state that their company offers comprehensive health insurance, while 4% offer basic coverage. However, 15% of respondents indicate their company does not provide health insurance, and 15% are unsure."
+          },
+          {
+            "QuestionText": "Does your company offer flexible hours or remote work options?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes, fully remote work", "Responses": 21 },
+              { "Label": "Yes, hybrid work (a combination of in-office and remote work)", "Responses": 17 },
+              { "Label": "Yes, flexible start and end times", "Responses": 16 },
+              { "Label": "Yes, four 8-hours", "Responses": 2 },
+              { "Label": "Yes, compressed workweeks (e.g., four 10-hour days)", "Responses": 4 },
+              { "Label": "Yes, the option to choose work hours (e.g., flexible daily schedule)", "Responses": 10 },
+              { "Label": "No, we do not offer these options", "Responses": 1 }
+            ],
+            "Observation": "The majority of respondents report that their companies offer fully remote work (78%), hybrid work options (63%), and flexible start and end times (59%). Options like compressed workweeks (15%) and flexible daily schedules (37%) are less common. Only one respondent noted that their company does not offer any flexible work arrangements."
+          },
+          {
+            "QuestionText": "Does your company promote a healthy lifestyle?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 16 },
+              { "Label": "No", "Responses": 5 },
+              { "Label": "Not sure", "Responses": 5 }
+            ],
+            "Observation": "62% of respondents state that their company promotes a healthy lifestyle, while 19% indicate their company does not, and another 19% are unsure."
+          },
+          {
+            "QuestionText": "What initiatives are in place?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 19,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Access to on-site or subsidized gym facilities", "Responses": 5 },
+              { "Label": "Wellness programs (e.g., yoga, meditation, fitness challenges)", "Responses": 6 },
+              { "Label": "Healthy food options in the office", "Responses": 7 },
+              { "Label": "Mental health days or wellness leave", "Responses": 8 },
+              { "Label": "Ergonomic workstations or support for home office setups", "Responses": 16 },
+              { "Label": "No, we do not have such initiatives", "Responses": 2 },
+              { "Label": "Not sure", "Responses": 0 },
+              { "Label": "Ensuring everyone has time to rest and enjoy their life", "Responses": 1 }
+            ],
+            "Observation": "The most common initiative reported (84%) is providing ergonomic workstations or support for home office setups. Mental health days or wellness leave (42%) and healthy food options (37%) are also popular. However, some companies lack such initiatives, with 11% reporting none, while one respondent highlighted the importance of ensuring employees have time to rest and enjoy their life."
+          },
+          {
+            "QuestionText": "Does your company support your professional training?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 21 },
+              { "Label": "No", "Responses": 4 },
+              { "Label": "Not sure", "Responses": 2 }
+            ],
+            "Observation": "A majority of respondents (78%) indicate that their company supports their professional training, while 15% report no support, and 7% are unsure."
+          },
+          {
+            "QuestionText": "In what ways does your company provide training opportunities?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 22,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Financial support for courses, certifications, or degrees", "Responses": 17 },
+              { "Label": "Access to internal training programs or workshops", "Responses": 13 },
+              { "Label": "Time off or dedicated time for training", "Responses": 13 },
+              { "Label": "Mentorship programs or peer learning opportunities", "Responses": 9 },
+              { "Label": "Access to online learning platforms (e.g., ElixirCasts, Learn You Some Erlang, ElixirSchool, Pragmatic Studio, Coursera, Udemy)", "Responses": 14 },
+              { "Label": "No, we do not support professional training", "Responses": 1 },
+              { "Label": "Not sure", "Responses": 0 },
+              { "Label": "Conferences and activities around them", "Responses": 1 }
+            ],
+            "Observation": "The most common forms of support are financial assistance (77%) and access to online learning platforms (64%). Internal training programs and dedicated time for training are provided by 59% of companies, while 41% offer mentorship programs. A few respondents highlighted conferences as part of their training opportunities."
+          },
+          {
+            "QuestionText": "Does your company allow time for related personal projects?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 17 },
+              { "Label": "No", "Responses": 9 },
+              { "Label": "Not sure", "Responses": 1 }
+            ],
+            "Observation": "63% of respondents indicate that their company allows time for related personal projects, while 33% report that their company does not, and 4% are unsure."
+          },
+          {
+            "QuestionText": "How is this time allocated?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 21,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Dedicated personal project days (e.g., '20% time')", "Responses": 3 },
+              { "Label": "Encouragement to work on personal projects during work hours", "Responses": 9 },
+              { "Label": "Opportunities to showcase or implement personal projects within the company", "Responses": 8 },
+              { "Label": "Support for open-source contributions", "Responses": 14 },
+              { "Label": "No, we do not allow time for personal projects", "Responses": 3 },
+              { "Label": "Not sure", "Responses": 0 }
+            ],
+            "Observation": "The most common form of support for personal projects is open-source contributions (67%), followed by encouragement to work on personal projects during work hours (33%) and opportunities to showcase or implement projects within the company (38%)."
+          },
+          {
+            "QuestionText": "Does your company have practices to prevent mental health issues?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 15 },
+              { "Label": "No", "Responses": 7 },
+              { "Label": "Not sure", "Responses": 5 }
+            ],
+            "Observation": "55% of respondents indicate that their company has practices to prevent mental health issues, while 26% report no such practices, and 19% are unsure."
+          },
+          {
+            "QuestionText": "Which practices are implemented?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 16,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Regular mental health check-ins with employees", "Responses": 7 },
+              { "Label": "Access to counseling or therapy services", "Responses": 8 },
+              { "Label": "Stress management workshops or resources", "Responses": 4 },
+              { "Label": "Flexible work hours to reduce burnout", "Responses": 14 },
+              { "Label": "Peer support groups or mental health advocates", "Responses": 4 },
+              { "Label": "No, we do not have such practices", "Responses": 0 },
+              { "Label": "Not sure", "Responses": 2}
+            ],
+            "Observation": "The most common practice to prevent mental health issues is flexible work hours to reduce burnout (88%), followed by access to counseling or therapy services (50%). Regular mental health check-ins (44%) and peer support groups (25%) are less common."
+          }
+        ]
+      },
+      {
+        "Name": "🚀 Adoption of BEAM Languages",
+        "Questions": [
+          {
+            "QuestionText": "At what stage do you consider your company to be in the adoption of BEAM languages?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Initial Exploration", "Responses": 0 },
+              { "Label": "Early Adoption", "Responses": 0 },
+              { "Label": "Implementation in Specific Projects", "Responses": 3 },
+              { "Label": "Widespread Adoption", "Responses": 5 },
+              { "Label": "Maturity in Adoption", "Responses": 19 }
+            ],
+            "Observation": "The majority of respondents (70%) consider their company to have reached maturity in adopting BEAM languages, while 19% indicate widespread adoption and only 11% report implementation in specific projects. No respondents indicated being in the initial exploration or early adoption stages."
+          },
+          {
+            "QuestionText": "How long ago did your company start using BEAM languages?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Less than 1 year ago", "Responses": 1 },
+              { "Label": "1-2 years ago", "Responses": 0 },
+              { "Label": "3-5 years ago", "Responses": 9 },
+              { "Label": "6-10 years ago", "Responses": 8 },
+              { "Label": "More than 10 years ago", "Responses": 8 }
+            ],
+            "Observation": "The majority of respondents indicate that their company has been using BEAM languages for over 3 years, with 34% reporting usage for 3-5 years, and 62% stating their company has used BEAM languages for more than 6 years. Only one respondent reported adoption within the last year, and none indicated usage for 1-2 years."
+          },
+          {
+            "QuestionText": "What percentage of your company's projects use BEAM languages?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "0%", "Responses": 0 },
+              { "Label": "1-10%", "Responses": 4 },
+              { "Label": "11-25%", "Responses": 2 },
+              { "Label": "26-50%", "Responses": 1 },
+              { "Label": "51-75%", "Responses": 9 },
+              { "Label": "76-100%", "Responses": 11 }
+            ],
+            "Observation": "The majority of respondents (74%) indicate that over half of their company's projects use BEAM languages, with 41% reporting 76-100% usage. In contrast, only a small percentage (15%) use BEAM languages in 1-10% of their projects, and none reported 0% usage."
+          },
+          {
+            "QuestionText": "What percentage of your developers use BEAM languages regularly in their work?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "0-10%", "Responses": 3 },
+              { "Label": "11-25%", "Responses": 2 },
+              { "Label": "26-50%", "Responses": 3 },
+              { "Label": "51-75%", "Responses": 4 },
+              { "Label": "76-100%", "Responses": 15 }
+            ],
+            "Observation": "The majority of respondents (56%) report that 76-100% of their developers use BEAM languages regularly in their work. Smaller groups indicate lower levels of usage, with 11% reporting 0-10% usage and 15% reporting 51-75% usage."
+          },
+          {
+            "QuestionText": "What languages does your company use?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Elixir", "Responses": 22 },
+              { "Label": "Erlang", "Responses": 19 },
+              { "Label": "Gleam", "Responses": 1 },
+              { "Label": "Other BEAM language ", "Responses": 0 },
+              { "Label": "Other non-BEAM language", "Responses": 7 }
+            ],
+            "Observation": "Elixir is the most commonly used BEAM language, reported by 81% of respondents, followed by Erlang at 70%. Only 26% of respondents indicated using non-BEAM languages."
+          },
+          {
+            "QuestionText": "What non-BEAM languages does your company use?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 7,
+            "Options": [
+              { "Label": "Rust", "Responses": 1 },
+              { "Label": "JavaScript", "Responses": 3 },
+              { "Label": "Ruby", "Responses": 2 },
+              { "Label": "Zig", "Responses": 1 },
+              { "Label": "C#", "Responses": 2 },
+              { "Label": "Unity", "Responses": 1 },
+              { "Label": "PHP", "Responses": 1 },
+              { "Label": "Elm", "Responses": 1 },
+              { "Label": "TypeScript (TS)", "Responses": 1 },
+              { "Label": "Node", "Responses": 1 },
+              { "Label": "Java", "Responses": 1 }
+            ],
+            "Observation": "The most mentioned non-BEAM languages include JavaScript (3 mentions), Ruby (2 mentions), and C# (2 mentions). Other languages such as Rust, Zig, Elm, and PHP were mentioned once, showing a varied use of programming languages."
+          },
+          {
+            "QuestionText": "How did your company first become aware of BEAM languages?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Through a colleague or internal advocate (e.g., developers or engineers)", "Responses": 10 },
+              { "Label": "Attending BEAM-focused conferences or meetups (e.g., Code BEAM, ElixirConf)", "Responses": 5 },
+              { "Label": "Reading online articles, blogs, or technical forums (e.g., Elixir Forum, Medium)", "Responses": 7 },
+              { "Label": "Discovering through technical documentation or books on Erlang/Elixir", "Responses": 4 },
+              { "Label": "Recommendations from partner companies or industry contacts", "Responses": 2 },
+              { "Label": "Exposure through open-source projects or GitHub repositories", "Responses": 7 },
+              { "Label": "Social media or online developer communities (e.g., Twitter, Reddit, Stack Overflow)", "Responses": 2 },
+              { "Label": "Other", "Responses": 5 }
+            ],
+            "Observation": "The most common way companies became aware of BEAM languages is through colleagues or internal advocates (38%), followed by exposure via online articles and technical forums (27%) and open-source projects (27%). Conferences and meetups account for 19%, while social media and recommendations from industry contacts are less common, each at 8%."
+          },
+          {
+            "QuestionText": "What factors influenced your company to consider using BEAM languages?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Need for high concurrency and fault tolerance in applications", "Responses": 22 },
+              { "Label": "Positive feedback from the developer community or internal teams", "Responses": 13 },
+              { "Label": "Alignment with modern software architecture (e.g., microservices, distributed systems)", "Responses": 12 },
+              { "Label": "Proven scalability in successful case studies or industry examples", "Responses": 19 },
+              { "Label": "Interest in adopting functional programming paradigms", "Responses": 11 },
+              { "Label": "Strong community support and availability of resources", "Responses": 8 },
+              { "Label": "Opportunities for innovation in real-time systems (e.g., chat apps, IoT)", "Responses": 11 },
+              { "Label": "Frameworks of the environment (like Phoenix, Liveview, etc)", "Responses": 1 }
+            ],
+            "Observation": "The primary factor influencing companies to adopt BEAM languages is the need for high concurrency and fault tolerance (81%). Proven scalability in case studies (70%) and positive feedback from internal teams or the developer community (48%) also play significant roles."
+          },
+          {
+            "QuestionText": "What were the deciding factors for adopting BEAM languages?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Superior fault tolerance and reliability for critical systems", "Responses": 22 },
+              { "Label": "Performance gains in concurrent processing and low-latency requirements", "Responses": 18 },
+              { "Label": "Seamless integration with existing infrastructure or systems", "Responses": 0 },
+              { "Label": "Long-term viability and growing adoption of BEAM languages in the industry", "Responses": 8 },
+              { "Label": "Support from community and availability of libraries and tools", "Responses": 7 },
+              { "Label": "Enthusiasm and readiness of in-house developers", "Responses": 16 },
+              { "Label": "Strategic alignment with company’s technology roadmap", "Responses": 8 },
+              { "Label": "Other", "Responses": 2 }
+            ],
+            "Observation": "The primary deciding factor for adopting BEAM languages is their superior fault tolerance and reliability for critical systems (85%), followed by performance gains in concurrent processing and low-latency requirements (69%). Enthusiasm from in-house developers (62%) also influenced adoption. Factors such as strategic alignment and long-term viability in the industry were cited by 31% of respondents, while no respondents indicated seamless integration with existing systems as a factor."
+          },
+          {
+            "QuestionText": "Implementation Stage: How did your company implement BEAM languages in your projects?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Phased introduction in selected new projects to evaluate performance", "Responses": 5 },
+              { "Label": "Rewriting existing systems in BEAM languages for improved stability", "Responses": 9 },
+              { "Label": "Parallel deployment with existing technologies during a trial phase", "Responses": 6 },
+              { "Label": "Partnering with consultants or hiring BEAM experts for initial implementation", "Responses": 2 },
+              { "Label": "Internal training programs to upskill developers on BEAM languages", "Responses": 6 },
+              { "Label": "Full adoption across all new projects as part of a strategic shift", "Responses": 11 },
+              { "Label": "Leveraging BEAM languages for specific use cases (e.g., messaging, IoT)", "Responses": 7 },
+              { "Label": "Built entirely from scratch using BEAM languages", "Responses": 4 },
+              { "Label": "Other", "Responses": 5 }
+            ],
+            "Observation": "Companies reported different implementation approaches for BEAM languages, with 42% adopting them fully for all new projects as part of a strategic shift. Rewriting existing systems for improved stability (35%) and phased introduction for performance evaluation (19%) were also common. A few companies reported building their systems from scratch using BEAM languages, while others started with Erlang or Gleam from the ground up. External partnerships and internal training programs contributed to initial implementations for some companies."
+          },
+          {
+            "QuestionText": "What are your company's current feelings and satisfaction regarding the decision to use BEAM languages?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Very satisfied", "Responses": 24 },
+              { "Label": "Satisfied", "Responses": 1 },
+              { "Label": "Neutral", "Responses": 2 },
+              { "Label": "Dissatisfied", "Responses": 0 },
+              { "Label": "Very dissatisfied", "Responses": 0 }
+            ],
+            "Observation": "The majority of respondents (89%) reported being very satisfied with their company's decision to use BEAM languages, with only a small minority (7%) remaining neutral. No respondents reported dissatisfaction, indicating overall strong satisfaction with BEAM language adoption."
+          }
+        ]
+      },
+      {
+        "Name": "⚠️ Challenges in Adoption",
+        "Questions": [
+          {
+            "QuestionText": "What are the main challenges your company faced in adopting BEAM languages?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 25,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Resistance to change (B2B)", "Responses": 5 },
+              { "Label": "Training needs", "Responses": 5 },
+              { "Label": "Integration issues", "Responses": 3 },
+              { "Label": "Learning curve", "Responses": 11 },
+              { "Label": "Hiring difficulties", "Responses": 2 },
+              { "Label": "DevOps training needs", "Responses": 1 },
+              { "Label": "Finding company clients", "Responses": 4 }
+            ],
+            "Observation": "The most frequently reported challenge was the learning curve (44%), followed by resistance to change (16%) and training needs (20%)."
+          },
+          {
+            "QuestionText": "Please elaborate on the challenges your company faced in adopting BEAM languages.",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 11,
+            "Options": [
+              { "Label": "Difficulty finding engineers familiar with BEAM languages and high hiring costs", "Responses": 3 },
+              { "Label": "Customer reluctance due to unfamiliarity with BEAM and concerns about hiring difficulties", "Responses": 2 },
+              { "Label": "Lack of libraries, frameworks, or database adapters for specific domains", "Responses": 2 },
+              { "Label": "Limited educational resources, especially in certain languages (e.g., Portuguese)", "Responses": 1 },
+              { "Label": "Transitioning from object-oriented programming (OOP) to functional programming (FP)", "Responses": 2 },
+              { "Label": "Developers replicating practices from other languages (e.g., Java) in BEAM languages", "Responses": 1 },
+              { "Label": "Poor integration of new hires who were resistant to BEAM languages", "Responses": 1 },
+              { "Label": "Market demand for alternative languages (e.g., .NET, Java, Python) among clients", "Responses": 1 }
+            ]
+          },
+          {
+            "QuestionText": "Did the BEAM languages ecosystem provide the necessary tools and libraries to implement your company's solutions?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Strongly agree", "Responses": 9 },
+              { "Label": "Agree", "Responses": 14 },
+              { "Label": "Neutral", "Responses": 3 },
+              { "Label": "Disagree", "Responses": 0 },
+              { "Label": "Strongly disagree", "Responses": 0 },
+              { "Label": "Does not apply", "Responses": 0 }
+            ],
+            "Observation": "The majority of respondents (88%) either agreed or strongly agreed that the BEAM ecosystem provided the necessary tools and libraries, with only 12% remaining neutral. No respondents reported significant hindrances due to missing tools or libraries."
+          },
+          {
+            "QuestionText": "Which tools or libraries did you find missing, and how did your company address these gaps? Are there any gaps that still exist?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 8,
+            "Options": [
+              { "Label": "Stream-based libraries for XML-based file types or protocols (e.g., XLSX, HL7v3)", "Responses": 1 },
+              { "Label": "Database adapters (e.g., Arrow SQL, ODBC)", "Responses": 1 },
+              { "Label": "Missing LSP (Language Server Protocol) support", "Responses": 1 },
+              { "Label": "Bindings for specific protocols (e.g., RabbitMQ, Jose) in Gleam", "Responses": 1 },
+              { "Label": "Hyperloglog library issues (resolved internally)", "Responses": 1 },
+              { "Label": "Lack of robust testing tools for Erlang", "Responses": 1 },
+              { "Label": "AMQP 1.0-related issues", "Responses": 1 },
+              { "Label": "Open-sourced internal libraries that addressed previous gaps", "Responses": 2 },
+              { "Label": "Internally maintained proprietary libraries", "Responses": 1 },
+              { "Label": "General need to write custom libraries when none existed", "Responses": 2 }
+            ],
+            "Observation": "Companies reported missing tools such as stream-based libraries, database adapters, and language bindings for protocols. Some respondents highlighted Erlang’s testing limitations and the need for improved LSP support. While several companies addressed gaps by developing internal libraries (some open-sourced), others noted they still maintain custom solutions for critical use cases."
+          },
+          {
+            "QuestionText": "If applicable, which tools or libraries from the BEAM ecosystem were most valuable in your company's implementation process?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 16,
+            "Options": [
+              { "Label": "Phoenix and related ecosystem (e.g., LiveView, Oban)", "Responses": 6 },
+              { "Label": "Ecto (Database wrapper and query tool)", "Responses": 5 },
+              { "Label": "Rebar3 (Build tool)", "Responses": 3 },
+              { "Label": "Supervision trees and BEAM clustering capabilities", "Responses": 1 },
+              { "Label": "OTP libraries and modules (e.g., gen_server, gen_tcp, supervisor)", "Responses": 4 },
+              { "Label": "QuickCheck (Property-based testing)", "Responses": 1 },
+              { "Label": "Cowboy (HTTP server)", "Responses": 1 },
+              { "Label": "RabbitMQ libraries (e.g., amqp_client, gen_smtp)", "Responses": 2 },
+              { "Label": "Broadway (Data pipelines and concurrent processing)", "Responses": 1 },
+              { "Label": "Absinthe (GraphQL server)", "Responses": 1 },
+              { "Label": "OpenTelemetry (Distributed tracing)", "Responses": 1 },
+              { "Label": "Riak KV and Nitrogen", "Responses": 1 },
+              { "Label": "xmerl (XML parsing)", "Responses": 1 },
+              { "Label": "Meck, ct, eunit, ex_unit, ex_doc, recon (Testing and debugging tools)", "Responses": 3 },
+              { "Label": "Custom, in-house libraries (Limited reliance on open-source tools)", "Responses": 1 }
+            ],
+            "Observation": "Phoenix and its ecosystem, including LiveView, was the most commonly mentioned tool."
+          },
+          {
+            "QuestionText": "What strategies do you apply to facilitate the adoption of BEAM languages in your company?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 24,
+            "Options": [
+              { "Label": "Creating internal documentation", "Responses": 8 },
+              { "Label": "Forming a dedicated BEAM team", "Responses": 5 },
+              { "Label": "Pair programming with experienced developers", "Responses": 15 },
+              { "Label": "Regular code reviews", "Responses": 14 },
+              { "Label": "Providing incentives for learning BEAM languages, such as training time and/or resources", "Responses": 8 },
+              { "Label": "Encouraging participation in BEAM community events", "Responses": 8 },
+              { "Label": "Collaborating with external consultants", "Responses": 2 },
+              { "Label": "Writing comprehensive tests", "Responses": 1 },
+              { "Label": "Hosting internal meetups", "Responses": 1 },
+              { "Label": "Developing projects using BEAM languages to build expertise", "Responses": 4 }
+            ],
+            "Observation": "Pair programming with experienced developers (63%) and regular code reviews (58%) are the most common strategies for facilitating the adoption of BEAM languages. Creating internal documentation, providing learning incentives, and encouraging participation in community events each received 33% of responses. A few respondents mentioned strategies such as hosting internal meetups and writing comprehensive tests to support adoption."
+          },
+          {
+            "QuestionText": "Which strategy you consider most useful?",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 6,
+            "Options": [
+              { "Label": "Pair programming and code review", "Responses": 3 },
+              { "Label": "Building quick prototypes to demonstrate BEAM's strengths and migrate to production", "Responses": 1 },
+              { "Label": "Using BEAM languages exclusively to build expertise", "Responses": 1 },
+              { "Label": "Providing time and incentives for learning (e.g., reading documentation, experimenting)", "Responses": 1 },
+              { "Label": "Writing tests as part of the adoption strategy", "Responses": 1 },
+              { "Label": "Creating internal documentation to support learning", "Responses": 1 }
+            ],
+            "Observation": "Pair programming and code reviews were the most frequently mentioned strategies for facilitating the adoption of BEAM languages."
+          },
+          {
+            "QuestionText": "Have you encountered difficulties in hiring developers with experience in BEAM languages?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 9 },
+              { "Label": "No", "Responses": 17 }
+            ],
+            "Observation": "A significant majority of respondents (65%) reported no difficulties in hiring developers with BEAM language experience, while 35% encountered challenges, indicating that expertise in BEAM languages is not universally scarce but can present recruitment difficulties in some regions or roles."
+          },
+          {
+            "QuestionText": "Challenges you faced in hiring developers with experience in BEAM languages:",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 10,
+            "Options": [
+              { "Label": "High costs or salary demands", "Responses": 2 },
+              { "Label": "Limited availability of developers with BEAM language experience", "Responses": 4 },
+              { "Label": "Lack of support from universities to teach Erlang/Elixir", "Responses": 1 },
+              { "Label": "Developers struggle with Erlang compared to Elixir", "Responses": 1 },
+              { "Label": "Need to train developers on OTP due to lack of prior experience", "Responses": 3 },
+              { "Label": "Hiring based on general skills and training in BEAM on the job", "Responses": 2 },
+              { "Label": "BEAM languages are not widely adopted in the market", "Responses": 2 }
+            ],
+            "Observation": "The most common challenge in hiring BEAM language developers is the limited availability of candidates with relevant experience (40%)."
+          },
+          {
+            "QuestionText": "If your company operates in a B2B environment, did you encounter any specific challenges in convincing your business clients to adopt BEAM languages?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 24,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 4 },
+              { "Label": "No", "Responses": 20 }
+            ],
+            "Observation": "The majority of respondents (83%) reported no challenges in convincing their business clients to adopt BEAM languages. "
+          },
+          {
+            "QuestionText": "How easy do you find it to implement observability in your BEAM applications?",
+            "QuestionType": "Range",
+            "TotalAnswers": 19,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Easy", "Responses": 8 },
+              { "Label": "Neutral", "Responses": 4 },
+              { "Label": "Difficult", "Responses": 2 },
+              { "Label": "We don't implement it yet", "Responses": 5 }
+            ],
+            "Observation": "42% of respondents find implementing observability in BEAM applications easy, while 21% are neutral and 11% find it difficult. Notably, 26% of respondents indicated that they have not implemented observability yet, suggesting room for improvement in adoption."
+          }
+        ]
+      },
+      {
+        "Name": "📈 Impact of Adopting BEAM Languages",
+        "Questions": [
+          {
+            "QuestionText": "How has adopting BEAM languages affected your company's productivity?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly increased", "Responses": 18 },
+              { "Label": "Slightly increased", "Responses": 4 },
+              { "Label": "No change", "Responses": 4 },
+              { "Label": "Slightly decreased", "Responses": 0 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "The majority of respondents (69%) reported a significant increase in productivity after adopting BEAM languages, while 15% observed a slight increase. Only 16% reported no change, and no respondents reported a decrease, indicating that BEAM languages generally have a positive impact on productivity."
+          },
+          {
+            "QuestionText": "How has adopting BEAM languages affected the software quality of your company?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly improved", "Responses": 17 },
+              { "Label": "Slightly improved", "Responses": 6 },
+              { "Label": "No change", "Responses": 3 },
+              { "Label": "Slightly decreased", "Responses": 0 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "65% of respondents reported a significant improvement in software quality after adopting BEAM languages, with 23% observing a slight improvement. Only 12% reported no change, and no respondents reported a decrease, indicating that BEAM languages generally enhance software quality."
+          },
+          {
+            "QuestionText": "How has adopting BEAM languages influenced your company's overall growth?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly improved", "Responses": 5 },
+              { "Label": "Slightly improved", "Responses": 7 },
+              { "Label": "No change", "Responses": 14 },
+              { "Label": "Slightly decreased", "Responses": 0 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "Only 19% of respondents reported a significant improvement in their company's overall growth after adopting BEAM languages, while 27% observed a slight improvement. However, 54% indicated no noticeable change, suggesting that while BEAM languages may enhance scalability and productivity, their impact on overall business growth may vary depending on other factors."
+          },
+          {
+            "QuestionText": "How has adopting BEAM languages affected your company's ability to retain skilled developers?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly improved", "Responses": 11 },
+              { "Label": "Slightly improved", "Responses": 7 },
+              { "Label": "No change", "Responses": 7 },
+              { "Label": "Slightly decreased", "Responses": 1 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "42% of respondents reported a significant improvement in their company's ability to retain skilled developers after adopting BEAM languages, while 27% saw a slight improvement. However, 27% noted no change, and only 4% experienced a slight decrease, indicating that BEAM languages generally contribute positively to developer retention."
+          },
+          {
+            "QuestionText": "How has adopting BEAM impacted the happiness and satisfaction of your developers with their technology stack?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly improved", "Responses": 20 },
+              { "Label": "Slightly improved", "Responses": 3 },
+              { "Label": "No change", "Responses": 3 },
+              { "Label": "Slightly decreased", "Responses": 0 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "76% of respondents reported a significant improvement in developer happiness and satisfaction with their technology stack after adopting BEAM languages, while 12% observed a slight improvement. Another 12% reported no change, and no respondents reported a decrease, indicating that BEAM languages contribute positively to developer satisfaction."
+          },
+          {
+            "QuestionText": "How has adopting BEAM languages influenced your company's approach to innovation?",
+            "QuestionType": "Range",
+            "TotalAnswers": 26,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Significantly improved", "Responses": 9 },
+              { "Label": "Slightly improved", "Responses": 7 },
+              { "Label": "No change", "Responses": 10 },
+              { "Label": "Slightly decreased", "Responses": 0 },
+              { "Label": "Significantly decreased", "Responses": 0 }
+            ],
+            "Observation": "35% of respondents reported that adopting BEAM languages significantly improved their company's approach to innovation, while 27% noted a slight improvement. However, 38% reported no change, indicating that while BEAM adoption fosters innovation for some, its impact may be neutral for others depending on their business context."
+          },
+          {
+            "QuestionText": "Elaborate on how BEAM languages have influenced innovation in your company.",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 5,
+            "Options": [
+              { "Label": "We always used BEAM languages (no prior comparison data)", "Responses": 2 },
+              { "Label": "BEAM languages enable new and innovative approaches", "Responses": 1 },
+              { "Label": "Simplifies integration, allowing focus on product development", "Responses": 1 },
+              { "Label": "Allows rapid prototyping of complex ideas with production-ready reliability", "Responses": 1 }
+            ],
+            "Observation": "Several respondents indicated that BEAM languages have been a core part of their company since its inception, leaving no basis for comparison. "
+          }
+        ]
+      },
+      {
+        "Name": "🤝 Community Involvement",
+        "Questions": [
+          {
+            "QuestionText": "How frequently does your company participate in BEAM community events, forums, or contribute to open-source projects?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Very frequently", "Responses": 5 },
+              { "Label": "Frequently", "Responses": 7 },
+              { "Label": "Occasionally", "Responses": 8 },
+              { "Label": "Rarely", "Responses": 2 },
+              { "Label": "Never", "Responses": 5 }
+            ],
+            "Observation": "A combined 45% of respondents indicated frequent or very frequent participation in BEAM community events and open-source contributions. However, 26% participate occasionally, while 19% reported no participation at all, suggesting a mix of active and passive involvement within the BEAM community."
+          },
+          {
+            "QuestionText": "Does your company support developers' participation in the BEAM community?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 27,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 23 },
+              { "Label": "No", "Responses": 4 }
+            ],
+            "Observation": "A majority of respondents (85%) indicated that their company supports developers' participation in the BEAM community, while 15% reported no support. This suggests that most companies recognize the value of community engagement for professional development and ecosystem contributions."
+          },
+          {
+            "QuestionText": "Dscribe how your company supports developers' participation in the BEAM community (e.g., sponsorship, time allocation, resources, etc.)",
+            "QuestionType": "Multiple-choice (from open-ended responses)",
+            "TotalAnswers": 8,
+            "Options": [
+              { "Label": "Sponsorship for conference attendance (e.g., tickets, travel expenses)", "Responses": 6 },
+              { "Label": "Encouragement and incentives for presenting at conferences", "Responses": 2 },
+              { "Label": "Time allocation for contributing to open-source projects", "Responses": 4 },
+              { "Label": "Support for participation in the Erlang Ecosystem Foundation (EEF)", "Responses": 1 },
+              { "Label": "General support for internal open-source initiatives", "Responses": 2 }
+            ],
+            "Observation": "Most companies support developers by sponsoring conference attendance (75%), while many also allocate time for open-source contributions (50%). Some respondents highlighted incentives for presenting at conferences, and one mentioned encouragement for participation in the Erlang Ecosystem Foundation (EEF). This reflects a strong commitment to fostering community involvement."
+          },
+          {
+            "QuestionText": "In which ways does your company collaborate with the BEAM community? (Select all that apply)",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 25,
+            "Options": [
+              { "Label": "Supporting conferences and events", "Responses": 10 },
+              { "Label": "Developing and maintaining open-source libraries", "Responses": 15 },
+              { "Label": "Encouraging and supporting developers in their BEAM-related projects", "Responses": 16 },
+              { "Label": "Other", "Responses": 1 }
+            ],
+            "Observation": "The most common form of collaboration with the BEAM community is encouraging and supporting developers in their BEAM-related projects (64%), followed by developing and maintaining open-source libraries (60%). Supporting conferences and events is also significant, reported by 40% of respondents. A small percentage (4%) indicated other forms of collaboration."
+          },
+          {
+            "QuestionText": "Does your company feel closely connected to the BEAM community?",
+            "QuestionType": "Range",
+            "TotalAnswers": 27,
+            "Sortable": false,
+            "Options": [
+              { "Label": "Strongly agree", "Responses": 7 },
+              { "Label": "Agree", "Responses": 7 },
+              { "Label": "Neutral", "Responses": 9 },
+              { "Label": "Disagree", "Responses": 4 },
+              { "Label": "Strongly disagree", "Responses": 0 }
+            ],
+            "Observation": "A combined 52% of respondents (Strongly agree and Agree) feel closely connected to the BEAM community, while 33% are neutral. However, 15% disagreed, indicating that while many companies feel engaged, some may still feel disconnected from the community."
+          },
+          {
+            "QuestionText": "Has your company collaborated with other companies on BEAM-related projects?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 10 },
+              { "Label": "No", "Responses": 16 }
+            ],
+            "Observation": "38% of respondents reported that their company has collaborated with other companies on BEAM-related projects, while 62% indicated no such collaboration. This suggests that while inter-company collaboration exists, a majority of companies may still operate independently in their BEAM initiatives."
+          }
+        ]
+      },
+      {
+        "Name": "🎓 Academia Collaborations",
+        "Questions": [
+          {
+            "QuestionText": "Is your company collaborating with any academic institutions on BEAM-related projects?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 3 },
+              { "Label": "No", "Responses": 23 }
+            ],
+            "Observation": "Only 12% of respondents indicated that their company is collaborating with academic institutions on BEAM-related projects, while 88% reported no such collaboration. This highlights a significant opportunity to strengthen ties between industry and academia in the BEAM ecosystem."
+          },
+          {
+            "QuestionText": "How can collaboration between industry and academia be improved in the context of BEAM languages? (Grouped responses)",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 5,
+            "Options": [
+              { "Label": "Promote community engagement and collaboration visibility", "Responses": 2 },
+              { "Label": "Ensure long-term support and maintenance of academic projects", "Responses": 1 },
+              { "Label": "Establish and support apprenticeship and training programs", "Responses": 1 },
+              { "Label": "Skepticism or uncertainty about the need for more academic collaboration", "Responses": 1 }
+            ],
+            "Observation": "Suggestions for improving collaboration include promoting engagement and visibility (mentioned twice), establishing apprenticeship programs, and ensuring long-term support for academic projects. One respondent expressed skepticism about the necessity of additional academic collaboration, indicating differing views on its importance."
+          },
+          {
+            "QuestionText": "Would your company be interested in collaborating with academic institutions if given the opportunity?",
+            "QuestionType": "Single-choice",
+            "TotalAnswers": 26,
+            "Sortable": true,
+            "Options": [
+              { "Label": "Yes", "Responses": 17 },
+              { "Label": "No", "Responses": 9 }
+            ],
+            "Observation": "65% of respondents indicated that their company would be interested in collaborating with academic institutions if given the opportunity, while 35% responded negatively. This shows that a majority of companies are open to building partnerships with academia to foster innovation and knowledge-sharing."
+          },
+          {
+            "QuestionText": "What type of collaboration with academic institutions your company would be most interested in, and what outcomes you would hope to achieve? ",
+            "QuestionType": "Multiple-choice",
+            "TotalAnswers": 5,
+            "Options": [
+              { "Label": "Training and tooling improvements to support contributions", "Responses": 1 },
+              { "Label": "Collaborations with students and participation in academic research projects", "Responses": 2 },
+              { "Label": "Joint research and product development with academic institutions", "Responses": 1 },
+              { "Label": "Research in advanced topics like machine learning and secure computing", "Responses": 1 }
+            ],
+            "Observation": "The main areas of interest for collaboration with academic institutions include joint research and product development, collaborations with students, and improvements in training and tooling. Additionally, some respondents expressed interest in research focused on advanced topics such as machine learning and secure computing."
+          }
+        ]
+      }
+    ]
+  }
