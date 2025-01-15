@@ -21,26 +21,17 @@ import "phoenix_html"
 import {Socket} from "phoenix"
 import {LiveSocket} from "phoenix_live_view"
 import topbar from "../vendor/topbar"
-
-let Hooks = {};
-
-Hooks.ScrollToTop = {
-  mounted() {
-    const scrollToTopBtn = this.el;
-
-    scrollToTopBtn.addEventListener('click', () => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
-  }
-};
-
-export default Hooks;
+import VegaLite from './vega_lite';
+import ScrollToTop from './scroll_to_top_btn';
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
-let liveSocket = new LiveSocket("/live", Socket, {params: {_csrf_token: csrfToken}, hooks: Hooks});
+let liveSocket = new LiveSocket("/live", Socket, {
+  params: {_csrf_token: csrfToken}, 
+  hooks: {
+    VegaLite: VegaLite,  // Register the VegaLite hook under the name "VegaLite"
+    ScrollToTop: ScrollToTop
+  }
+});
 liveSocket.connect();
 
 // Show progress bar on live navigation and form submits

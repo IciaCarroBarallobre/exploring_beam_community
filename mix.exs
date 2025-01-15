@@ -44,7 +44,9 @@ defmodule ExploringBeamCommunity.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:hackney, "~> 1.20"},
       {:timex, "~> 3.7"},
-      {:dotenvy, "~> 0.8.0"}
+      {:dotenvy, "~> 0.8.0"},
+      {:vega_lite, "~> 0.1.11"},
+      {:tucan, "~> 0.4.1"}
     ]
   end
 

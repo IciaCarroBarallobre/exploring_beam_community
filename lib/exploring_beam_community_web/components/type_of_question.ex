@@ -32,19 +32,6 @@ defmodule ExploringBeamCommunityWeb.Components.TypeOfQuestion do
 
   attr(:options, :list, required: true)
 
-  def single_choice_question(assigns) do
-    ~H"""
-    <div class="mermaid" class="w-full">
-      pie
-      <%= for option <- @options do %>
-        "<%= option["Label"] %>" : <%= option["Responses"] %>
-      <% end %>
-    </div>
-    """
-  end
-
-  attr(:options, :list, required: true)
-
   def range_question(assigns) do
     ~H"""
     <div class="mermaid" class="w-full">
@@ -75,5 +62,13 @@ defmodule ExploringBeamCommunityWeb.Components.TypeOfQuestion do
         end,
         ", "
       ) <> "]"
+  end
+
+  defimpl Jason.Encoder, for: VegaLite do
+    def encode(value, opts) do
+      value
+      |> VegaLite.to_spec()
+      |> Jason.Encode.map(opts)
+    end
   end
 end

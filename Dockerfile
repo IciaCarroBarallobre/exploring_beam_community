@@ -45,6 +45,16 @@ RUN mkdir config
 COPY config/config.exs config/${MIX_ENV}.exs config/
 RUN mix deps.compile
 
+# Copy assets and install NPM dependencies
+COPY assets/package.json assets/package-lock.json ./assets/
+
+RUN apt-get update && apt-get install -y ca-certificates curl gnupg
+RUN mkdir -p /etc/apt/sources.list.d /etc/apt/keyrings
+RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_20.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+RUN apt-get update && apt-get install nodejs -y
+RUN npm install --prefix ./assets
+
 COPY priv priv
 
 COPY lib lib

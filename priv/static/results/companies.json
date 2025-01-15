@@ -68,12 +68,12 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "1-10", "Responses": 12 },
-              { "Label": "11-50", "Responses": 5 },
-              { "Label": "51-200", "Responses": 3 },
-              { "Label": "201-500", "Responses": 1 },
-              { "Label": "501-1000", "Responses": 2 },
-              { "Label": "1001+", "Responses": 4 }
+              { "Label": "a) 1-10", "Responses": 12 },
+              { "Label": "b) 11-50", "Responses": 5 },
+              { "Label": "c) 51-200", "Responses": 3 },
+              { "Label": "d) 201-500", "Responses": 1 },
+              { "Label": "e) 501-1000", "Responses": 2 },
+              { "Label": "f) 1001+", "Responses": 4 }
             ],
             "Observation": "The majority of respondents are from companies with 1-50 employees, while 4 respondents are from enterprises with over 1000 employees, indicating a significant representation of smaller companies."
           },
@@ -151,11 +151,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "Strongly agree", "Responses": 18 },
-              { "Label": "Agree", "Responses": 7 },
-              { "Label": "Neutral", "Responses": 2 },
-              { "Label": "Disagree", "Responses": 0 },
-              { "Label": "Strongly disagree", "Responses": 0 }
+              { "Label": "a) Strongly agree", "Responses": 18 },
+              { "Label": "b) Agree", "Responses": 7 },
+              { "Label": "c) Neutral", "Responses": 2 },
+              { "Label": "d) Disagree", "Responses": 0 },
+              { "Label": "e) Strongly disagree", "Responses": 0 }
             ],
             "Observation": "Most respondents (67%) strongly agree their company's work environment is inclusive, with 26% agreeing and 7% neutral. A key challenge noted is attracting female candidates."
           },
@@ -184,11 +184,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "Less than 10 days", "Responses": 0 },
-              { "Label": "10-15 days", "Responses": 1 },
-              { "Label": "16-20 days", "Responses": 1 },
-              { "Label": "21-25 days", "Responses": 8 },
-              { "Label": "More than 25 days", "Responses": 17 }
+              { "Label": "a) -10 days", "Responses": 0 },
+              { "Label": "b) 10-15 days", "Responses": 1 },
+              { "Label": "c) 16-20 days", "Responses": 1 },
+              { "Label": "d) 21-25 days", "Responses": 8 },
+              { "Label": "e) +25 days", "Responses": 17 }
             ],
             "Observation": "The majority of respondents (62%) offer employees more than 25 vacation days annually, while 30% provide 21-25 days. Very few companies offer less than 20 vacation days."
           },
@@ -345,11 +345,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "Initial Exploration", "Responses": 0 },
-              { "Label": "Early Adoption", "Responses": 0 },
-              { "Label": "Implementation in Specific Projects", "Responses": 3 },
-              { "Label": "Widespread Adoption", "Responses": 5 },
-              { "Label": "Maturity in Adoption", "Responses": 19 }
+              { "Label": "a) Initial Exploration", "Responses": 0 },
+              { "Label": "b) Early Adoption", "Responses": 0 },
+              { "Label": "c) Implementation in Specific Projects", "Responses": 3 },
+              { "Label": "d) Widespread Adoption", "Responses": 5 },
+              { "Label": "e) Maturity in Adoption", "Responses": 19 }
             ],
             "Observation": "The majority of respondents (70%) consider their company to have reached maturity in adopting BEAM languages, while 19% indicate widespread adoption and only 11% report implementation in specific projects. No respondents indicated being in the initial exploration or early adoption stages."
           },
@@ -359,11 +359,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Less than 1 year ago", "Responses": 1 },
-              { "Label": "1-2 years ago", "Responses": 0 },
-              { "Label": "3-5 years ago", "Responses": 9 },
-              { "Label": "6-10 years ago", "Responses": 8 },
-              { "Label": "More than 10 years ago", "Responses": 8 }
+              { "Label": "a) -1 yr ago", "Responses": 1 },
+              { "Label": "b) 1-2 yrs ago", "Responses": 0 },
+              { "Label": "c) 3-5 yrs ago", "Responses": 9 },
+              { "Label": "d) 6-10 yrs ago", "Responses": 8 },
+              { "Label": "e) +10 yrs ago", "Responses": 8 }
             ],
             "Observation": "The majority of respondents indicate that their company has been using BEAM languages for over 3 years, with 34% reporting usage for 3-5 years, and 62% stating their company has used BEAM languages for more than 6 years. Only one respondent reported adoption within the last year, and none indicated usage for 1-2 years."
           },
@@ -373,12 +373,12 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "0%", "Responses": 0 },
-              { "Label": "1-10%", "Responses": 4 },
-              { "Label": "11-25%", "Responses": 2 },
-              { "Label": "26-50%", "Responses": 1 },
-              { "Label": "51-75%", "Responses": 9 },
-              { "Label": "76-100%", "Responses": 11 }
+              { "Label": "a) 0%", "Responses": 0 },
+              { "Label": "b) 1-10%", "Responses": 4 },
+              { "Label": "c) 11-25%", "Responses": 2 },
+              { "Label": "d) 26-50%", "Responses": 1 },
+              { "Label": "e) 51-75%", "Responses": 9 },
+              { "Label": "f) 76-100%", "Responses": 11 }
             ],
             "Observation": "The majority of respondents (74%) indicate that over half of their company's projects use BEAM languages, with 41% reporting 76-100% usage. In contrast, only a small percentage (15%) use BEAM languages in 1-10% of their projects, and none reported 0% usage."
           },
@@ -388,11 +388,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "0-10%", "Responses": 3 },
-              { "Label": "11-25%", "Responses": 2 },
-              { "Label": "26-50%", "Responses": 3 },
-              { "Label": "51-75%", "Responses": 4 },
-              { "Label": "76-100%", "Responses": 15 }
+              { "Label": "a) 0-10%", "Responses": 3 },
+              { "Label": "b) 11-25%", "Responses": 2 },
+              { "Label": "c) 26-50%", "Responses": 3 },
+              { "Label": "d) 51-75%", "Responses": 4 },
+              { "Label": "e) 76-100%", "Responses": 15 }
             ],
             "Observation": "The majority of respondents (56%) report that 76-100% of their developers use BEAM languages regularly in their work. Smaller groups indicate lower levels of usage, with 11% reporting 0-10% usage and 15% reporting 51-75% usage."
           },
@@ -504,11 +504,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "Very satisfied", "Responses": 24 },
-              { "Label": "Satisfied", "Responses": 1 },
-              { "Label": "Neutral", "Responses": 2 },
-              { "Label": "Dissatisfied", "Responses": 0 },
-              { "Label": "Very dissatisfied", "Responses": 0 }
+              { "Label": "a) Very satisfied", "Responses": 24 },
+              { "Label": "b) Satisfied", "Responses": 1 },
+              { "Label": "c) Neutral", "Responses": 2 },
+              { "Label": "d) Dissatisfied", "Responses": 0 },
+              { "Label": "e) Very dissatisfied", "Responses": 0 }
             ],
             "Observation": "The majority of respondents (89%) reported being very satisfied with their company's decision to use BEAM languages, with only a small minority (7%) remaining neutral. No respondents reported dissatisfaction, indicating overall strong satisfaction with BEAM language adoption."
           }
@@ -554,12 +554,12 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Strongly agree", "Responses": 9 },
-              { "Label": "Agree", "Responses": 14 },
-              { "Label": "Neutral", "Responses": 3 },
-              { "Label": "Disagree", "Responses": 0 },
-              { "Label": "Strongly disagree", "Responses": 0 },
-              { "Label": "Does not apply", "Responses": 0 }
+              { "Label": "a) Strongly agree", "Responses": 9 },
+              { "Label": "b) Agree", "Responses": 14 },
+              { "Label": "c) Neutral", "Responses": 3 },
+              { "Label": "d) Disagree", "Responses": 0 },
+              { "Label": "e) Strongly disagree", "Responses": 0 },
+              { "Label": "f) Does not apply", "Responses": 0 }
             ],
             "Observation": "The majority of respondents (88%) either agreed or strongly agreed that the BEAM ecosystem provided the necessary tools and libraries, with only 12% remaining neutral. No respondents reported significant hindrances due to missing tools or libraries."
           },
@@ -679,10 +679,10 @@
             "TotalAnswers": 19,
             "Sortable": false,
             "Options": [
-              { "Label": "Easy", "Responses": 8 },
-              { "Label": "Neutral", "Responses": 4 },
-              { "Label": "Difficult", "Responses": 2 },
-              { "Label": "We don't implement it yet", "Responses": 5 }
+              { "Label": "a) Easy", "Responses": 8 },
+              { "Label": "b) Neutral", "Responses": 4 },
+              { "Label": "c) Difficult", "Responses": 2 },
+              { "Label": "d) We don't implement it yet", "Responses": 5 }
             ],
             "Observation": "42% of respondents find implementing observability in BEAM applications easy, while 21% are neutral and 11% find it difficult. Notably, 26% of respondents indicated that they have not implemented observability yet, suggesting room for improvement in adoption."
           }
@@ -697,11 +697,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly increased", "Responses": 18 },
-              { "Label": "Slightly increased", "Responses": 4 },
-              { "Label": "No change", "Responses": 4 },
-              { "Label": "Slightly decreased", "Responses": 0 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly increased", "Responses": 18 },
+              { "Label": "b) Slightly increased", "Responses": 4 },
+              { "Label": "c) No change", "Responses": 4 },
+              { "Label": "d) Slightly decreased", "Responses": 0 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "The majority of respondents (69%) reported a significant increase in productivity after adopting BEAM languages, while 15% observed a slight increase. Only 16% reported no change, and no respondents reported a decrease, indicating that BEAM languages generally have a positive impact on productivity."
           },
@@ -711,11 +711,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly improved", "Responses": 17 },
-              { "Label": "Slightly improved", "Responses": 6 },
-              { "Label": "No change", "Responses": 3 },
-              { "Label": "Slightly decreased", "Responses": 0 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly improved", "Responses": 17 },
+              { "Label": "b) Slightly improved", "Responses": 6 },
+              { "Label": "c) No change", "Responses": 3 },
+              { "Label": "d) Slightly decreased", "Responses": 0 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "65% of respondents reported a significant improvement in software quality after adopting BEAM languages, with 23% observing a slight improvement. Only 12% reported no change, and no respondents reported a decrease, indicating that BEAM languages generally enhance software quality."
           },
@@ -725,11 +725,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly improved", "Responses": 5 },
-              { "Label": "Slightly improved", "Responses": 7 },
-              { "Label": "No change", "Responses": 14 },
-              { "Label": "Slightly decreased", "Responses": 0 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly improved", "Responses": 5 },
+              { "Label": "b) Slightly improved", "Responses": 7 },
+              { "Label": "c) No change", "Responses": 14 },
+              { "Label": "d) Slightly decreased", "Responses": 0 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "Only 19% of respondents reported a significant improvement in their company's overall growth after adopting BEAM languages, while 27% observed a slight improvement. However, 54% indicated no noticeable change, suggesting that while BEAM languages may enhance scalability and productivity, their impact on overall business growth may vary depending on other factors."
           },
@@ -739,11 +739,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly improved", "Responses": 11 },
-              { "Label": "Slightly improved", "Responses": 7 },
-              { "Label": "No change", "Responses": 7 },
-              { "Label": "Slightly decreased", "Responses": 1 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly improved", "Responses": 11 },
+              { "Label": "b) Slightly improved", "Responses": 7 },
+              { "Label": "c) No change", "Responses": 7 },
+              { "Label": "d) Slightly decreased", "Responses": 1 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "42% of respondents reported a significant improvement in their company's ability to retain skilled developers after adopting BEAM languages, while 27% saw a slight improvement. However, 27% noted no change, and only 4% experienced a slight decrease, indicating that BEAM languages generally contribute positively to developer retention."
           },
@@ -753,11 +753,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly improved", "Responses": 20 },
-              { "Label": "Slightly improved", "Responses": 3 },
-              { "Label": "No change", "Responses": 3 },
-              { "Label": "Slightly decreased", "Responses": 0 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly improved", "Responses": 20 },
+              { "Label": "b) Slightly improved", "Responses": 3 },
+              { "Label": "c) No change", "Responses": 3 },
+              { "Label": "d) Slightly decreased", "Responses": 0 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "76% of respondents reported a significant improvement in developer happiness and satisfaction with their technology stack after adopting BEAM languages, while 12% observed a slight improvement. Another 12% reported no change, and no respondents reported a decrease, indicating that BEAM languages contribute positively to developer satisfaction."
           },
@@ -767,11 +767,11 @@
             "TotalAnswers": 26,
             "Sortable": false,
             "Options": [
-              { "Label": "Significantly improved", "Responses": 9 },
-              { "Label": "Slightly improved", "Responses": 7 },
-              { "Label": "No change", "Responses": 10 },
-              { "Label": "Slightly decreased", "Responses": 0 },
-              { "Label": "Significantly decreased", "Responses": 0 }
+              { "Label": "a) Significantly improved", "Responses": 9 },
+              { "Label": "b) Slightly improved", "Responses": 7 },
+              { "Label": "c) No change", "Responses": 10 },
+              { "Label": "d) Slightly decreased", "Responses": 0 },
+              { "Label": "e) Significantly decreased", "Responses": 0 }
             ],
             "Observation": "35% of respondents reported that adopting BEAM languages significantly improved their company's approach to innovation, while 27% noted a slight improvement. However, 38% reported no change, indicating that while BEAM adoption fosters innovation for some, its impact may be neutral for others depending on their business context."
           },
@@ -798,11 +798,11 @@
             "TotalAnswers": 27,
             "Sortable": true,
             "Options": [
-              { "Label": "Very frequently", "Responses": 5 },
-              { "Label": "Frequently", "Responses": 7 },
-              { "Label": "Occasionally", "Responses": 8 },
-              { "Label": "Rarely", "Responses": 2 },
-              { "Label": "Never", "Responses": 5 }
+              { "Label": "a) Very frequently", "Responses": 5 },
+              { "Label": "b) Frequently", "Responses": 7 },
+              { "Label": "c) Occasionally", "Responses": 8 },
+              { "Label": "d) Rarely", "Responses": 2 },
+              { "Label": "e) Never", "Responses": 5 }
             ],
             "Observation": "A combined 45% of respondents indicated frequent or very frequent participation in BEAM community events and open-source contributions. However, 26% participate occasionally, while 19% reported no participation at all, suggesting a mix of active and passive involvement within the BEAM community."
           },
@@ -848,11 +848,11 @@
             "TotalAnswers": 27,
             "Sortable": false,
             "Options": [
-              { "Label": "Strongly agree", "Responses": 7 },
-              { "Label": "Agree", "Responses": 7 },
-              { "Label": "Neutral", "Responses": 9 },
-              { "Label": "Disagree", "Responses": 4 },
-              { "Label": "Strongly disagree", "Responses": 0 }
+              { "Label": "a) Strongly agree", "Responses": 7 },
+              { "Label": "b) Agree", "Responses": 7 },
+              { "Label": "c) Neutral", "Responses": 9 },
+              { "Label": "d) Disagree", "Responses": 4 },
+              { "Label": "e) Strongly disagree", "Responses": 0 }
             ],
             "Observation": "A combined 52% of respondents (Strongly agree and Agree) feel closely connected to the BEAM community, while 33% are neutral. However, 15% disagreed, indicating that while many companies feel engaged, some may still feel disconnected from the community."
           },

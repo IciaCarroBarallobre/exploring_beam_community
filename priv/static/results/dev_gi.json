@@ -263,7 +263,7 @@
             "Observation": "The salary distribution of respondents shows that a significant portion of participants earn €100,000 or more (28.29%). Among the continents, America leads with 46.51%, while Europe follows with 27.91%. €80,000 - €99,999 and €60,000 - €79,999 range salaries both show a strong European presence, representing 72.00% and 69.23%, respectively. In contrast, America has a smaller share in these ranges. €40,000 - €59,999 reflects a similar trend, with Europe contributing 68.00%, and America at 20.00%. The lowest salary category, Less Than €40,000, shows 52.63% of respondents from Europe.",
             "Options": [
               {
-                "Label": "€100,000 Or More",
+                "Label": "a) €100K",
                 "Responses": 43,
                 "Percentage": "28.29%",
                 "Filter by": [
@@ -279,7 +279,7 @@
                 ]
               },
               {
-                "Label": "€80,000 - €99,999",
+                "Label": "b) €80K - €99K",
                 "Responses": 25,
                 "Percentage": "16.45%",
                 "Filter by": [
@@ -295,7 +295,7 @@
                 ]
               },
               {
-                "Label": "€60,000 - €79,999",
+                "Label": "c) €60K - €79K",
                 "Responses": 26,
                 "Percentage": "17.11%",
                 "Filter by": [
@@ -311,7 +311,7 @@
                 ]
               },
               {
-                "Label": "€40,000 - €59,999",
+                "Label": "d) €40K - €59K",
                 "Responses": 25,
                 "Percentage": "16.45%",
                 "Filter by": [
@@ -327,7 +327,7 @@
                 ]
               },
               {
-                "Label": "Less Than €40,000",
+                "Label": "e) Less than €40K",
                 "Responses": 19,
                 "Percentage": "12.50%",
                 "Filter by": [
@@ -343,7 +343,7 @@
                 ]
               },
               {
-                "Label": "Prefer Not To Say",
+                "Label": "d) Prefer Not To Say",
                 "Responses": 14,
                 "Percentage": "9.21%"
               }
@@ -369,11 +369,11 @@
             "Sortable": false,
             "Observation": "This suggests that most of the participants have at least a Bachelor’s degree, with a notable presence of Master’s degree holders as well.",
             "Options": [
-              { "Label": "PhD", "Responses": 3, "Percentage": "1.96%" },
-              { "Label": "Master’s Degree", "Responses": 46, "Percentage": "30.07%" },
-              { "Label": "Bachelor’s Degree", "Responses": 71, "Percentage": "46.41%" },
-              { "Label": "High School Diploma", "Responses": 32, "Percentage": "20.92%" },
-              { "Label": "Other", "Responses": 1, "Percentage": "0.65%" }
+              { "Label": "a) PhD", "Responses": 3, "Percentage": "1.96%" },
+              { "Label": "b) Master’s Degree", "Responses": 46, "Percentage": "30.07%" },
+              { "Label": "c) Bachelor’s Degree", "Responses": 71, "Percentage": "46.41%" },
+              { "Label": "d) High School Diploma", "Responses": 32, "Percentage": "20.92%" },
+              { "Label": "e) Other", "Responses": 1, "Percentage": "0.65%" }
             ]
           },
           {
@@ -383,11 +383,11 @@
             "Sortable": false,
             "Observation":"The survey reveals that a large portion of respondents have substantial experience, with 42.48% having 16+ years, and 25.49% having 6-10 years. Only 12.41% of respondents have 0-5 years of experience, indicating a small presence of newer or junior developers in the survey.",
             "Options": [
-              { "Label": "0-2 years", "Responses": 4, "Percentage": "2.61%" },
-              { "Label": "3-5 years", "Responses": 15, "Percentage": "9.80%" },
-              { "Label": "6-10 years", "Responses": 39, "Percentage": "25.49%" },
-              { "Label": "11-15 years", "Responses": 30, "Percentage": "19.61%" },
-              { "Label": "16+ years", "Responses": 65, "Percentage": "42.48%" }
+              { "Label": "a) 0-2 yrs", "Responses": 4, "Percentage": "2.61%"},
+              { "Label": "b) 3-5 yrs", "Responses": 15, "Percentage": "9.80%"},
+              { "Label": "c) 6-10 yrs", "Responses": 39, "Percentage": "25.49%"},
+              { "Label": "d) 11-15 yrs", "Responses": 30, "Percentage": "19.61%"},
+              { "Label": "e) 16+ yrs", "Responses": 65, "Percentage": "42.48%"}
             ]
           },
           {
@@ -790,11 +790,11 @@
             "Sortable": false,
             "TotalAnswers": 152,
             "Options": [
-              { "Label": "Never", "Responses": 54, "Percentage": "35.53%" },
-              { "Label": "Rarely", "Responses": 28, "Percentage": "18.42%" },
-              { "Label": "Occasionally", "Responses": 33, "Percentage": "21.71%" },
-              { "Label": "Frequently", "Responses": 29, "Percentage": "19.08%" },
-              { "Label": "Very frequently", "Responses": 8, "Percentage": "5.26%" }
+              { "Label": "a) Never", "Responses": 54, "Percentage": "35.53%" },
+              { "Label": "b) Rarely", "Responses": 28, "Percentage": "18.42%" },
+              { "Label": "c) Occasionally", "Responses": 33, "Percentage": "21.71%" },
+              { "Label": "d) Frequently", "Responses": 29, "Percentage": "19.08%" },
+              { "Label": "e) Very frequently", "Responses": 8, "Percentage": "5.26%" }
             ],
             "Observation": "The majority of respondents either never or rarely use AI in their development work (54%). However, 19% report frequent usage, indicating that AI tools have gained significant traction among a subset of developers."
           },
@@ -844,11 +844,11 @@
             "Sortable": false,
             "TotalAnswers": 152,
             "Options": [
-              { "Label": "Never", "Responses": 1, "Percentage": "0.66%" },
-              { "Label": "Rarely", "Responses": 23, "Percentage": "15.13%" },
-              { "Label": "Occasionally", "Responses": 48, "Percentage": "31.58%" },
-              { "Label": "Frequently", "Responses": 41, "Percentage": "26.97%" },
-              { "Label": "Very frequently", "Responses": 39, "Percentage": "25.66%" }
+              { "Label": "a) Never", "Responses": 1, "Percentage": "0.66%" },
+              { "Label": "b) Rarely", "Responses": 23, "Percentage": "15.13%" },
+              { "Label": "c) Occasionally", "Responses": 48, "Percentage": "31.58%" },
+              { "Label": "d) Frequently", "Responses": 41, "Percentage": "26.97%" },
+              { "Label": "e) Very frequently", "Responses": 39, "Percentage": "25.66%" }
             ],
             "Observation": "The majority of respondents engage in coding as a hobby at least occasionally, with a significant number coding frequently or very frequently, reflecting their strong interest in programming beyond professional obligations."
           },
@@ -858,11 +858,11 @@
             "Sortable": false,
             "TotalAnswers": 152,
             "Options": [
-              { "Label": "Never", "Responses": 11, "Percentage": "7.24%" },
-              { "Label": "Rarely", "Responses": 61, "Percentage": "40.13%" },
-              { "Label": "Occasionally", "Responses": 48, "Percentage": "31.58%" },
-              { "Label": "Frequently", "Responses": 16, "Percentage": "10.53%" },
-              { "Label": "Very frequently", "Responses": 16, "Percentage": "10.53%" }
+              { "Label": "a) Never", "Responses": 11, "Percentage": "7.24%" },
+              { "Label": "b) Rarely", "Responses": 61, "Percentage": "40.13%" },
+              { "Label": "c) Occasionally", "Responses": 48, "Percentage": "31.58%" },
+              { "Label": "d) Frequently", "Responses": 16, "Percentage": "10.53%" },
+              { "Label": "e) Very frequently", "Responses": 16, "Percentage": "10.53%" }
             ],
             "Observation": "A majority of respondents contribute to open-source projects occasionally or rarely, while a smaller but notable group frequently or very frequently engages with the open-source community."
           }]
@@ -875,11 +875,11 @@
             "TotalAnswers": 152,
             "Sortable": false,
             "Options": [
-              { "Label": "Not knowledgeable at all", "Responses": 13, "Percentage": "8.55%" },
-              { "Label": "Slightly knowledgeable", "Responses": 34, "Percentage": "22.37%" },
-              { "Label": "Somewhat knowledgeable", "Responses": 49, "Percentage": "32.24%" },
-              { "Label": "Knowledgeable", "Responses": 30, "Percentage": "19.74%" },
-              { "Label": "Very knowledgeable", "Responses": 26, "Percentage": "17.11%" }
+              { "Label": "a) Not knowledgeable at all", "Responses": 13, "Percentage": "8.55%" },
+              { "Label": "b) Slightly knowledgeable", "Responses": 34, "Percentage": "22.37%" },
+              { "Label": "c) Somewhat knowledgeable", "Responses": 49, "Percentage": "32.24%" },
+              { "Label": "d) Knowledgeable", "Responses": 30, "Percentage": "19.74%" },
+              { "Label": "e) Very knowledgeable", "Responses": 26, "Percentage": "17.11%" }
             ],
             "Observation": "The majority of respondents consider themselves at least somewhat knowledgeable about the BEAM community, though a smaller segment admits to being slightly or not knowledgeable at all."
           },

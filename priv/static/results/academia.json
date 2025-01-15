@@ -55,11 +55,11 @@
           "TotalAnswers": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "0-2 years", "Responses": 0 },
-            { "Label": "3-5 years", "Responses": 0 },
-            { "Label": "6-10 years", "Responses": 2 },
-            { "Label": "11+ years", "Responses": 8 },
-            { "Label": "Prefer not to say", "Responses": 0 }
+            { "Label": "a) 0-2 years", "Responses": 0 },
+            { "Label": "b) 3-5 years", "Responses": 0 },
+            { "Label": "c) 6-10 years", "Responses": 2 },
+            { "Label": "d) 11+ years", "Responses": 8 },
+            { "Label": "e) Prefer not to say", "Responses": 0 }
           ],
           "Observation": "The majority of respondents (80%) have over 11 years of academic experience."
         },
@@ -188,11 +188,11 @@
           "TotalAnswers": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "Strongly agree", "Responses": 1 },
-            { "Label": "Agree", "Responses": 9 },
-            { "Label": "Disagree", "Responses": 0 },
-            { "Label": "Strongly disagree", "Responses": 0 },
-            { "Label": "Does not apply", "Responses": 0 }
+            { "Label": "a) Strongly agree", "Responses": 1 },
+            { "Label": "b) Agree", "Responses": 9 },
+            { "Label": "c) Disagree", "Responses": 0 },
+            { "Label": "d) Strongly disagree", "Responses": 0 },
+            { "Label": "e) Does not apply", "Responses": 0 }
           ],
           "Observation": "The vast majority of respondents (90%) agree that they have sufficient resources to conduct their research using BEAM languages, with 10% strongly agreeing. There are no respondents who disagree or strongly disagree, indicating a general satisfaction with the available resources."
         },
@@ -294,11 +294,11 @@
           "TotalAnswers": 9,
           "Sortable": false,
           "Options": [
-            { "Label": "Strongly agree", "Responses": 3},
-            { "Label": "Agree", "Responses": 4},
-            { "Label": "Disagree", "Responses": 1},
-            { "Label": "Strongly disagree", "Responses": 0},
-            { "Label": "Does not apply", "Responses": 1}
+            { "Label": "a) Strongly agree", "Responses": 3},
+            { "Label": "b) Agree", "Responses": 4},
+            { "Label": "c) Disagree", "Responses": 1},
+            { "Label": "d) Strongly disagree", "Responses": 0},
+            { "Label": "e) Does not apply", "Responses": 1}
           ],
           "Observation": "The majority of educators (77%) feel they have sufficient resources for teaching BEAM languages, with 33% strongly agreeing and 44% agreeing. Some plan to incorporate Livebook—a web application for writing interactive and collaborative code notebooks—into their teaching. Others seek books that address fundamental functional programming concepts applied to Elixir/Erlang."
         }
@@ -339,11 +339,11 @@
           "TotalAnswers": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "Strongly agree", "Responses": 3},
-            { "Label": "Agree", "Responses": 3 },
-            { "Label": "Neutral", "Responses": 3 },
-            { "Label": "Disagree", "Responses": 0 },
-            { "Label": "Strongly disagree", "Responses": 1}
+            { "Label": "a) Strongly agree", "Responses": 3},
+            { "Label": "b) Agree", "Responses": 3 },
+            { "Label": "c) Neutral", "Responses": 3 },
+            { "Label": "d) Disagree", "Responses": 0 },
+            { "Label": "e) Strongly disagree", "Responses": 1}
           ],
           "Observation": "The majority of respondents (90%) have engaged in some level of industry collaboration, only 10% have no involvement in industry collaborations. Academic collaborations involving BEAM languages include EU-funded projects, consulting or helping to adopt BEAM for start-ups, and national and international research initiatives (like EU initiatives)."
         },
@@ -366,11 +366,11 @@
           "TotalResponses": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "Very High", "Responses": 0},
-            { "Label": "High", "Responses": 3},
-            { "Label": "Moderate ", "Responses": 2},
-            { "Label": "Low", "Responses": 3},
-            { "Label": "Very Low", "Responses": 2}
+            { "Label": "a) Very High", "Responses": 0},
+            { "Label": "b) High", "Responses": 3},
+            { "Label": "c) Moderate ", "Responses": 2},
+            { "Label": "d) Low", "Responses": 3},
+            { "Label": "e) Very Low", "Responses": 2}
           ],
           "Observation": "Industry interest in BEAM languages varies, with 30% perceiving it as high, 20% as moderate, and 50% as low or very low, indicating that while BEAM languages are recognized, they are not the predominant choice in the field. Factors influencing this perception include the suitability of BEAM languages for specific applications like internet-scale messaging systems, challenges in finding trained developers, concerns about productivity due to fewer libraries, apprehension towards functional and concurrent paradigms, and the reluctance of larger companies to deviate from established software stacks."
         },
@@ -380,11 +380,11 @@
           "TotalResponses": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "Very easy", "Responses": 1},
-            { "Label": "Easy", "Responses": 0},
-            { "Label": "Neutral", "Responses": 4},
-            { "Label": "Difficult", "Responses": 3},
-            { "Label": "Very difficult", "Responses": 2}
+            { "Label": "a) Very easy", "Responses": 1},
+            { "Label": "b) Easy", "Responses": 0},
+            { "Label": "c) Neutral", "Responses": 4},
+            { "Label": "d) Difficult", "Responses": 3},
+            { "Label": "e) Very difficult", "Responses": 2}
           ],
           "Observation": "The majority of respondents (50%) find it difficult or very difficult to secure industry collaborations involving BEAM languages, while 40% remain neutral, and only 10% find it very easy, indicating challenges in establishing such partnerships."
         },
@@ -407,11 +407,11 @@
           "TotalAnswers": 10,
           "Sortable": false,
           "Options": [
-            { "Label": "Strongly agree", "Responses": 0},
-            { "Label": "Agree", "Responses": 3 },
-            { "Label": "Neutral", "Responses": 4 },
-            { "Label": "Disagree ", "Responses": 3},
-            { "Label": "Strongly disagree", "Responses": 0 }
+            { "Label": "a) Strongly agree", "Responses": 0},
+            { "Label": "b) Agree", "Responses": 3 },
+            { "Label": "c) Neutral", "Responses": 4 },
+            { "Label": "d) Disagree ", "Responses": 3},
+            { "Label": "e) Strongly disagree", "Responses": 0 }
           ],
           "Observation": "Respondents are divided on the future use of BEAM languages in academia over the next five years, with 30% anticipating an increase, 40% expecting it to remain the same, and 30% predicting a decrease."
         }
@@ -427,11 +427,11 @@
         "TotalAnswers": 10,
         "Sortable": false,
         "Options": [
-          { "Label": "Strongly increase", "Responses": 0},
-          { "Label": "Increase", "Responses": 3 },
-          { "Label": "Neutral", "Responses": 4},
-          { "Label": "Decrease", "Responses": 3 },
-          { "Label": "Strongly decrease", "Responses": 0 }
+          { "Label": "a) Strongly increase", "Responses": 0},
+          { "Label": "b) Increase", "Responses": 3 },
+          { "Label": "c) Neutral", "Responses": 4},
+          { "Label": "d) Decrease", "Responses": 3 },
+          { "Label": "e) Strongly decrease", "Responses": 0 }
         ],
         "Observation": "Respondents are divided on the future use of BEAM languages in academia over the next five years, with 30% anticipating an increase, 40% expecting it to remain the same, and 30% predicting a decrease. Some believe that as the distributed actor model underlying BEAM languages is recognized as an effective way of building reliable internet-scale systems, it will be more widely taught. Others note that while BEAM languages are interesting for concurrency, other languages may be preferred for general-purpose programming. Concerns are also raised about the potential decrease in use due to the retirement of prominent academics and the challenge of finding new faculty to adopt these languages."
       }
